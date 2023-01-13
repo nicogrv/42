@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/12 19:20:40 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/12 19:29:03 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -141,15 +141,19 @@ int ft_sort_5_a(t_swap *s, int max)
 			{
 				ft_rra(s);
 				s->verifrb--;
+				if (s->filltab2[0] == max - 3 )
 			}
 		}
-		else if (s->filltab1[2] == max - 4)
+		else if (s->filltab1[2] == max - 4 || s->filltab1[2] == max - 3)
 		{
 			s->verifrb += 1;
 			ft_ra(s, 0);
 		}
 		else 
+		{
+			printf("ohohohohooh\n\n\n\n");
 			return (-1);
+		}
 	}
 	return (0);
 }
