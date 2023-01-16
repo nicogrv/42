@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/12 19:29:03 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/13 18:16:29 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -135,13 +135,17 @@ int ft_sort_5_a(t_swap *s, int max)
 			s->verifrb += 1;
 			ft_ra(s, 0);
 		}
+		else if (s->filltab2[0] == max - 3 && s->filltab2[1] == max - 4 && s->filltab1[2] == max - 2)
+		{
+			s->verifrb += 1;
+			ft_ra(s, 0);
+		}
 		else if (s->filltab2[0] == max - 3 && s->filltab2[1] == max - 4)
 		{
 			while (s->verifrb)
 			{
 				ft_rra(s);
 				s->verifrb--;
-				if (s->filltab2[0] == max - 3 )
 			}
 		}
 		else if (s->filltab1[2] == max - 4 || s->filltab1[2] == max - 3)
@@ -151,7 +155,7 @@ int ft_sort_5_a(t_swap *s, int max)
 		}
 		else 
 		{
-			printf("ohohohohooh\n\n\n\n");
+			printf("ohohohohooh\n");
 			return (-1);
 		}
 	}
@@ -394,3 +398,7 @@ int main(int argc, char **argv)
 
 	return (0);
 }
+
+
+
+//42 73 38 1 62 97 60 66 75 47 56 36 84 92 88 95 40 89 29 6 31 44 58 27 3 28 20 64 39 43 23 79 19 32 16 72 100 54 10 50 17 98 48 99 63 24 71 69 53 9 67 59 4 12 87 13 82 22 96 45 15 14 55 41 34 5 37 7 25 85 76 90 70 68 11 46 81 35 18 30 33 91 86 77 61 2 57 52 83 94 8 93 78 80 26 49 21 74 65 51
