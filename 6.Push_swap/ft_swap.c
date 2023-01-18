@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:31:01 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/12 15:42:25 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/18 18:31:00 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void ft_ss(t_swap *s)
+void ft_ss(t_swap *s, int print)
 {
     if (s->filltab1[0] == 0 && s->filltab1[1] == 0)
         return;
@@ -34,11 +34,12 @@ void ft_ss(t_swap *s)
     s->filltab2[1] = s->tmp; 
 	}
 	s->move += 1;
-    write(1, "ss\n", 3);
+    if (print == 0)
+		write(1, "ss\n", 3);
 	
 }
 
-void ft_sa(t_swap *s)
+void ft_sa(t_swap *s, int print)
 {
     if (s->filltab1[0] == 0 || s->filltab1[1] == 0)
         return ;
@@ -52,7 +53,7 @@ void ft_sa(t_swap *s)
     write(1, "sa\n", 3);
 }
 
-void ft_sb(t_swap *s)
+void ft_sb(t_swap *s, int print)
 {
     if (s->filltab2[0] == 0 || s->filltab2[1] == 0)
         return ;
@@ -63,10 +64,11 @@ void ft_sb(t_swap *s)
     s->filltab2[0] = s->filltab2[1];
     s->filltab2[1] = s->tmp;
 	s->move += 1;
-    write(1, "sb\n", 3);
+	if (print == 0)
+    	write(1, "sb\n", 3);
 }
 
-void ft_pa(t_swap *s)
+void ft_pa(t_swap *s, int print)
 {
 	int i;
 
@@ -93,11 +95,12 @@ void ft_pa(t_swap *s)
 	s->tab2[i] = 0;
 	s->filltab2[i] = 0;
 	s->move += 1;
-    write(1, "pa\n", 3);
+	if (print == 0)
+    	write(1, "pa\n", 3);
 
 }
 
-void ft_pb(t_swap *s)
+void ft_pb(t_swap *s, int print)
 {
 	int i;
 
@@ -124,20 +127,23 @@ void ft_pb(t_swap *s)
 	s->tab1[i] = 0;
 	s->filltab1[i] = 0;
 	s->move += 1;
-    write(1, "pb\n", 3);
+    if (print == 0)
+    	write(1, "pb\n", 3);
 
 }
 
-void ft_rr(t_swap *s)
+void ft_rr(t_swap *s, int print)
 {
 	ft_ra(s, 1);
 	ft_rb(s, 1);
-    write(1, "rr\n", 3);
+	if (print == 0)
+    	write(1, "rr\n", 3);
+	s->move += 1;
 
 	
 }
 
-void ft_ra(t_swap *s, int rr)
+void ft_ra(t_swap *s, int print)
 {
 	int i;
 	int lentab;
@@ -146,7 +152,7 @@ void ft_ra(t_swap *s, int rr)
 
 	i = 0;
 	lentab = 0;
-	while (s->tab1[lentab] != 0)
+	while (lentab < s->len - 1 && s->tab1[lentab] != 0)
 		lentab++;
 	lentab--;
 	vtab = s->tab1[i];
@@ -160,11 +166,11 @@ void ft_ra(t_swap *s, int rr)
 	s->tab1[i] = vtab;
 	s->filltab1[i] = itab;
 	s->move += 1;
-	if (rr == 0)
+    if (print == 0)
     	write(1, "ra\n", 3);
 }
 
-void ft_rb(t_swap *s, int rr)
+void ft_rb(t_swap *s, int print)
 {
 	int i;
 	int lentab;
@@ -173,7 +179,7 @@ void ft_rb(t_swap *s, int rr)
 
 	i = 0;
 	lentab = 0;
-	while (s->tab2[lentab] != 0)
+	while (lentab < s->len - 1 && s->tab2[lentab] != 0)
 		lentab++;
 	lentab--;
 	vtab = s->tab2[i];
@@ -187,20 +193,18 @@ void ft_rb(t_swap *s, int rr)
 	s->tab2[i] = vtab;
 	s->filltab2[i] = itab;
 	s->move += 1;
-	if (rr == 0)
+    if (print == 0)
    		write(1, "rb\n", 3);
 }
 
-void ft_rra(t_swap *s)
+void ft_rra(t_swap *s, int print)
 {
-	int i;
 	int lentab;
 	int vtab;
 	int itab;
 
-	i = 0;
 	lentab = 0;
-	while (s->tab1[lentab] != 0)
+	while (lentab < s->len - 1 && s->tab1[lentab] != 0)
 		lentab++;
 	lentab--;
 	vtab = s->tab1[lentab];
@@ -214,17 +218,16 @@ void ft_rra(t_swap *s)
 	s->tab1[0] = vtab;
 	s->filltab1[0] = itab;
 	s->move += 1;
-    write(1, "rra\n", 4);
+    if (print == 0)
+   		write(1, "rra\n", 4);
 }
 
-void ft_rrb(t_swap *s)
+void ft_rrb(t_swap *s, int print)
 {
-	int i;
 	int lentab;
 	int vtab;
 	int itab;
 
-	i = 0;
 	lentab = 0;
 	while (s->tab2[lentab] != 0)
 		lentab++;
@@ -240,5 +243,6 @@ void ft_rrb(t_swap *s)
 	s->tab2[0] = vtab;
 	s->filltab2[0] = itab;
 	s->move += 1;
-    write(1, "rrb\n", 4);
+    if (print == 0)
+    	write(1, "rrb\n", 4);
 }
