@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/19 17:25:59 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/19 17:29:36 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -150,7 +150,7 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	s->printmove = 1;
 	// write(1, "ici\n", 4);
 	ft_push_swap_suite(argc, argv, s);
-	while (s->bloc < 100)
+	while (s->bloc < 4)
 	{
 		ft_push_swap_suite(argc, argv, s);
 		// fprintf(stderr, "move = %d\t bestbloc = %d\n",s->move , s->bestblock );
@@ -162,7 +162,7 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 		s->bloc++;
 	}
 	FILE * fd = fopen("./nbr.txt", "a");
-	fprintf(fd, "%d;", s->besttaillebloc, s->bestblock );
+	fprintf(fd, "%d;%d", s->besttaillebloc, s->bestblock);
 	fclose(fd);
 	s->bloc = s->besttaillebloc;
 	s->printmove = 0;
@@ -295,7 +295,7 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 		ft_pa(s, s->printmove);
 		imin--;
 	}
-
+	return (0);
 }
 
 int main(int argc, char **argv)

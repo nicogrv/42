@@ -99,3 +99,10 @@
 : 1674145518:0;make re && bash push_swap_tester/tester.sh . 10 1000
 : 1674145561:0;clear
 : 1674145571:0;git add --all
+: 1674145589:0;git commit -m "full ok pour 100"
+: 1674145596:0;git push
+: 1674145622:0;clear
+: 1674145640:0;make re && bash push_swap_tester/tester.sh . 10 1000
+: 1674145713:0;make re
+: 1674145740:0;make re && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674145907:0;git add --all 
