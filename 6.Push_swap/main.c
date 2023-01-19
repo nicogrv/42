@@ -6,14 +6,41 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/13 18:16:29 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/19 16:25:10 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 
-void ft_monitoring(t_swap *s)
+int	ft_len_tab1(t_swap *s)
+{
+	int i;
+
+	i = 0;
+	while (s->filltab1[i] != 0)
+		i++;
+	return (i);
+}
+
+int ft_max_in_a(t_swap *s)
+{
+	int i;
+	int max;
+
+	i = 0;
+	max = 0;
+	while (s->filltab1[i] != 0)
+	{	
+		if (max < s->filltab1[i])
+			max = s->filltab1[i];
+		i++;
+	}
+	// printf("max = %d", max);
+	return (max);
+}
+
+void print_ft_monitoring(t_swap *s)
 {
 	int j;
 
@@ -38,14 +65,19 @@ int	ft_verif_eff(t_swap *s, int imin, int imax)
 	i = 0; 
 	while (1)
 	{
-		if (imin <= s->filltab1[i] && s->filltab1[i] < s->len)
+		// printf("i = %d\n", i);
+		// printf("\nrr tab[%d] = %d\n", i ,s->filltab1[i]);
+		if (imin < s->filltab1[i] && s->filltab1[i] <= imax)
 		{
+			// printf("\nSORTTTTT RR tab[%d] = %d\n", i ,s->filltab1[i]);
 			return (0);
 		}
-		if ( s->len <= s->filltab1[s->len -  i - 1] && s->filltab1[s->len -  i] < imax)
-		{
-			return (1);
-		}
+		// printf("\nrra tab[%d] = %d\n", (ft_len_tab1(s) - 1) -  i ,s->filltab1[(ft_len_tab1(s) - 1) -  i]);
+		// if ( imin < s->filltab1[(ft_len_tab1(s) - 1) -  i] && s->filltab1[(ft_len_tab1(s) - 1) -  i] <= imax)
+		// {
+		// 	// printf("\nSORTTTTT RRRRRRRRRRRRRtab[%d] = %d\n", (ft_len_tab1(s) - 1) -  i ,s->filltab1[(ft_len_tab1(s) - 1) -  i]);
+		// 	return (1);
+		// }
 		i++;
 	}
 }
@@ -75,218 +107,67 @@ void ft_init_fill_tab(t_swap *s)
 		s->filltab2[i] = 0;
 }
 
-int ft_sort_5_a(t_swap *s, int max)
+
+int ft_verif_arg(int argc, char **argv, t_swap *s)
 {
-	int len;
-
-	len = 0;
-	while (s->filltab1[len] != 0)
-		len++;
-	s->verifrb = 0;
-	while (1)
-	{
-		ft_monitoring(s);
-		printf("\nA\tALL VALUES = %d,%d,%d,%d,%d\n", max, max -1, max - 2, max - 3, max - 4);
-		printf("s->filltab1[0] == %d\n", s->filltab1[0]);
-		if (s->filltab1[1] == max - 4)
-		{	
-			ft_sa(s);
-			ft_pb(s);
-		}
-		if (s->filltab1[0] == max - 4)
-			ft_pb(s);
-		else if (s->filltab1[0] == max - 3)
-			ft_pb(s);
-		else if (s->filltab1[0] == max - 2 && s->filltab2[0] ==  max - 3 && s->filltab2[1] ==  max - 4)
-			ft_pb(s);
-		else if (s->filltab1[0] == max)
-		{
-			s->verifrb += 1;
-			ft_ra(s, 0);
-		}
-		else if (s->filltab1[0] == max - 1 && s->filltab1[1] ==  max - 2)
-		{
-			s->verifrb += 1;
-			ft_ra(s, 0);
-		}
-		else if (s->filltab1[1] == max - 3)
-			ft_sa(s);
-		else if (s->filltab2[0] == max - 4 && s->filltab2[1] == max - 3)
-			ft_sb(s);
-		else if (s->filltab2[0] == max - 2 && s->filltab2[1] ==  max - 3 && s->filltab2[2] ==  max - 4 && s->filltab1[0] == max-1 && s->filltab1[1] ==  max)
-		{
-			ft_pa(s);
-			ft_pa(s);
-			ft_pa(s);
-			break ;
-		}
-		else if (s->filltab2[0] == max - 2 && s->filltab2[1] ==  max - 3 && s->filltab2[2] ==  max - 4)
-		{
-			while (s->verifrb)
-			{
-				ft_rra(s);
-				s->verifrb--;
-			}
-			if (s->filltab1[0] == max)
-				ft_sa(s);
-		}
-		else if (s->filltab1[0] == max - 2)
-		{
-			s->verifrb += 1;
-			ft_ra(s, 0);
-		}
-		else if (s->filltab2[0] == max - 3 && s->filltab2[1] == max - 4 && s->filltab1[2] == max - 2)
-		{
-			s->verifrb += 1;
-			ft_ra(s, 0);
-		}
-		else if (s->filltab2[0] == max - 3 && s->filltab2[1] == max - 4)
-		{
-			while (s->verifrb)
-			{
-				ft_rra(s);
-				s->verifrb--;
-			}
-		}
-		else if (s->filltab1[2] == max - 4 || s->filltab1[2] == max - 3)
-		{
-			s->verifrb += 1;
-			ft_ra(s, 0);
-		}
-		else 
-		{
-			printf("ohohohohooh\n");
-			return (-1);
-		}
-	}
-	return (0);
-}
-
-int ft_sort_5_b(t_swap *s, int max)
-{
-	int len;
-
-	len = 0;
-	s->verifrb = 0;
-	while (s->filltab2[len] != 0)
-		len++;
-	while (1)
-	{
-		ft_monitoring(s);
-		printf("max = %d\n", max);
-		printf("\nB\tALL VALUES = %d,%d,%d,%d,%d\n", max, max -1, max - 2, max - 3, max - 4);
-		printf("s->verifb = %d\n", s->verifrb);
-		 if (s->filltab1[0] == max - 4 && s->filltab1[1] == max - 3 && s->filltab1[2] == max - 2 && s->filltab1[3] == max - 1 && s->filltab1[4] == max)
-			break ;
-		else if (s->filltab1[0] == max - 3 && s->filltab1[1] == max - 2 && s->filltab1[2] == max - 1 && s->filltab1[3] == max)
-		{
-			while (s->verifrb)
-			{
-				ft_rrb(s);
-				s->verifrb--;
-			}
-			ft_pa(s);
-		}
-		else if (s->filltab1[0] == max - 2 && s->filltab1[1] == max - 1 && s->filltab1[2] == max && s->filltab2[0] == max - 3)
-			ft_pa(s);
-		else if (s->filltab1[0] == max - 2 && s->filltab1[1] == max - 1 && s->filltab1[2] == max)
-		{
-			printf("ici last ?????s->verifb = %d\n", s->verifrb);
-			while (s->verifrb)
-			{
-				ft_rrb(s);
-				s->verifrb--;
-			}
-			if (s->filltab2[0] == max - 4 && s->filltab2[1] == max - 3)
-				ft_sb(s);
-			ft_pa(s);
-			ft_pa(s);
-		}
-		else if (s->filltab2[0] == max || s->filltab2[0] == max - 1)
-			ft_pa(s);
-		else if (s->filltab1[0] == max - 1 && s->filltab1[1] == max && s->filltab2[0] == max - 2)
-			ft_pa(s);
-		else if(s->filltab1[0] == max && s->filltab1[1] == max - 1)
-			ft_sa(s);
-		else if (s->filltab2[1] == max || s->filltab2[1] == max - 1)
-			ft_sb(s);
-		else if (s->filltab2[0] == max - 4 && s->filltab2[1] == max - 3)
-			ft_sb(s);
-		else if (s->filltab2[0] == max - 2)
-		{
-			s->verifrb += 1;
-			ft_rb(s, 0);
-		}
-		else if (s->filltab2[0] == max - 3)
-		{
-			s->verifrb += 1;
-			ft_rb(s, 0);
-		}
-		else if (s->filltab2[0] == max - 4)
-		{
-			s->verifrb += 1;
-			ft_rb(s, 0);
-		}
-		else if (s->filltab1[0] == max - 1 && s->filltab1[1] == max)
-		{
-			while (s->verifrb)
-			{
-				ft_rrb(s);
-				s->verifrb--;
-			}
-		}
-		else 
-			return (-1);
-	}
-	return (0);
-}
-
-int ft_cut_10_to_5(t_swap *s)
-{
-	int move;
-	int push;
-	int len;
 	int i;
+	int j;
 
-	len = s->len - 1 + 5;
-	i = 0;
-	// printf("i = %d\n\n", i);
-	while (i < 10)
+	i = 1;
+	if (argc < 3)
+		return (-1);
+	while (argv[i] != NULL)
 	{
-		len -= 5;
-		push = 0;
-		move = 0;
-		while (push != 5)
+		j = 0;
+		while (argv[i][j] != '\0')
 		{
-			ft_monitoring(s);
-			if (len - 5  < s->filltab2[0] &&  s->filltab2[0] <= len)	
-			{
-				push++;
-				ft_pa(s);
-			}
-			else
-			{
-				move++;
-				ft_rb(s, 0);
-			}
+			if (ft_isdigit(argv[i][j]) == -1)
+				return (-1);
+			j++;
 		}
-		while (move)
+		i++;
+	}
+	i = 1;
+	while (i != argc - 1)
+	{
+		j = i + 1;
+		while (j != argc - 1)
 		{
-			ft_rrb(s);
-			move--;
+			if (s->tab1[i] == s->tab1[j])
+				return (-1);
+			j++;
 		}
-
-		if (ft_sort_5_a(s, len) == -1)
-			return (-1);
-		len -= 5;
-		if (ft_sort_5_b(s, len) == -1)
-			return (-1);
 		i++;
 	}
 	return (0);
 }
+int ft_push_swap_suite(int argc, char **argv, t_swap *s);
 
 int ft_push_swap(int argc, char **argv, t_swap *s)
+{
+	s->bloc = 3;
+	s->bestblock = 100000;
+	s->printmove = 1;
+	// write(1, "ici\n", 4);
+	// ft_push_swap_suite(argc, argv, s);
+	while (s->bloc < 40)
+	{
+		ft_push_swap_suite(argc, argv, s);
+		fprintf(stderr, "move = %d\t bestbloc = %d\n",s->move , s->bestblock );
+		if (s->move < s->bestblock)
+		{
+				s->bestblock = s->move;
+				s->besttaillebloc = s->bloc;
+		}
+		s->bloc++;
+	}
+	printf("best bloc = %d pour %d coups\n", s->besttaillebloc, s->bestblock );
+	s->bloc = s->besttaillebloc;
+	s->printmove = 0;
+	ft_push_swap_suite(argc, argv, s);
+	return (1);
+}
+int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 {
 	int j;
 	int i;
@@ -295,33 +176,50 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	int imax;
 	int indeximax;
     
+	// printf("argc = %d\n\n\n\n\n\n\n", argc);
     s->len = argc;
 	s->move = 0;
-    s->tab1 = malloc(sizeof(int) * s->len - 1);
-    s->tab2 = malloc(sizeof(int) * s->len - 1);
-    s->filltab1 = malloc(sizeof(int) * s->len - 1);
-    s->filltab2 = malloc(sizeof(int) * s->len - 1);
+    s->tab1 = calloc(sizeof(int) , s->len + 1);
+    s->tab2 = calloc(sizeof(int) , s->len + 1);
+    s->filltab1 = calloc(sizeof(int) , s->len + 2);
+    s->filltab2 = calloc(sizeof(int) , s->len + 2);
     i = -1;
     while (++i < s->len - 1)
 		s->tab1[i] = ft_atoi(argv[i + 1]);
 	ft_init_fill_tab(s);
-	imin = s->len / 2 - 10;
-	imax = s->len / 2 + 10;
-	while (s->filltab1[0] != 0)
+	// printf("tab1 = %d\tfilltab1 = %d\n\n\n\n", s->tab1[1], s->filltab1[1]);
+	if (ft_verif_arg(argc, argv, s) == -1)
+		return (-2);
+	// if (s->len == 3)
+	// 	return (ft_sort_2(s));
+	// if (s->len == 4)
+	// 	return (ft_sort_3(s));
+	// if (s->len == 5)
+	// 	return (ft_sort_4(s ,ft_max_in_a(s)));
+	// if (s->len == 6)
+	// 	return (ft_sort_5_a(s ,ft_max_in_a(s)));
+	// if (s->len == 7)
+	// 	return (ft_sort_6(s ,ft_max_in_a(s)));
+	// if (s->len == 8)
+	// 	return (ft_sort_7(s ,ft_max_in_a(s)));
+	imin = ((s->len-1) / 100) *50 - s->bloc;
+	imax = ((s->len-1) / 100) *50 + s->bloc;
+	indeximax = 0;
+	indeximin = 0;
+	// fprintf(stderr, "coucou imin = %d\t imax = %d\n", imin, imax);
+	while (s->filltab1[0])
 	{
-		ft_monitoring(s);
-		// printf("imin = %d\tvaleurs = %d\t imax = %d\nn",imin ,s->filltab1[0], imax);
+		print_ft_monitoring(s);
+	printf("min = %d\tmax = %d\tintdexmax = %d\n\n\n\n",  imin, imax, indeximax);
 		if(imin < s->filltab1[0] && s->filltab1[0] <= imax)
 		{
-			// printf("PUUUUSSSSHHHHHHHHHH\n\n\n\n\n");
 			if (s->verifrb == 1)
 			{
-				ft_rb(s,0);
+				ft_rb(s, s->printmove);
 				s->verifrb = 0;
 			}
-			ft_pb(s);
-			// printf("OHOH |%d|\t|%d|\t|%d|\n", imin, s->filltab1[0], s->len / 2);
-			if (imin < s->filltab2[0] && s->filltab2[0] <= s->len / 2)
+			ft_pb(s, s->printmove);
+			if (imin < s->filltab2[0] && s->filltab2[0] <= ((s->len-1) / 100) *50)
 			{
 				s->verifrb = 1;
 				indeximin++;
@@ -334,38 +232,62 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 		{
 			if (ft_verif_eff(s, imin, imax) == 0)
 			{
+				printf("\tra\n\n");
 				if (s->verifrb == 1)	
 				{
-					ft_rr(s);
+					ft_rr(s, s->printmove);
 					s->verifrb = 0;
 				}
 				else
-					ft_ra(s, 0);
+				{	
+					ft_ra(s, s->printmove);
+				}
 			}
 			else
-				ft_rra(s);
+			{
+				printf("\trra\n\n");
+				ft_rra(s, s->printmove);
+			}
 		}
-		// fprintf(stdout, "imin = %d\timax = %d\n", imin, imax);
-		if (indeximax == 10)
+		if (indeximax == s->bloc)
 		{
-			imax += 10;
+			imax += s->bloc;
 			indeximax = 0;
 		}
-		if (indeximin == 10)
+		if (indeximin == s->bloc && imax != -s->bloc)
 		{
-			imin -= 10;
+			imin -= s->bloc;
 			indeximin = 0;
 		}	
 	}
-
+	// printf("fin\n");
 	if (s->verifrb == 1)	
 	{
-		ft_rb(s, 0);
+		ft_rb(s, s->printmove);
 		s->verifrb = 0;
 	}
-	if (ft_cut_10_to_5(s) == -1)
-		return (-1);
-	return (0);
+	while (s->filltab1[0] != 0)
+		ft_pb(s, s->printmove);
+	int nbr = s->len - 1;
+
+	while (s->filltab2[0] != 0)
+	{
+		// print_ft_monitoring(s);
+		i = 0;
+		while (s->filltab2[i] != nbr)
+			i++;
+		while (s->filltab2[0] != nbr)
+		{
+			// printf("nbr= %d\t i = %d\n", nbr, i);
+			// print_ft_monitoring(s);
+			if (i < nbr / 2)
+				ft_rb(s, s->printmove);
+			else
+				ft_rrb(s, s->printmove);
+		}
+		ft_pa(s, s->printmove);
+		nbr--;
+	}
 
 }
 
@@ -373,29 +295,26 @@ int main(int argc, char **argv)
 {
     t_swap s;
     int i;
+	int exit;
 
     i = -1;
-    if (ft_push_swap(argc, argv, &s) == -1)
-	{
-		printf("ERROR");
-		return (0);
-	}
-
-    i = -1;
-	printf("s->len = %d\n", s.len);
-    while (++i < argc - 1)
-	{
-        printf("---------------------------------------\n");
-        printf("%d\t", s.tab1[i]);
-        printf("%d\t", s.filltab1[i]);
-        printf("|\t" );
-        printf("%d\t", s.tab2[i]);
-        printf("%d\n", s.filltab2[i]);
-	}
-    printf("---------------------------------------\n");
-	printf("nombre de coups = %d", s.move);
-	printf("\n\nOK\n\n");
-
+	
+	// while (1)
+	// 	write(1, "\n", 1);
+	// write(1, "2", 1);
+	exit = ft_push_swap(argc, argv, &s);
+	return (0);
+	print_ft_monitoring(&s);
+	if (exit == 0)
+		printf("\n\nOK\n\n");
+	else if (exit == -1)
+		printf("\n\n\n\nERROR ALGO\n\n\n\n");
+	else if (exit == -2)
+		printf("\n\n\n\nERROR ARG\n\n\n\n");
+	free(s.filltab1);
+	free(s.filltab2);
+	free(s.tab1);
+	free(s.tab2);
 	return (0);
 }
 
