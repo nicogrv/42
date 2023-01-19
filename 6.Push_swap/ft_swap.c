@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:31:01 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/18 18:31:00 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/19 16:51:48 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -152,7 +152,7 @@ void ft_ra(t_swap *s, int print)
 
 	i = 0;
 	lentab = 0;
-	while (lentab < s->len - 1 && s->tab1[lentab] != 0)
+	while (lentab < s->len - 1 && s->filltab1[lentab] != 0)
 		lentab++;
 	lentab--;
 	vtab = s->tab1[i];
@@ -179,7 +179,7 @@ void ft_rb(t_swap *s, int print)
 
 	i = 0;
 	lentab = 0;
-	while (lentab < s->len - 1 && s->tab2[lentab] != 0)
+	while (lentab < s->len - 1 && s->filltab2[lentab] != 0)
 		lentab++;
 	lentab--;
 	vtab = s->tab2[i];
@@ -204,7 +204,7 @@ void ft_rra(t_swap *s, int print)
 	int itab;
 
 	lentab = 0;
-	while (lentab < s->len - 1 && s->tab1[lentab] != 0)
+	while (lentab < s->len - 1 && s->filltab1[lentab] != 0)
 		lentab++;
 	lentab--;
 	vtab = s->tab1[lentab];
@@ -229,7 +229,7 @@ void ft_rrb(t_swap *s, int print)
 	int itab;
 
 	lentab = 0;
-	while (s->tab2[lentab] != 0)
+	while (lentab < s->len - 1 && s->filltab2[lentab] != 0)
 		lentab++;
 	lentab--;
 	vtab = s->tab2[lentab];

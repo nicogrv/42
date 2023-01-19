@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/19 16:25:10 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/19 17:25:59 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -149,11 +149,11 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	s->bestblock = 100000;
 	s->printmove = 1;
 	// write(1, "ici\n", 4);
-	// ft_push_swap_suite(argc, argv, s);
-	while (s->bloc < 40)
+	ft_push_swap_suite(argc, argv, s);
+	while (s->bloc < 100)
 	{
 		ft_push_swap_suite(argc, argv, s);
-		fprintf(stderr, "move = %d\t bestbloc = %d\n",s->move , s->bestblock );
+		// fprintf(stderr, "move = %d\t bestbloc = %d\n",s->move , s->bestblock );
 		if (s->move < s->bestblock)
 		{
 				s->bestblock = s->move;
@@ -161,7 +161,9 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 		}
 		s->bloc++;
 	}
-	printf("best bloc = %d pour %d coups\n", s->besttaillebloc, s->bestblock );
+	FILE * fd = fopen("./nbr.txt", "a");
+	fprintf(fd, "%d;", s->besttaillebloc, s->bestblock );
+	fclose(fd);
 	s->bloc = s->besttaillebloc;
 	s->printmove = 0;
 	ft_push_swap_suite(argc, argv, s);
@@ -175,6 +177,7 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 	int indeximin;
 	int imax;
 	int indeximax;
+	int nbr;
     
 	// printf("argc = %d\n\n\n\n\n\n\n", argc);
     s->len = argc;
@@ -206,11 +209,11 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 	imax = ((s->len-1) / 100) *50 + s->bloc;
 	indeximax = 0;
 	indeximin = 0;
-	// fprintf(stderr, "coucou imin = %d\t imax = %d\n", imin, imax);
+	fprintf(stderr, "coucou imin = %d\t imax = %d\n", imin, imax);
 	while (s->filltab1[0])
 	{
-		print_ft_monitoring(s);
-	printf("min = %d\tmax = %d\tintdexmax = %d\n\n\n\n",  imin, imax, indeximax);
+		// print_ft_monitoring(s);
+	// printf("min = %d\tmax = %d\tintdexmax = %d\n\n\n\n",  imin, imax, indeximax);
 		if(imin < s->filltab1[0] && s->filltab1[0] <= imax)
 		{
 			if (s->verifrb == 1)
@@ -232,7 +235,7 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 		{
 			if (ft_verif_eff(s, imin, imax) == 0)
 			{
-				printf("\tra\n\n");
+				// printf("\tra\n\n");
 				if (s->verifrb == 1)	
 				{
 					ft_rr(s, s->printmove);
@@ -245,7 +248,7 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 			}
 			else
 			{
-				printf("\trra\n\n");
+				// printf("\trra\n\n");
 				ft_rra(s, s->printmove);
 			}
 		}
@@ -260,33 +263,37 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 			indeximin = 0;
 		}	
 	}
-	// printf("fin\n");
+	// printf(fin\n");
 	if (s->verifrb == 1)	
 	{
 		ft_rb(s, s->printmove);
 		s->verifrb = 0;
 	}
 	while (s->filltab1[0] != 0)
+	{
 		ft_pb(s, s->printmove);
-	int nbr = s->len - 1;
-
+	}
+	// print_ft_monitoring(s);
+	// printf("ici\n");
+	imin = 100;
+	// printf("la\n");
 	while (s->filltab2[0] != 0)
 	{
 		// print_ft_monitoring(s);
 		i = 0;
-		while (s->filltab2[i] != nbr)
+		while (s->filltab2[i] != imin)
 			i++;
-		while (s->filltab2[0] != nbr)
+		while (s->filltab2[0] != imin)
 		{
-			// printf("nbr= %d\t i = %d\n", nbr, i);
+			// printf("imin= %d\t i = %d\n", imin, i);
 			// print_ft_monitoring(s);
-			if (i < nbr / 2)
+			if (i < imin / 2)
 				ft_rb(s, s->printmove);
 			else
 				ft_rrb(s, s->printmove);
 		}
 		ft_pa(s, s->printmove);
-		nbr--;
+		imin--;
 	}
 
 }
