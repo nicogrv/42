@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:31:01 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/19 16:51:48 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/19 17:56:26 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ void ft_pa(t_swap *s, int print)
 	i = s->len;
 	if (s->filltab2[0] == 0)
 		return ;
-	while (s->filltab1[i] == 0 && 0 <= i)
+	while (0 <= i && s->filltab1[i] == 0 )
 		i--;
 	i++;
 	while (i > 0)
@@ -104,10 +104,10 @@ void ft_pb(t_swap *s, int print)
 {
 	int i;
 
-	i = s->len;
+	i = s->len - 1;
 	if (s->filltab1[0] == 0)
 		return ;
-	while (s->filltab2[i] == 0 && 0 <= i)
+	while (0 <= i && s->filltab2[i] == 0 )
 		i--;
 	i++;
 	while (i > 0)

@@ -106,3 +106,31 @@
 : 1674145713:0;make re
 : 1674145740:0;make re && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
 : 1674145907:0;git add --all 
+: 1674145921:0;git commit -m "seg fault 10"
+: 1674145924:0;git pudh
+: 1674145929:0;git push
+: 1674146131:0;clear
+: 1674146213:0;git commit -m "seg fault 10"
+: 1674146216:0;make re && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674146258:0;make all && bash push_swap_tester/tester.sh . 100 100
+: 1674146309:0;make all && bash push_swap_tester/tester.sh . 10 2
+: 1674146479:0;cubcec
+: 1674146485:0;clear
+: 1674146530:0;make re && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674146581:0;make all && bash push_swap_tester/tester.sh . 100 10
+: 1674146638:0;make re && bash push_swap_tester/tester.sh . 100 10
+: 1674146687:0;make re && bash push_swap_tester/tester.sh . 10 10
+: 1674146693:0;make re && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674146958:0;gcc -fsanitize=address -g3 -o poush_swap && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674146966:0;gcc -fsanitize=address -g3 *.c -o poush_swap && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674146976:0;gcc -fsanitize=address -g3 *.c -o push_swap && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674147211:0;make re && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674147213:0;gcc -fsanitize=address -g3 *.c -o push_swap && ./push_swap -251 621 544 556 -208 -703 262 126 767 305
+: 1674147404:0;make re && bash push_swap_tester/tester.sh . 10 10
+: 1674147409:0;make re && bash push_swap_tester/tester.sh . 14 10
+: 1674147413:0;make re && bash push_swap_tester/tester.sh . 184 10
+: 1674147421:0;make re && bash push_swap_tester/tester.sh . 5 10
+: 1674147425:0;make re && bash push_swap_tester/tester.sh . 3 10
+: 1674147428:0;make re && bash push_swap_tester/tester.sh . 1 10
+: 1674147431:0;make re && bash push_swap_tester/tester.sh . 6 10
+: 1674147436:0;git add --all

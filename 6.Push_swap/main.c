@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/19 17:29:36 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/19 17:56:35 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,9 @@ int	ft_len_tab1(t_swap *s)
 	int i;
 
 	i = 0;
-	while (s->filltab1[i] != 0)
+	while (i < s->len -1&& s->filltab1[i] != 0)
 		i++;
+	printf("i = %d\n", i);
 	return (i);
 }
 
@@ -150,7 +151,7 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	s->printmove = 1;
 	// write(1, "ici\n", 4);
 	ft_push_swap_suite(argc, argv, s);
-	while (s->bloc < 4)
+	while (s->bloc < 40)
 	{
 		ft_push_swap_suite(argc, argv, s);
 		// fprintf(stderr, "move = %d\t bestbloc = %d\n",s->move , s->bestblock );
@@ -205,15 +206,17 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 	// 	return (ft_sort_6(s ,ft_max_in_a(s)));
 	// if (s->len == 8)
 	// 	return (ft_sort_7(s ,ft_max_in_a(s)));
-	imin = ((s->len-1) / 100) *50 - s->bloc;
-	imax = ((s->len-1) / 100) *50 + s->bloc;
+	imin = ((s->len-1) / 10) *5 - s->bloc;
+	imax = ((s->len-1) / 10) *5 + s->bloc;
+	// fprintf(stderr, "coucou IMIN = %d\t IMAX = %d\n\n", imin, imax);
+	// fprintf(stderr, "coucou imin = %d\t imax = %d\n\n\n\n\n\n", ((s->len-1) / 10) *5 - s->bloc, ((s->len-1) / 10) *5 + s->bloc);
+	
 	indeximax = 0;
 	indeximin = 0;
-	fprintf(stderr, "coucou imin = %d\t imax = %d\n", imin, imax);
 	while (s->filltab1[0])
 	{
 		// print_ft_monitoring(s);
-	// printf("min = %d\tmax = %d\tintdexmax = %d\n\n\n\n",  imin, imax, indeximax);
+		// printf("min = %d(%d)\tmax = %d(%d)\t bloc = %d\n\n\n\n",  imin, indeximin, imax, indeximax, s->bloc);
 		if(imin < s->filltab1[0] && s->filltab1[0] <= imax)
 		{
 			if (s->verifrb == 1)
@@ -221,8 +224,9 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 				ft_rb(s, s->printmove);
 				s->verifrb = 0;
 			}
+			// printf("push b\n");
 			ft_pb(s, s->printmove);
-			if (imin < s->filltab2[0] && s->filltab2[0] <= ((s->len-1) / 100) *50)
+			if (imin < s->filltab2[0] && s->filltab2[0] <= ((s->len-1) / 10) *5)
 			{
 				s->verifrb = 1;
 				indeximin++;
@@ -263,7 +267,7 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 			indeximin = 0;
 		}	
 	}
-	// printf(fin\n");
+	// printf("fin\n");
 	if (s->verifrb == 1)	
 	{
 		ft_rb(s, s->printmove);
@@ -275,14 +279,17 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 	}
 	// print_ft_monitoring(s);
 	// printf("ici\n");
-	imin = 100;
-	// printf("la\n");
+	imin = s->len-1;
+	// printf("imin = %d\n", imin);
 	while (s->filltab2[0] != 0)
 	{
 		// print_ft_monitoring(s);
 		i = 0;
 		while (s->filltab2[i] != imin)
+		{
+			// printf("coucou");
 			i++;
+		}
 		while (s->filltab2[0] != imin)
 		{
 			// printf("imin= %d\t i = %d\n", imin, i);
