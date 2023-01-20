@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/19 19:49:00 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/20 17:04:48 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -283,7 +283,8 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 	indeximin = 0;
 	while (s->filltab1[0])
 	{
-		// print_ft_monitoring(s);
+		// if (s->printmove == 0)
+			// print_ft_monitoring(s);
 		// printf("min = %d(%d)\tmax = %d(%d)\t bloc = %d\n\n\n\n",  imin, indeximin, imax, indeximax, s->bloc);
 		if(imin < s->filltab1[0] && s->filltab1[0] <= imax)
 		{
@@ -387,7 +388,7 @@ int main(int argc, char **argv)
 	// write(1, "2", 1);
 	// s.fd = fopen("./nbr.txt", "a");
 	exit = ft_push_swap(argc, argv, &s);
-	return (0);
+	r``eturn (0);
 	print_ft_monitoring(&s);
 	if (exit == 0)
 		printf("\n\nOK\n\n");
