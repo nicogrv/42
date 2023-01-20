@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:31:01 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/19 17:56:26 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/19 19:15:30 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,11 @@ void ft_sa(t_swap *s, int print)
     s->filltab1[0] = s->filltab1[1];
     s->filltab1[1] = s->tmp; 
 	s->move += 1;
-    write(1, "sa\n", 3);
+	if (print == 0)
+	{
+		// fprintf(s->fd, "ohoh\n");
+    	write(1, "sa\n", 3);
+	}
 }
 
 void ft_sb(t_swap *s, int print)
@@ -134,12 +138,13 @@ void ft_pb(t_swap *s, int print)
 
 void ft_rr(t_swap *s, int print)
 {
-	ft_ra(s, 1);
-	ft_rb(s, 1);
+	ft_ra(s, 42);
+	ft_rb(s, 42);
 	if (print == 0)
+	{
     	write(1, "rr\n", 3);
-	s->move += 1;
-
+		s->move += 1;
+	}
 	
 }
 

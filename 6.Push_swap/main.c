@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/19 17:56:35 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/19 19:49:00 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_len_tab1(t_swap *s)
 	i = 0;
 	while (i < s->len -1&& s->filltab1[i] != 0)
 		i++;
-	printf("i = %d\n", i);
+	// printf("i = %d\n", i);
 	return (i);
 }
 
@@ -146,12 +146,12 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s);
 
 int ft_push_swap(int argc, char **argv, t_swap *s)
 {
-	s->bloc = 3;
+	s->bloc = 1;
 	s->bestblock = 100000;
 	s->printmove = 1;
 	// write(1, "ici\n", 4);
 	ft_push_swap_suite(argc, argv, s);
-	while (s->bloc < 40)
+	while (s->bloc < 30)
 	{
 		ft_push_swap_suite(argc, argv, s);
 		// fprintf(stderr, "move = %d\t bestbloc = %d\n",s->move , s->bestblock );
@@ -162,14 +162,82 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 		}
 		s->bloc++;
 	}
-	FILE * fd = fopen("./nbr.txt", "a");
-	fprintf(fd, "%d;%d", s->besttaillebloc, s->bestblock);
-	fclose(fd);
 	s->bloc = s->besttaillebloc;
 	s->printmove = 0;
 	ft_push_swap_suite(argc, argv, s);
+	// FILE * fd = fopen("./nbr.txt", "a");
+	// fprintf(fd, "%d;%d\n", s->besttaillebloc,s->bestblock);
+	// fclose(fd);
 	return (1);
 }
+
+int ft_sort_2(t_swap *s)
+{
+	if (s->filltab1[1] < s->filltab1[0])
+		ft_sa(s, s->printmove);
+	return (0);
+}
+int ft_sort_3(t_swap *s)
+{
+	// printf("\n\n\n");
+	while (1)
+	{
+		// print_ft_monitoring(s);
+		if (s->filltab1[0] < s->filltab1[1] && s->filltab1[1] < s->filltab1[2])
+			break ;
+		else if (s->filltab1[0] == 3 && s->filltab1[1] == 1 && s->filltab1[2] == 2)
+			ft_ra(s, s->printmove);
+		else if (s->filltab1[0] == 1 && s->filltab1[1] == 3 && s->filltab1[2] == 2)
+		{	
+			ft_rra(s, s->printmove);
+			ft_sa(s, s->printmove);
+		}
+		else if (s->filltab1[1] < s->filltab1[0])
+			ft_sa(s, s->printmove);
+		else if (s->filltab1[2] == 1 )
+			ft_rra(s, s->printmove);
+	}
+	return (0);
+}
+
+int ft_sort_5(t_swap *s)
+{
+	while (1)
+	{
+		// print_ft_monitoring(s);
+		if (s->filltab2[0] == 2 && s->filltab2[1] == 1)
+			break ;
+		else if (s->filltab2[0] == 1 && s->filltab2[1] == 2)
+			ft_sb(s, s->printmove);
+		else if (s->filltab1[0] == 1 || s->filltab1[0] == 2)
+			ft_pb(s, s->printmove);
+		else
+			ft_ra(s, s->printmove);
+		
+	}
+	while (1)
+	{
+		// print_ft_monitoring(s);
+		if (s->filltab1[0] < s->filltab1[1] && s->filltab1[1] < s->filltab1[2])
+			break ;
+		else if (s->filltab1[0] == 5 && s->filltab1[1] == 3 && s->filltab1[2] == 4)
+			ft_ra(s, s->printmove);
+		else if (s->filltab1[0] == 3 && s->filltab1[1] == 5 && s->filltab1[2] == 4)
+		{	
+			ft_rra(s, s->printmove);
+			ft_sa(s, s->printmove);
+		}
+		else if (s->filltab1[1] < s->filltab1[0])
+			ft_sa(s, s->printmove);
+		else if (s->filltab1[2] == 3 )
+			ft_rra(s, s->printmove);
+	}
+	ft_pa(s, s->printmove);
+	ft_pa(s, s->printmove);
+	// print_ft_monitoring(s);
+}
+
+
 int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 {
 	int j;
@@ -194,14 +262,14 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 	// printf("tab1 = %d\tfilltab1 = %d\n\n\n\n", s->tab1[1], s->filltab1[1]);
 	if (ft_verif_arg(argc, argv, s) == -1)
 		return (-2);
-	// if (s->len == 3)
-	// 	return (ft_sort_2(s));
-	// if (s->len == 4)
-	// 	return (ft_sort_3(s));
+	if (s->len == 3)
+		return (ft_sort_2(s));
+	if (s->len == 4)
+		return (ft_sort_3(s));
 	// if (s->len == 5)
 	// 	return (ft_sort_4(s ,ft_max_in_a(s)));
-	// if (s->len == 6)
-	// 	return (ft_sort_5_a(s ,ft_max_in_a(s)));
+	if (s->len == 6)
+		return (ft_sort_5(s));
 	// if (s->len == 7)
 	// 	return (ft_sort_6(s ,ft_max_in_a(s)));
 	// if (s->len == 8)
@@ -242,13 +310,14 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 				// printf("\tra\n\n");
 				if (s->verifrb == 1)	
 				{
+					// FILE * fd = fopen("./nbr.txt", "a");
+					// fprintf(fd, "rr\n");
+					// fclose(fd);
 					ft_rr(s, s->printmove);
 					s->verifrb = 0;
 				}
 				else
-				{	
 					ft_ra(s, s->printmove);
-				}
 			}
 			else
 			{
@@ -316,6 +385,7 @@ int main(int argc, char **argv)
 	// while (1)
 	// 	write(1, "\n", 1);
 	// write(1, "2", 1);
+	// s.fd = fopen("./nbr.txt", "a");
 	exit = ft_push_swap(argc, argv, &s);
 	return (0);
 	print_ft_monitoring(&s);
@@ -329,6 +399,7 @@ int main(int argc, char **argv)
 	free(s.filltab2);
 	free(s.tab1);
 	free(s.tab2);
+	// fclose(s.fd);
 	return (0);
 }
 

@@ -15,7 +15,7 @@ typedef struct s_swap
     int	*filltab1;
     int	*tab2;
     int	*filltab2;
-
+    FILE *  fd;
     int verifsens;
     int verifsensnbr;
     int verifrb;
