@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:31:01 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/21 11:06:33 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/21 11:26:33 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,7 +107,6 @@ void ft_pa(t_swap *s, int print)
 void ft_pb(t_swap *s, int print)
 {
 	int i;
-	printf(" %d\n\n" , s->tab1[0]);
 	i = s->len - 1;
 	if (s->filltab1[0] == 0)
 		return ;

@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/20 17:04:48 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/21 11:45:46 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -235,6 +235,7 @@ int ft_sort_5(t_swap *s)
 	ft_pa(s, s->printmove);
 	ft_pa(s, s->printmove);
 	// print_ft_monitoring(s);
+	return (0);
 }
 
 
@@ -388,7 +389,7 @@ int main(int argc, char **argv)
 	// write(1, "2", 1);
 	// s.fd = fopen("./nbr.txt", "a");
 	exit = ft_push_swap(argc, argv, &s);
-	r``eturn (0);
+	return (0);
 	print_ft_monitoring(&s);
 	if (exit == 0)
 		printf("\n\nOK\n\n");

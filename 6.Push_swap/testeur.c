@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/21 11:05:43 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/21 11:29:44 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,6 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	int i;
     
     s->len = argc;
-	// printf("arg = %d\n\n", argc);
 	s->move = 0;
     s->tab1 = calloc(sizeof(int) , s->len + 1);
     s->tab2 = calloc(sizeof(int) , s->len + 1);
@@ -111,39 +110,33 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	if (ft_verif_arg(argc, argv, s) == -1)
 		return (-2);
 	i = 0;
-	char *commandes;
-	
-	commandes = s->arg;
 	while (s->arg[i])
 	{
-		// print_ft_monitoring(s);
-		// printf("|%s|\n\n\n", commandes + i, i);
-		if (s->arg[i] == 'p' && s->arg[i+1] == 'b')
-			ft_pb(s, 0);
-		else if (s->arg[i] == 'r' && s->arg[i+1] == 'r' && s->arg[i+2] == 'a')
-			ft_rra(s, 0);
+		if (s->arg[i] == 'r' && s->arg[i+1] == 'r' && s->arg[i+2] == 'a')
+			ft_rra(s, 1);
 		else if (s->arg[i] == 'r' && s->arg[i+1] == 'r' && s->arg[i+2] == 'b')
-			ft_rrb(s, 0);
+			ft_rrb(s, 1);
+		else if (s->arg[i] == 'p' && s->arg[i+1] == 'b')
+			ft_pb(s, 1);
 		else if (s->arg[i] == 'p' && s->arg[i+1] == 'a')
-			ft_pa(s, 0);
+			ft_pa(s, 1);
 		else if (s->arg[i] == 's' && s->arg[i+1] == 'a')
-			ft_sa(s, 0);
+			ft_sa(s, 1);
 		else if (s->arg[i] == 's' && s->arg[i+1] == 'b')
-			ft_sb(s, 0);
+			ft_sb(s, 1);
 		else if (s->arg[i] == 's' && s->arg[i+1] == 's')
-			ft_ss(s, 0);
+			ft_ss(s, 1);
 		else if (s->arg[i] == 'r' && s->arg[i+1] == 'r')
-			ft_rr(s, 0);
+			ft_rr(s, 1);
 		else if (s->arg[i] == 'r' && s->arg[i+1] == 'a')
-			ft_ra(s, 0);
+			ft_ra(s, 1);
 		else if (s->arg[i] == 'r' && s->arg[i+1] == 'b')
-			ft_rb(s, 0);
+			ft_rb(s, 1);
 		while (s->arg[i] != ':' && s->arg[i] != '\0')
 			i++;
 		if (s->arg[i] == '\0')
 			break;
 		i++;
-		
 	}
 	i = 0;
 	while (i < s->len -1)
@@ -175,27 +168,14 @@ int main(int argc, char **argv)
 		s.arg = ft_strjoin(s.arg, line);
 		// printf("\t%s\n\n", s.arg);
 	}
-	// printf("finito\n");
-	// while (1)
-	// 	write(1, "\n", 1);
-	// write(1, "2", 1);
-	// s.fd = fopen("./nbr.txt", "a");
 	exit = ft_push_swap(argc, argv, &s);
-	
 	if (exit == 0)
 		write(1, "OK\n", 3);
-	// return (0);
-	// print_ft_monitoring(&s);
-	// if (exit == 0)
-	// 	printf("\n\nOK\n\n");
-	// else if (exit == -1)
-	// 	printf("\n\n\n\nERROR ALGO\n\n\n\n");
-	// else if (exit == -2)
-	// 	printf("\n\n\n\nERROR ARG\n\n\n\n");
+	else
+		write(1, "KO\n", 3);
 	// free(s.filltab1);
 	// free(s.filltab2);
 	// free(s.tab1);
 	// free(s.tab2);
-	// fclose(s.fd);
 	return (0);
 }
