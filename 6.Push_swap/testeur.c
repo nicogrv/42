@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/21 11:29:44 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/21 16:34:58 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,6 +110,7 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	if (ft_verif_arg(argc, argv, s) == -1)
 		return (-2);
 	i = 0;
+	// printf()
 	while (s->arg[i])
 	{
 		if (s->arg[i] == 'r' && s->arg[i+1] == 'r' && s->arg[i+2] == 'a')
@@ -139,6 +140,7 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 		i++;
 	}
 	i = 0;
+	print_ft_monitoring(s);
 	while (i < s->len -1)
 	{
 		if (s->filltab1[i] != i + 1)
@@ -157,7 +159,13 @@ int main(int argc, char **argv)
     char	*line;
 
     i = -1;
-    line = malloc(sizeof(char) * 10);
+	if (argc == 1 || argc == 2)
+	{
+		write(1, "OK\n", 3);
+		return (0);
+	}
+	line = malloc(sizeof(char) * 10);
+	line[9] = '\0';
     s.arg = malloc(sizeof(char) * 1);
 	s.arg[0] = '\0';
     while (1)
@@ -168,6 +176,7 @@ int main(int argc, char **argv)
 		s.arg = ft_strjoin(s.arg, line);
 		// printf("\t%s\n\n", s.arg);
 	}
+	fprintf(stderr, "|%s|\n\n\n", s.arg);
 	exit = ft_push_swap(argc, argv, &s);
 	if (exit == 0)
 		write(1, "OK\n", 3);

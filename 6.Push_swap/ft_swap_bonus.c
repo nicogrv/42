@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:31:01 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/21 11:26:33 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/21 16:19:11 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,6 @@ void ft_pa(t_swap *s, int print)
 	s->move += 1;
 	if (print == 0)
     	write(1, "pa\n", 3);
-
 }
 
 void ft_pb(t_swap *s, int print)
