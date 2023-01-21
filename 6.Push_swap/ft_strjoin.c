@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:13:00 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/20 16:32:31 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/21 11:54:08 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,23 @@ int	ft_strlen(const char *str)
 	while (str[i] != '\0')
 		i++;
 	return (i);
+}
+
+char	*ft_strjoin_suite(char *s1, char *s2, char *str, int j)
+{
+	int	i;
+
+	i = 0;
+	while (s2[i] != '\0')
+	{
+		if (s2[i] == '\n')
+			str[j] = ':';
+		else
+			str[j] = s2[i];
+		i++;
+		j++;
+	}
+	str[j] = '\0';
 }
 
 char	*ft_strjoin(char *s1, char *s2)
@@ -42,23 +59,5 @@ char	*ft_strjoin(char *s1, char *s2)
 		i++;
 		j++;
 	}
-	i = 0;
-	while (s2[i] != '\0')
-	{
-		if (s2[i] == '\n')
-			str[j] = ':';
-		else
-			str[j] = s2[i];
-		i++;
-		j++;
-	}
-	str[j] = '\0';
-	return (str);
+	return (ft_strjoin_suite(s1, s2, str, j));
 }
-
-// int main(void)
-// {
-//     char *test = "tripouille";
-//     char *oui = "42";
-//     printf("%s",ft_strjoin(test, oui));
-// }

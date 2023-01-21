@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 09:49:25 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/09 12:20:21 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/21 11:51:09 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,3 @@ int	ft_atoi(const char *str)
 	}
 	return (nb * signe);
 }
-// may la boss
-
-// int main(void)
-// {
-// 	char *test = "    +286543554s";
-// 	printf("%d\n", ft_atoi(test));
-// 	printf("%d", atoi(test));
-// }
