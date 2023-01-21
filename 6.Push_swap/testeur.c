@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/20 16:48:35 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/21 11:05:43 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,7 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	int i;
     
     s->len = argc;
-	printf("arg = %d\n\n", argc);
+	// printf("arg = %d\n\n", argc);
 	s->move = 0;
     s->tab1 = calloc(sizeof(int) , s->len + 1);
     s->tab2 = calloc(sizeof(int) , s->len + 1);
@@ -111,12 +111,33 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	if (ft_verif_arg(argc, argv, s) == -1)
 		return (-2);
 	i = 0;
+	char *commandes;
+	
+	commandes = s->arg;
 	while (s->arg[i])
 	{
-		print_ft_monitoring(s);
+		// print_ft_monitoring(s);
+		// printf("|%s|\n\n\n", commandes + i, i);
 		if (s->arg[i] == 'p' && s->arg[i+1] == 'b')
 			ft_pb(s, 0);
-
+		else if (s->arg[i] == 'r' && s->arg[i+1] == 'r' && s->arg[i+2] == 'a')
+			ft_rra(s, 0);
+		else if (s->arg[i] == 'r' && s->arg[i+1] == 'r' && s->arg[i+2] == 'b')
+			ft_rrb(s, 0);
+		else if (s->arg[i] == 'p' && s->arg[i+1] == 'a')
+			ft_pa(s, 0);
+		else if (s->arg[i] == 's' && s->arg[i+1] == 'a')
+			ft_sa(s, 0);
+		else if (s->arg[i] == 's' && s->arg[i+1] == 'b')
+			ft_sb(s, 0);
+		else if (s->arg[i] == 's' && s->arg[i+1] == 's')
+			ft_ss(s, 0);
+		else if (s->arg[i] == 'r' && s->arg[i+1] == 'r')
+			ft_rr(s, 0);
+		else if (s->arg[i] == 'r' && s->arg[i+1] == 'a')
+			ft_ra(s, 0);
+		else if (s->arg[i] == 'r' && s->arg[i+1] == 'b')
+			ft_rb(s, 0);
 		while (s->arg[i] != ':' && s->arg[i] != '\0')
 			i++;
 		if (s->arg[i] == '\0')
@@ -124,39 +145,47 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 		i++;
 		
 	}
+	i = 0;
+	while (i < s->len -1)
+	{
+		if (s->filltab1[i] != i + 1)
+			return (-1);
+		else
+			i++;	
+	}
 	return (0);
 }
 
 int main(int argc, char **argv)
 {
-    t_swap s;
-    int i;
-	int exit;
+    t_swap	s;
+    int		i;
+	int		exit;
+    char	*line;
 
     i = -1;
-    printf("\t\tSTART TESTER\n\n");
-    
-    char *line;
     line = malloc(sizeof(char) * 10);
     s.arg = malloc(sizeof(char) * 1);
 	s.arg[0] = '\0';
-	
     while (1)
     {
         line = get_next_line(0);
 		if (line == NULL)
 			break ;
 		s.arg = ft_strjoin(s.arg, line);
-		printf("\t%s\n\n", s.arg);
+		// printf("\t%s\n\n", s.arg);
 	}
-	printf("finito\n");
+	// printf("finito\n");
 	// while (1)
 	// 	write(1, "\n", 1);
 	// write(1, "2", 1);
 	// s.fd = fopen("./nbr.txt", "a");
 	exit = ft_push_swap(argc, argv, &s);
+	
+	if (exit == 0)
+		write(1, "OK\n", 3);
 	// return (0);
-	print_ft_monitoring(&s);
+	// print_ft_monitoring(&s);
 	// if (exit == 0)
 	// 	printf("\n\nOK\n\n");
 	// else if (exit == -1)
