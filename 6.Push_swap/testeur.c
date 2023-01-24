@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/21 16:34:58 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/23 19:14:43 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -159,29 +159,30 @@ int main(int argc, char **argv)
     char	*line;
 
     i = -1;
-	if (argc == 1 || argc == 2)
-	{
-		write(1, "OK\n", 3);
-		return (0);
-	}
-	line = malloc(sizeof(char) * 10);
-	line[9] = '\0';
-    s.arg = malloc(sizeof(char) * 1);
-	s.arg[0] = '\0';
-    while (1)
-    {
-        line = get_next_line(0);
-		if (line == NULL)
-			break ;
-		s.arg = ft_strjoin(s.arg, line);
-		// printf("\t%s\n\n", s.arg);
-	}
-	fprintf(stderr, "|%s|\n\n\n", s.arg);
-	exit = ft_push_swap(argc, argv, &s);
-	if (exit == 0)
-		write(1, "OK\n", 3);
-	else
-		write(1, "KO\n", 3);
+	// if (argc == 1 || argc == 2)
+	// {
+	// 	write(1, "OK\n", 3);
+	// 	return (0);
+	// }
+	// return (0);
+	// line = malloc(sizeof(char) * 10);
+	// line[9] = '\0';
+    // s.arg = malloc(sizeof(char) * 1);
+    // while (1)
+    // {
+    //     line = get_next_line(0);
+	// 	if (line == NULL)
+	// 		break ;
+	// 	s.arg = ft_strjoin(s.arg, line);
+	// 	free(line);
+	// }
+	// 	printf("\t|%s|\n\n", s.arg);
+	// fprintf(stderr, "|%s|\n\n\n", s.arg);
+	// exit = ft_push_swap(argc, argv, &s);
+	// if (exit == 0)
+	// 	write(1, "OK\n", 3);
+	// else
+	// 	write(1, "KO\n", 3);
 	// free(s.filltab1);
 	// free(s.filltab2);
 	// free(s.tab1);

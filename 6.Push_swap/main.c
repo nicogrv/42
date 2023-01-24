@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/21 11:45:46 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/23 18:11:25 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -146,15 +146,12 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s);
 
 int ft_push_swap(int argc, char **argv, t_swap *s)
 {
-	s->bloc = 1;
+	s->bloc = 28;
 	s->bestblock = 100000;
 	s->printmove = 1;
-	// write(1, "ici\n", 4);
-	ft_push_swap_suite(argc, argv, s);
 	while (s->bloc < 30)
 	{
 		ft_push_swap_suite(argc, argv, s);
-		// fprintf(stderr, "move = %d\t bestbloc = %d\n",s->move , s->bestblock );
 		if (s->move < s->bestblock)
 		{
 				s->bestblock = s->move;
@@ -260,15 +257,12 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
     while (++i < s->len - 1)
 		s->tab1[i] = ft_atoi(argv[i + 1]);
 	ft_init_fill_tab(s);
-	// printf("tab1 = %d\tfilltab1 = %d\n\n\n\n", s->tab1[1], s->filltab1[1]);
 	if (ft_verif_arg(argc, argv, s) == -1)
 		return (-2);
 	if (s->len == 3)
 		return (ft_sort_2(s));
 	if (s->len == 4)
 		return (ft_sort_3(s));
-	// if (s->len == 5)
-	// 	return (ft_sort_4(s ,ft_max_in_a(s)));
 	if (s->len == 6)
 		return (ft_sort_5(s));
 	// if (s->len == 7)
@@ -352,25 +346,40 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
 	// printf("ici\n");
 	imin = s->len-1;
 	// printf("imin = %d\n", imin);
+	indeximin = 0;
 	while (s->filltab2[0] != 0)
 	{
 		// print_ft_monitoring(s);
 		i = 0;
-		while (s->filltab2[i] != imin)
+		while (s->filltab2[i] != imin )
 		{
 			// printf("coucou");
 			i++;
 		}
 		while (s->filltab2[0] != imin)
 		{
-			// printf("imin= %d\t i = %d\n", imin, i);
 			// print_ft_monitoring(s);
-			if (i < imin / 2)
-				ft_rb(s, s->printmove);
+			if (s->filltab2[0] == imin - 1)
+			{
+				ft_pa(s, s->printmove);
+				indeximin = 1;
+			}
 			else
-				ft_rrb(s, s->printmove);
+			{
+				
+				if (i < imin / 2)
+					ft_rb(s, s->printmove);
+				else
+					ft_rrb(s, s->printmove);
+			}
 		}
 		ft_pa(s, s->printmove);
+		if (indeximin == 1)
+		{
+			ft_sa(s, s->printmove);
+			imin--;
+			indeximin = 0;
+		}
 		imin--;
 	}
 	return (0);

@@ -5,7 +5,7 @@ DEPS = ${FILES:.c=.d}
 OBJSBONUS = ${FILESBONUS:.c=.o}
 DEPSBONUS = ${FILESBONUS:.c=.d}
 NAME = push_swap
-NAMEBONUS = checker
+NAMEBONUS = checker_bonus
 CC = gcc
 
 INCLUDE = -I ./
@@ -17,13 +17,13 @@ FLAGS = -Wall -Werror -Wextra
 
 all: 	${OBJS} ${OBJSBONUS}
 		${CC} ${FLAGS} -g -o ${NAME} ${OBJS} ${INCLUDE}
-		${CC} ${FLAGS} -g -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+		${CC} ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
 
 push_swap: 	${OBJSBONUS}
 		${CC} ${FLAGS} -g -o ${NAME} ${OBJS} ${INCLUDE}
 
 bonus: 	${OBJSBONUS}
-		${CC} ${FLAGS} -g -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+		${CC} ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
 
 clean:	
 		rm -f ${OBJS}
