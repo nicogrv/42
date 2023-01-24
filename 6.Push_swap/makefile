@@ -5,7 +5,8 @@ DEPS = ${FILES:.c=.d}
 OBJSBONUS = ${FILESBONUS:.c=.o}
 DEPSBONUS = ${FILESBONUS:.c=.d}
 NAME = push_swap
-NAMEBONUS = checker_bonus
+# NAMEBONUS = checker_bonus
+NAMEBONUS = checker
 CC = gcc
 
 INCLUDE = -I ./

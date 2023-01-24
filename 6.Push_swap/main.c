@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/23 18:11:25 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/24 17:09:55 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -161,7 +161,9 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 	}
 	s->bloc = s->besttaillebloc;
 	s->printmove = 0;
+	
 	ft_push_swap_suite(argc, argv, s);
+	// ft_sa(s, s->printmove);
 	// FILE * fd = fopen("./nbr.txt", "a");
 	// fprintf(fd, "%d;%d\n", s->besttaillebloc,s->bestblock);
 	// fclose(fd);
@@ -398,8 +400,8 @@ int main(int argc, char **argv)
 	// write(1, "2", 1);
 	// s.fd = fopen("./nbr.txt", "a");
 	exit = ft_push_swap(argc, argv, &s);
-	return (0);
 	print_ft_monitoring(&s);
+	return (0);
 	if (exit == 0)
 		printf("\n\nOK\n\n");
 	else if (exit == -1)

@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/23 19:14:43 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/24 17:18:06 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -133,14 +133,14 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
 			ft_ra(s, 1);
 		else if (s->arg[i] == 'r' && s->arg[i+1] == 'b')
 			ft_rb(s, 1);
-		while (s->arg[i] != ':' && s->arg[i] != '\0')
+		while (s->arg[i] != '\n' && s->arg[i] != '\0')
 			i++;
 		if (s->arg[i] == '\0')
 			break;
 		i++;
 	}
 	i = 0;
-	print_ft_monitoring(s);
+	// print_ft_monitoring(s);
 	while (i < s->len -1)
 	{
 		if (s->filltab1[i] != i + 1)
@@ -159,33 +159,35 @@ int main(int argc, char **argv)
     char	*line;
 
     i = -1;
-	// if (argc == 1 || argc == 2)
-	// {
-	// 	write(1, "OK\n", 3);
-	// 	return (0);
-	// }
-	// return (0);
-	// line = malloc(sizeof(char) * 10);
-	// line[9] = '\0';
-    // s.arg = malloc(sizeof(char) * 1);
-    // while (1)
-    // {
-    //     line = get_next_line(0);
-	// 	if (line == NULL)
-	// 		break ;
-	// 	s.arg = ft_strjoin(s.arg, line);
-	// 	free(line);
-	// }
-	// 	printf("\t|%s|\n\n", s.arg);
+	if (argc == 1 || argc == 2)
+	{
+		write(1, "OK\n", 3);
+		return (0);
+	}
+	line = malloc(sizeof(char) * 10);
+	line[9] = '\0';
+    s.arg = malloc(sizeof(char) * 1);
+	line[0] = '\0';
+	while (1)
+    {
+        line = get_next_line(0);
+		if (line == NULL)
+			break ;
+		s.arg = ft_strjoin(s.arg, line);
+		free(line);
+		i++;
+	}
+		// printf("\t|%s|\n\n", s.arg);
 	// fprintf(stderr, "|%s|\n\n\n", s.arg);
-	// exit = ft_push_swap(argc, argv, &s);
-	// if (exit == 0)
-	// 	write(1, "OK\n", 3);
-	// else
-	// 	write(1, "KO\n", 3);
+	exit = ft_push_swap(argc, argv, &s);
+	if (exit == 0)
+		write(1, "OK\n", 3);
+	else
+		write(1, "KO\n", 3);
 	// free(s.filltab1);
 	// free(s.filltab2);
 	// free(s.tab1);
 	// free(s.tab2);
+	// print_ft_monitoring(&s);
 	return (0);
 }
