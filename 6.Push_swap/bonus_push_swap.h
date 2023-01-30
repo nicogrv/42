@@ -1,7 +1,10 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include "get_next_line.h"
+#ifndef push_swap_bonus.h
+# define push_swap_bonus.h
+
+# include <stdio.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include "get_next_line.h"
 
 typedef struct s_swap
 {
