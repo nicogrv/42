@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:13:00 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 13:49:30 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 14:10:56 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,8 @@ int	ft_strlen(char *str)
 	int	i;
 
 	i = 0;
-	// fprintf(stderr, "str = |%s|", str);
-	// fprintf(stderr, "start str[%d] = %d\n", i, str[i]);
 	while (str[i])
-	{
-		// fprintf(stderr, "str[%d] = %c\n", i, str[i]);
 		i++;
-	}
 	return (i);
 }
 

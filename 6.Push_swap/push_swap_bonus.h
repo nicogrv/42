@@ -35,7 +35,9 @@ void ft_ss(t_swap *s, int print);
 
 
 void ft_pa(t_swap *s, int print);
+void	ft_pa_suite(t_swap *s, int print, int i);
 void ft_pb(t_swap *s, int print);
+void	ft_pb_suite(t_swap *s, int print, int i);
 
 void ft_rr(t_swap *s, int print);
 void ft_ra(t_swap *s, int rr);

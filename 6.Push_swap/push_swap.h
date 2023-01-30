@@ -25,6 +25,8 @@ int	ft_atoi(const char *str);
 int	ft_isdigit(char str);
 void	*ft_calloc(size_t nbitems, size_t size);
 
+int	ft_push_swap(int argc, char **argv, t_swap *s);
+int	ft_push_swap_suite(int argc t_swap *s);
 
 void ft_sa(t_swap *s, int print);
 void ft_sb(t_swap *s, int print);
@@ -32,7 +34,9 @@ void ft_ss(t_swap *s, int print);
 
 
 void ft_pa(t_swap *s, int print);
+void	ft_pa_suite(t_swap *s, int print, int i);
 void ft_pb(t_swap *s, int print);
+void	ft_pb_suite(t_swap *s, int print, int i);
 
 void ft_rr(t_swap *s, int print);
 void ft_ra(t_swap *s, int rr);
