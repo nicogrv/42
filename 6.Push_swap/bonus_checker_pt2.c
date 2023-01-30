@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   testeur copy.c                                     :+:      :+:    :+:   */
+/*   bonus_checker_pt2.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 16:57:57 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 17:14:17 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap_bonus.h"
+#include "bonus_push_swap.h"
 
 void	ft_detect_move(t_swap *s, int i)
 {
