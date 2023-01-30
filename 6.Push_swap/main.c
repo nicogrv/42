@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
+/*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/24 17:38:07 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/30 14:06:19 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -250,10 +250,10 @@ int ft_push_swap_suite(int argc, char **argv, t_swap *s)
     
     s->len = argc;
 	s->move = 0;
-    s->tab1 = calloc(sizeof(int) , s->len + 1);
-    s->tab2 = calloc(sizeof(int) , s->len + 1);
-    s->filltab1 = calloc(sizeof(int) , s->len + 2);
-    s->filltab2 = calloc(sizeof(int) , s->len + 2);
+    s->tab1 = ft_calloc(sizeof(int) , s->len + 1);
+    s->tab2 = ft_calloc(sizeof(int) , s->len + 1);
+    s->filltab1 = ft_calloc(sizeof(int) , s->len + 2);
+    s->filltab2 = ft_calloc(sizeof(int) , s->len + 2);
 	s->verifrb = 0;
     i = -1;
     while (++i < s->len - 1)

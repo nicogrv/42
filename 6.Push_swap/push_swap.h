@@ -23,6 +23,7 @@ typedef struct s_swap
 
 int	ft_atoi(const char *str);
 int	ft_isdigit(char str);
+void	*ft_calloc(size_t nbitems, size_t size);
 
 
 void ft_sa(t_swap *s, int print);
