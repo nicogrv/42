@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 17:14:17 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 19:34:04 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,8 @@ void	ft_detect_move(t_swap *s, int i)
 		ft_ra(s, 1);
 	else if (s->arg[i] == 'r' && s->arg[i + 1] == 'b')
 		ft_rb(s, 1);
+	else
+		s->error = 1;
 }
 
 int	ft_verif_tab(t_swap *s)
@@ -109,7 +111,9 @@ int	main(int argc, char **argv)
 	}
 	ft_save_input_move(&s);
 	exit = ft_push_swap(argc, argv, &s);
-	if (exit == 0)
+	if (s.error == 1)
+		write(1, "error", 5);
+	else if (exit == 0)
 		write(1, "OK\n", 3);
 	else
 		write(1, "KO\n", 3);
