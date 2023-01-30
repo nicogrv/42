@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 18:53:00 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 19:01:05 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int	ft_verif_arg_pt2(int argc, t_swap *s)
 	while (i != argc - 1)
 	{
 		j = i + 1;
-		if (s->tab1[i] > s->tab1[i + 1])
+		if (s->tab1[i - 1] > s->tab1[i] && i < argc - 1)
 			s->sort = 0;
 		while (j != argc - 1)
 		{
