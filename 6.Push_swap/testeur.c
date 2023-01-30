@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 13:53:06 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 14:03:00 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,10 +98,10 @@ int ft_push_swap(int argc, char **argv, t_swap *s)
     
     s->len = argc;
 	s->move = 0;
-    s->tab1 = calloc(sizeof(int) , s->len + 1);
-    s->tab2 = calloc(sizeof(int) , s->len + 1);
-    s->filltab1 = calloc(sizeof(int) , s->len + 2);
-    s->filltab2 = calloc(sizeof(int) , s->len + 2);
+    s->tab1 = ft_calloc(sizeof(int) , s->len + 1);
+    s->tab2 = ft_calloc(sizeof(int) , s->len + 1);
+    s->filltab1 = ft_calloc(sizeof(int) , s->len + 2);
+    s->filltab2 = ft_calloc(sizeof(int) , s->len + 2);
     i = -1;
     while (++i < s->len - 1)
 		s->tab1[i] = ft_atoi(argv[i + 1]);
