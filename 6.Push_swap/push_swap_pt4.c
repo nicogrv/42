@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main_pt4.c                                         :+:      :+:    :+:   */
+/*   push_swap_pt4.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 16:55:57 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 18:52:47 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,17 +101,11 @@ int	main(int argc, char **argv)
 	int		exit;
 
 	i = -1;
+	s.sort = 1;
 	exit = ft_push_swap_bloc(argc, argv, &s);
 	free(s.filltab1);
 	free(s.filltab2);
 	free(s.tab1);
 	free(s.tab2);
-	return (0);
-	if (exit == 0)
-		printf("\n\nOK\n\n");
-	else if (exit == -1)
-		printf("\n\n\n\nERROR ALGO\n\n\n\n");
-	else if (exit == -2)
-		printf("\n\n\n\nERROR ARG\n\n\n\n");
 	return (0);
 }
