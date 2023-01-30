@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 15:13:19 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 16:03:58 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,10 @@ int	ft_verif_arg_pt2(int argc, t_swap *s)
 		}
 		i++;
 	}
+	s->imin = ((s->len - 1) / 10) * 5 - s->bloc;
+	s->imax = ((s->len - 1) / 10) * 5 + s->bloc;
+	s->indeximax = 0;
+	s->indeximin = 0;
 	return (0);
 }
 

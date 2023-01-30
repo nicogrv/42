@@ -22,6 +22,10 @@ typedef struct s_swap
 
     int	indeximax;
 	int	indeximin;
+	int	imin;
+	int	imax;
+    int i;
+
 }	t_swap;
 
 int	ft_atoi(const char *str);
