@@ -1,0 +1,9024 @@
+29;613
+28;663
+28;655
+29;638
+28;643
+28;691
+29;636
+29;643
+29;672
+28;671
+28;631
+29;689
+29;654
+28;658
+28;624
+28;694
+28;649
+29;614
+28;633
+28;663
+29;687
+28;689
+29;666
+28;633
+29;654
+29;659
+29;677
+28;670
+28;615
+28;641
+28;675
+28;686
+28;645
+29;628
+28;717
+28;650
+29;652
+28;672
+bloc = 28	move =674
+bloc = 29	move =674
+best taille = 28	best blok =674
+
+
+
+
+bloc = 28	move =702
+bloc = 29	move =698
+best taille = 29	best blok =698
+
+
+
+
+bloc = 28	move =672
+bloc = 29	move =696
+best taille = 28	best blok =672
+
+
+
+
+bloc = 28	move =626
+bloc = 29	move =622
+best taille = 29	best blok =622
+
+
+
+
+bloc = 28	move =688
+bloc = 29	move =675
+best taille = 29	best blok =675
+
+
+
+
+bloc = 28	move =662
+bloc = 29	move =685
+best taille = 28	best blok =662
+
+
+
+
+bloc = 28	move =690
+bloc = 29	move =669
+best taille = 29	best blok =669
+
+
+
+
+bloc = 28	move =640
+bloc = 29	move =635
+best taille = 29	best blok =635
+
+
+
+
+bloc = 28	move =744
+bloc = 29	move =772
+best taille = 28	best blok =744
+
+
+
+
+bloc = 28	move =675
+bloc = 29	move =673
+best taille = 29	best blok =673
+
+
+
+
+bloc = 28	move =633
+bloc = 29	move =637
+best taille = 28	best blok =633
+
+
+
+
+bloc = 28	move =632
+bloc = 29	move =635
+best taille = 28	best blok =632
+
+
+
+
+bloc = 28	move =666
+bloc = 29	move =667
+best taille = 28	best blok =666
+
+
+
+
+bloc = 28	move =719
+bloc = 29	move =711
+best taille = 29	best blok =711
+
+
+
+
+bloc = 1	move =1454
+bloc = 2	move =1026
+bloc = 3	move =938
+bloc = 4	move =800
+bloc = 5	move =701
+bloc = 6	move =693
+bloc = 7	move =656
+bloc = 8	move =620
+bloc = 9	move =596
+bloc = 10	move =609
+bloc = 11	move =593
+bloc = 12	move =620
+bloc = 13	move =586
+bloc = 14	move =594
+bloc = 15	move =590
+bloc = 16	move =592
+bloc = 17	move =575
+bloc = 18	move =590
+bloc = 19	move =580
+bloc = 20	move =590
+bloc = 21	move =592
+bloc = 22	move =602
+bloc = 23	move =625
+bloc = 24	move =627
+bloc = 25	move =640
+bloc = 26	move =627
+bloc = 27	move =631
+bloc = 28	move =666
+bloc = 29	move =666
+bloc = 30	move =653
+bloc = 31	move =659
+bloc = 32	move =655
+bloc = 33	move =655
+bloc = 34	move =652
+bloc = 35	move =687
+bloc = 36	move =699
+bloc = 37	move =693
+bloc = 38	move =699
+bloc = 39	move =733
+best taille = 17	best blok =575
+
+
+
+
+bloc = 1	move =1521
+bloc = 2	move =1055
+bloc = 3	move =916
+bloc = 4	move =805
+bloc = 5	move =755
+bloc = 6	move =713
+bloc = 7	move =652
+bloc = 8	move =646
+bloc = 9	move =613
+bloc = 10	move =616
+bloc = 11	move =604
+bloc = 12	move =605
+bloc = 13	move =584
+bloc = 14	move =595
+bloc = 15	move =575
+bloc = 16	move =596
+bloc = 17	move =616
+bloc = 18	move =629
+bloc = 19	move =635
+bloc = 20	move =627
+bloc = 21	move =627
+bloc = 22	move =629
+bloc = 23	move =642
+bloc = 24	move =653
+bloc = 25	move =678
+bloc = 26	move =673
+bloc = 27	move =699
+bloc = 28	move =699
+bloc = 29	move =695
+bloc = 30	move =687
+bloc = 31	move =710
+bloc = 32	move =727
+bloc = 33	move =727
+bloc = 34	move =729
+bloc = 35	move =781
+bloc = 36	move =794
+bloc = 37	move =794
+bloc = 38	move =794
+bloc = 39	move =804
+best taille = 15	best blok =575
+
+
+
+
+bloc = 1	move =1544
+bloc = 2	move =1118
+bloc = 3	move =943
+bloc = 4	move =774
+bloc = 5	move =716
+bloc = 6	move =662
+bloc = 7	move =658
+bloc = 8	move =641
+bloc = 9	move =624
+bloc = 10	move =596
+bloc = 11	move =598
+bloc = 12	move =593
+bloc = 13	move =605
+bloc = 14	move =579
+bloc = 15	move =590
+bloc = 16	move =591
+bloc = 17	move =585
+bloc = 18	move =583
+bloc = 19	move =598
+bloc = 20	move =590
+bloc = 21	move =602
+bloc = 22	move =600
+bloc = 23	move =583
+bloc = 24	move =587
+bloc = 25	move =655
+bloc = 26	move =651
+bloc = 27	move =638
+bloc = 28	move =627
+bloc = 29	move =631
+bloc = 30	move =638
+bloc = 31	move =635
+bloc = 32	move =646
+bloc = 33	move =662
+bloc = 34	move =652
+bloc = 35	move =683
+bloc = 36	move =684
+bloc = 37	move =707
+bloc = 38	move =732
+bloc = 39	move =734
+best taille = 14	best blok =579
+
+
+
+
+bloc = 1	move =1495
+bloc = 2	move =1021
+bloc = 3	move =938
+bloc = 4	move =769
+bloc = 5	move =716
+bloc = 6	move =653
+bloc = 7	move =657
+bloc = 8	move =635
+bloc = 9	move =631
+bloc = 10	move =606
+bloc = 11	move =581
+bloc = 12	move =586
+bloc = 13	move =574
+bloc = 14	move =571
+bloc = 15	move =582
+bloc = 16	move =596
+bloc = 17	move =602
+bloc = 18	move =590
+bloc = 19	move =598
+bloc = 20	move =576
+bloc = 21	move =624
+bloc = 22	move =621
+bloc = 23	move =628
+bloc = 24	move =655
+bloc = 25	move =645
+bloc = 26	move =639
+bloc = 27	move =635
+bloc = 28	move =638
+bloc = 29	move =672
+bloc = 30	move =670
+bloc = 31	move =665
+bloc = 32	move =668
+bloc = 33	move =674
+bloc = 34	move =674
+bloc = 35	move =667
+bloc = 36	move =668
+bloc = 37	move =715
+bloc = 38	move =718
+bloc = 39	move =722
+best taille = 14	best blok =571
+
+
+
+
+bloc = 1	move =1528
+bloc = 2	move =1104
+bloc = 3	move =900
+bloc = 4	move =795
+bloc = 5	move =740
+bloc = 6	move =704
+bloc = 7	move =659
+bloc = 8	move =638
+bloc = 9	move =618
+bloc = 10	move =626
+bloc = 11	move =610
+bloc = 12	move =613
+bloc = 13	move =621
+bloc = 14	move =632
+bloc = 15	move =621
+bloc = 16	move =622
+bloc = 17	move =612
+bloc = 18	move =608
+bloc = 19	move =610
+bloc = 20	move =602
+bloc = 21	move =623
+bloc = 22	move =636
+bloc = 23	move =641
+bloc = 24	move =681
+bloc = 25	move =706
+bloc = 26	move =704
+bloc = 27	move =734
+bloc = 28	move =752
+bloc = 29	move =739
+bloc = 30	move =728
+bloc = 31	move =724
+bloc = 32	move =748
+bloc = 33	move =763
+bloc = 34	move =751
+bloc = 35	move =750
+bloc = 36	move =792
+bloc = 37	move =793
+bloc = 38	move =799
+bloc = 39	move =798
+best taille = 20	best blok =602
+
+
+
+
+bloc = 1	move =1470
+bloc = 2	move =986
+bloc = 3	move =911
+bloc = 4	move =792
+bloc = 5	move =755
+bloc = 6	move =700
+bloc = 7	move =642
+bloc = 8	move =624
+bloc = 9	move =628
+bloc = 10	move =601
+bloc = 11	move =583
+bloc = 12	move =586
+bloc = 13	move =590
+bloc = 14	move =570
+bloc = 15	move =570
+bloc = 16	move =589
+bloc = 17	move =581
+bloc = 18	move =587
+bloc = 19	move =583
+bloc = 20	move =592
+bloc = 21	move =591
+bloc = 22	move =588
+bloc = 23	move =614
+bloc = 24	move =644
+bloc = 25	move =613
+bloc = 26	move =627
+bloc = 27	move =638
+bloc = 28	move =629
+bloc = 29	move =624
+bloc = 30	move =628
+bloc = 31	move =651
+bloc = 32	move =657
+bloc = 33	move =658
+bloc = 34	move =667
+bloc = 35	move =664
+bloc = 36	move =691
+bloc = 37	move =700
+bloc = 38	move =697
+bloc = 39	move =701
+best taille = 14	best blok =570
+
+
+
+
+bloc = 1	move =1592
+bloc = 2	move =1096
+bloc = 3	move =952
+bloc = 4	move =808
+bloc = 5	move =755
+bloc = 6	move =695
+bloc = 7	move =664
+bloc = 8	move =616
+bloc = 9	move =610
+bloc = 10	move =604
+bloc = 11	move =589
+bloc = 12	move =598
+bloc = 13	move =578
+bloc = 14	move =592
+bloc = 15	move =624
+bloc = 16	move =620
+bloc = 17	move =593
+bloc = 18	move =580
+bloc = 19	move =595
+bloc = 20	move =612
+bloc = 21	move =618
+bloc = 22	move =606
+bloc = 23	move =638
+bloc = 24	move =628
+bloc = 25	move =610
+bloc = 26	move =633
+bloc = 27	move =636
+bloc = 28	move =642
+bloc = 29	move =642
+bloc = 30	move =666
+bloc = 31	move =668
+bloc = 32	move =687
+bloc = 33	move =718
+bloc = 34	move =718
+bloc = 35	move =710
+bloc = 36	move =719
+bloc = 37	move =739
+bloc = 38	move =741
+bloc = 39	move =788
+best taille = 13	best blok =578
+
+
+
+
+bloc = 1	move =1483
+bloc = 2	move =1029
+bloc = 3	move =900
+bloc = 4	move =794
+bloc = 5	move =731
+bloc = 6	move =703
+bloc = 7	move =664
+bloc = 8	move =637
+bloc = 9	move =635
+bloc = 10	move =652
+bloc = 11	move =609
+bloc = 12	move =624
+bloc = 13	move =609
+bloc = 14	move =604
+bloc = 15	move =602
+bloc = 16	move =598
+bloc = 17	move =620
+bloc = 18	move =640
+bloc = 19	move =640
+bloc = 20	move =647
+bloc = 21	move =643
+bloc = 22	move =621
+bloc = 23	move =629
+bloc = 24	move =648
+bloc = 25	move =638
+bloc = 26	move =641
+bloc = 27	move =656
+bloc = 28	move =659
+bloc = 29	move =659
+bloc = 30	move =688
+bloc = 31	move =693
+bloc = 32	move =707
+bloc = 33	move =710
+bloc = 34	move =715
+bloc = 35	move =718
+bloc = 36	move =769
+bloc = 37	move =768
+bloc = 38	move =768
+bloc = 39	move =771
+best taille = 16	best blok =598
+
+
+
+
+bloc = 1	move =1488
+bloc = 2	move =1058
+bloc = 3	move =907
+bloc = 4	move =765
+bloc = 5	move =710
+bloc = 6	move =665
+bloc = 7	move =666
+bloc = 8	move =626
+bloc = 9	move =619
+bloc = 10	move =621
+bloc = 11	move =634
+bloc = 12	move =622
+bloc = 13	move =620
+bloc = 14	move =587
+bloc = 15	move =601
+bloc = 16	move =623
+bloc = 17	move =628
+bloc = 18	move =603
+bloc = 19	move =635
+bloc = 20	move =638
+bloc = 21	move =626
+bloc = 22	move =628
+bloc = 23	move =641
+bloc = 24	move =660
+bloc = 25	move =692
+bloc = 26	move =692
+bloc = 27	move =684
+bloc = 28	move =680
+bloc = 29	move =680
+bloc = 30	move =679
+bloc = 31	move =700
+bloc = 32	move =703
+bloc = 33	move =703
+bloc = 34	move =712
+bloc = 35	move =714
+bloc = 36	move =718
+bloc = 37	move =722
+bloc = 38	move =788
+bloc = 39	move =792
+best taille = 14	best blok =587
+
+
+
+
+bloc = 1	move =1588
+bloc = 2	move =1066
+bloc = 3	move =868
+bloc = 4	move =769
+bloc = 5	move =681
+bloc = 6	move =615
+bloc = 7	move =633
+bloc = 8	move =599
+bloc = 9	move =595
+bloc = 10	move =588
+bloc = 11	move =574
+bloc = 12	move =604
+bloc = 13	move =593
+bloc = 14	move =580
+bloc = 15	move =579
+bloc = 16	move =585
+bloc = 17	move =608
+bloc = 18	move =595
+bloc = 19	move =597
+bloc = 20	move =604
+bloc = 21	move =600
+bloc = 22	move =593
+bloc = 23	move =602
+bloc = 24	move =615
+bloc = 25	move =630
+bloc = 26	move =630
+bloc = 27	move =650
+bloc = 28	move =649
+bloc = 29	move =670
+bloc = 30	move =674
+bloc = 31	move =680
+bloc = 32	move =662
+bloc = 33	move =676
+bloc = 34	move =673
+bloc = 35	move =667
+bloc = 36	move =672
+bloc = 37	move =679
+bloc = 38	move =740
+bloc = 39	move =752
+best taille = 11	best blok =574
+
+
+
+
+bloc = 1	move =1426
+bloc = 2	move =1084
+bloc = 3	move =903
+bloc = 4	move =794
+bloc = 5	move =706
+bloc = 6	move =665
+bloc = 7	move =634
+bloc = 8	move =612
+bloc = 9	move =620
+bloc = 10	move =593
+bloc = 11	move =581
+bloc = 12	move =559
+bloc = 13	move =568
+bloc = 14	move =584
+bloc = 15	move =603
+bloc = 16	move =601
+bloc = 17	move =610
+bloc = 18	move =611
+bloc = 19	move =643
+bloc = 20	move =647
+bloc = 21	move =639
+bloc = 22	move =635
+bloc = 23	move =662
+bloc = 24	move =667
+bloc = 25	move =687
+bloc = 26	move =675
+bloc = 27	move =682
+bloc = 28	move =709
+bloc = 29	move =703
+bloc = 30	move =695
+bloc = 31	move =714
+bloc = 32	move =714
+bloc = 33	move =714
+bloc = 34	move =718
+bloc = 35	move =723
+bloc = 36	move =782
+bloc = 37	move =763
+bloc = 38	move =769
+bloc = 39	move =763
+best taille = 12	best blok =559
+
+
+
+
+bloc = 1	move =1493
+bloc = 2	move =999
+bloc = 3	move =860
+bloc = 4	move =726
+bloc = 5	move =700
+bloc = 6	move =655
+bloc = 7	move =654
+bloc = 8	move =637
+bloc = 9	move =628
+bloc = 10	move =604
+bloc = 11	move =595
+bloc = 12	move =587
+bloc = 13	move =579
+bloc = 14	move =592
+bloc = 15	move =590
+bloc = 16	move =602
+bloc = 17	move =619
+bloc = 18	move =622
+bloc = 19	move =615
+bloc = 20	move =615
+bloc = 21	move =621
+bloc = 22	move =601
+bloc = 23	move =609
+bloc = 24	move =623
+bloc = 25	move =640
+bloc = 26	move =622
+bloc = 27	move =624
+bloc = 28	move =625
+bloc = 29	move =646
+bloc = 30	move =637
+bloc = 31	move =645
+bloc = 32	move =658
+bloc = 33	move =663
+bloc = 34	move =702
+bloc = 35	move =711
+bloc = 36	move =708
+bloc = 37	move =710
+bloc = 38	move =736
+bloc = 39	move =740
+best taille = 13	best blok =579
+
+
+
+
+bloc = 1	move =1572
+bloc = 2	move =1130
+bloc = 3	move =912
+bloc = 4	move =830
+bloc = 5	move =754
+bloc = 6	move =692
+bloc = 7	move =656
+bloc = 8	move =608
+bloc = 9	move =598
+bloc = 10	move =594
+bloc = 11	move =589
+bloc = 12	move =607
+bloc = 13	move =593
+bloc = 14	move =589
+bloc = 15	move =608
+bloc = 16	move =618
+bloc = 17	move =633
+bloc = 18	move =620
+bloc = 19	move =616
+bloc = 20	move =621
+bloc = 21	move =612
+bloc = 22	move =659
+bloc = 23	move =662
+bloc = 24	move =675
+bloc = 25	move =656
+bloc = 26	move =665
+bloc = 27	move =658
+bloc = 28	move =671
+bloc = 29	move =664
+bloc = 30	move =666
+bloc = 31	move =672
+bloc = 32	move =691
+bloc = 33	move =691
+bloc = 34	move =701
+bloc = 35	move =701
+bloc = 36	move =700
+bloc = 37	move =731
+bloc = 38	move =736
+bloc = 39	move =772
+best taille = 11	best blok =589
+
+
+
+
+bloc = 1	move =1521
+bloc = 2	move =1075
+bloc = 3	move =938
+bloc = 4	move =806
+bloc = 5	move =715
+bloc = 6	move =680
+bloc = 7	move =660
+bloc = 8	move =633
+bloc = 9	move =611
+bloc = 10	move =625
+bloc = 11	move =596
+bloc = 12	move =599
+bloc = 13	move =600
+bloc = 14	move =620
+bloc = 15	move =616
+bloc = 16	move =625
+bloc = 17	move =610
+bloc = 18	move =627
+bloc = 19	move =625
+bloc = 20	move =636
+bloc = 21	move =624
+bloc = 22	move =637
+bloc = 23	move =633
+bloc = 24	move =680
+bloc = 25	move =672
+bloc = 26	move =690
+bloc = 27	move =691
+bloc = 28	move =688
+bloc = 29	move =681
+bloc = 30	move =723
+bloc = 31	move =749
+bloc = 32	move =745
+bloc = 33	move =732
+bloc = 34	move =731
+bloc = 35	move =754
+bloc = 36	move =780
+bloc = 37	move =784
+bloc = 38	move =781
+bloc = 39	move =782
+best taille = 11	best blok =596
+
+
+
+
+bloc = 1	move =1394
+bloc = 2	move =1020
+bloc = 3	move =887
+bloc = 4	move =816
+bloc = 5	move =749
+bloc = 6	move =681
+bloc = 7	move =634
+bloc = 8	move =639
+bloc = 9	move =608
+bloc = 10	move =607
+bloc = 11	move =599
+bloc = 12	move =599
+bloc = 13	move =570
+bloc = 14	move =578
+bloc = 15	move =563
+bloc = 16	move =568
+bloc = 17	move =577
+bloc = 18	move =599
+bloc = 19	move =609
+bloc = 20	move =612
+bloc = 21	move =606
+bloc = 22	move =629
+bloc = 23	move =618
+bloc = 24	move =646
+bloc = 25	move =624
+bloc = 26	move =631
+bloc = 27	move =653
+bloc = 28	move =658
+bloc = 29	move =660
+bloc = 30	move =658
+bloc = 31	move =653
+bloc = 32	move =675
+bloc = 33	move =673
+bloc = 34	move =675
+bloc = 35	move =708
+bloc = 36	move =745
+bloc = 37	move =750
+bloc = 38	move =789
+bloc = 39	move =785
+best taille = 15	best blok =563
+
+
+
+
+bloc = 1	move =1613
+bloc = 2	move =1087
+bloc = 3	move =883
+bloc = 4	move =816
+bloc = 5	move =725
+bloc = 6	move =693
+bloc = 7	move =676
+bloc = 8	move =644
+bloc = 9	move =616
+bloc = 10	move =611
+bloc = 11	move =597
+bloc = 12	move =611
+bloc = 13	move =577
+bloc = 14	move =579
+bloc = 15	move =592
+bloc = 16	move =598
+bloc = 17	move =576
+bloc = 18	move =584
+bloc = 19	move =583
+bloc = 20	move =585
+bloc = 21	move =645
+bloc = 22	move =650
+bloc = 23	move =650
+bloc = 24	move =688
+bloc = 25	move =685
+bloc = 26	move =674
+bloc = 27	move =673
+bloc = 28	move =686
+bloc = 29	move =685
+bloc = 30	move =687
+bloc = 31	move =681
+bloc = 32	move =718
+bloc = 33	move =721
+bloc = 34	move =709
+bloc = 35	move =719
+bloc = 36	move =760
+bloc = 37	move =765
+bloc = 38	move =760
+bloc = 39	move =760
+best taille = 17	best blok =576
+
+
+
+
+bloc = 1	move =1351
+bloc = 2	move =1021
+bloc = 3	move =939
+bloc = 4	move =824
+bloc = 5	move =729
+bloc = 6	move =690
+bloc = 7	move =662
+bloc = 8	move =638
+bloc = 9	move =623
+bloc = 10	move =611
+bloc = 11	move =621
+bloc = 12	move =615
+bloc = 13	move =592
+bloc = 14	move =610
+bloc = 15	move =602
+bloc = 16	move =598
+bloc = 17	move =601
+bloc = 18	move =615
+bloc = 19	move =603
+bloc = 20	move =602
+bloc = 21	move =622
+bloc = 22	move =626
+bloc = 23	move =679
+bloc = 24	move =674
+bloc = 25	move =697
+bloc = 26	move =689
+bloc = 27	move =716
+bloc = 28	move =718
+bloc = 29	move =717
+bloc = 30	move =718
+bloc = 31	move =741
+bloc = 32	move =767
+bloc = 33	move =760
+bloc = 34	move =769
+bloc = 35	move =776
+bloc = 36	move =785
+bloc = 37	move =782
+bloc = 38	move =787
+bloc = 39	move =791
+best taille = 13	best blok =592
+
+
+
+
+bloc = 1	move =1482
+bloc = 2	move =1112
+bloc = 3	move =878
+bloc = 4	move =767
+bloc = 5	move =733
+bloc = 6	move =684
+bloc = 7	move =626
+bloc = 8	move =640
+bloc = 9	move =630
+bloc = 10	move =614
+bloc = 11	move =596
+bloc = 12	move =599
+bloc = 13	move =606
+bloc = 14	move =597
+bloc = 15	move =580
+bloc = 16	move =584
+bloc = 17	move =621
+bloc = 18	move =608
+bloc = 19	move =589
+bloc = 20	move =603
+bloc = 21	move =621
+bloc = 22	move =623
+bloc = 23	move =624
+bloc = 24	move =657
+bloc = 25	move =666
+bloc = 26	move =667
+bloc = 27	move =670
+bloc = 28	move =668
+bloc = 29	move =665
+bloc = 30	move =670
+bloc = 31	move =669
+bloc = 32	move =667
+bloc = 33	move =666
+bloc = 34	move =689
+bloc = 35	move =693
+bloc = 36	move =701
+bloc = 37	move =728
+bloc = 38	move =739
+bloc = 39	move =739
+best taille = 15	best blok =580
+
+
+
+
+bloc = 1	move =1456
+bloc = 2	move =1046
+bloc = 3	move =892
+bloc = 4	move =784
+bloc = 5	move =714
+bloc = 6	move =653
+bloc = 7	move =650
+bloc = 8	move =610
+bloc = 9	move =588
+bloc = 10	move =582
+bloc = 11	move =570
+bloc = 12	move =580
+bloc = 13	move =602
+bloc = 14	move =596
+bloc = 15	move =588
+bloc = 16	move =612
+bloc = 17	move =611
+bloc = 18	move =613
+bloc = 19	move =630
+bloc = 20	move =622
+bloc = 21	move =611
+bloc = 22	move =657
+bloc = 23	move =656
+bloc = 24	move =626
+bloc = 25	move =646
+bloc = 26	move =660
+bloc = 27	move =654
+bloc = 28	move =656
+bloc = 29	move =653
+bloc = 30	move =641
+bloc = 31	move =662
+bloc = 32	move =653
+bloc = 33	move =667
+bloc = 34	move =693
+bloc = 35	move =688
+bloc = 36	move =696
+bloc = 37	move =696
+bloc = 38	move =732
+bloc = 39	move =758
+best taille = 11	best blok =570
+
+
+
+
+bloc = 1	move =1482
+bloc = 2	move =1150
+bloc = 3	move =904
+bloc = 4	move =795
+bloc = 5	move =707
+bloc = 6	move =704
+bloc = 7	move =656
+bloc = 8	move =643
+bloc = 9	move =636
+bloc = 10	move =616
+bloc = 11	move =609
+bloc = 12	move =632
+bloc = 13	move =628
+bloc = 14	move =616
+bloc = 15	move =598
+bloc = 16	move =597
+bloc = 17	move =624
+bloc = 18	move =627
+bloc = 19	move =634
+bloc = 20	move =641
+bloc = 21	move =650
+bloc = 22	move =675
+bloc = 23	move =708
+bloc = 24	move =705
+bloc = 25	move =720
+bloc = 26	move =728
+bloc = 27	move =732
+bloc = 28	move =728
+bloc = 29	move =738
+bloc = 30	move =726
+bloc = 31	move =724
+bloc = 32	move =720
+bloc = 33	move =715
+bloc = 34	move =724
+bloc = 35	move =720
+bloc = 36	move =756
+bloc = 37	move =754
+bloc = 38	move =750
+bloc = 39	move =743
+best taille = 16	best blok =597
+
+
+
+
+bloc = 1	move =1481
+bloc = 2	move =1019
+bloc = 3	move =933
+bloc = 4	move =760
+bloc = 5	move =714
+bloc = 6	move =644
+bloc = 7	move =610
+bloc = 8	move =610
+bloc = 9	move =609
+bloc = 10	move =599
+bloc = 11	move =576
+bloc = 12	move =587
+bloc = 13	move =588
+bloc = 14	move =618
+bloc = 15	move =618
+bloc = 16	move =582
+bloc = 17	move =596
+bloc = 18	move =591
+bloc = 19	move =603
+bloc = 20	move =594
+bloc = 21	move =613
+bloc = 22	move =604
+bloc = 23	move =638
+bloc = 24	move =634
+bloc = 25	move =668
+bloc = 26	move =669
+bloc = 27	move =667
+bloc = 28	move =656
+bloc = 29	move =694
+bloc = 30	move =696
+bloc = 31	move =692
+bloc = 32	move =693
+bloc = 33	move =696
+bloc = 34	move =676
+bloc = 35	move =686
+bloc = 36	move =678
+bloc = 37	move =705
+bloc = 38	move =724
+bloc = 39	move =713
+best taille = 11	best blok =576
+
+
+
+
+bloc = 1	move =1420
+bloc = 2	move =1114
+bloc = 3	move =866
+bloc = 4	move =764
+bloc = 5	move =766
+bloc = 6	move =690
+bloc = 7	move =661
+bloc = 8	move =633
+bloc = 9	move =622
+bloc = 10	move =597
+bloc = 11	move =589
+bloc = 12	move =605
+bloc = 13	move =582
+bloc = 14	move =579
+bloc = 15	move =595
+bloc = 16	move =573
+bloc = 17	move =570
+bloc = 18	move =601
+bloc = 19	move =586
+bloc = 20	move =593
+bloc = 21	move =630
+bloc = 22	move =626
+bloc = 23	move =665
+bloc = 24	move =656
+bloc = 25	move =650
+bloc = 26	move =648
+bloc = 27	move =671
+bloc = 28	move =670
+bloc = 29	move =660
+bloc = 30	move =660
+bloc = 31	move =680
+bloc = 32	move =677
+bloc = 33	move =674
+bloc = 34	move =670
+bloc = 35	move =673
+bloc = 36	move =676
+bloc = 37	move =751
+bloc = 38	move =752
+bloc = 39	move =760
+best taille = 17	best blok =570
+
+
+
+
+bloc = 1	move =1499
+bloc = 2	move =1033
+bloc = 3	move =897
+bloc = 4	move =796
+bloc = 5	move =740
+bloc = 6	move =707
+bloc = 7	move =647
+bloc = 8	move =648
+bloc = 9	move =627
+bloc = 10	move =589
+bloc = 11	move =575
+bloc = 12	move =607
+bloc = 13	move =578
+bloc = 14	move =572
+bloc = 15	move =575
+bloc = 16	move =589
+bloc = 17	move =598
+bloc = 18	move =599
+bloc = 19	move =614
+bloc = 20	move =595
+bloc = 21	move =586
+bloc = 22	move =579
+bloc = 23	move =604
+bloc = 24	move =628
+bloc = 25	move =608
+bloc = 26	move =610
+bloc = 27	move =607
+bloc = 28	move =655
+bloc = 29	move =640
+bloc = 30	move =636
+bloc = 31	move =640
+bloc = 32	move =648
+bloc = 33	move =648
+bloc = 34	move =649
+bloc = 35	move =674
+bloc = 36	move =692
+bloc = 37	move =717
+bloc = 38	move =718
+bloc = 39	move =717
+best taille = 14	best blok =572
+
+
+
+
+bloc = 1	move =1625
+bloc = 2	move =1189
+bloc = 3	move =918
+bloc = 4	move =781
+bloc = 5	move =757
+bloc = 6	move =682
+bloc = 7	move =661
+bloc = 8	move =603
+bloc = 9	move =619
+bloc = 10	move =611
+bloc = 11	move =602
+bloc = 12	move =589
+bloc = 13	move =591
+bloc = 14	move =583
+bloc = 15	move =598
+bloc = 16	move =611
+bloc = 17	move =589
+bloc = 18	move =587
+bloc = 19	move =592
+bloc = 20	move =611
+bloc = 21	move =616
+bloc = 22	move =639
+bloc = 23	move =647
+bloc = 24	move =665
+bloc = 25	move =660
+bloc = 26	move =653
+bloc = 27	move =641
+bloc = 28	move =665
+bloc = 29	move =663
+bloc = 30	move =663
+bloc = 31	move =676
+bloc = 32	move =693
+bloc = 33	move =690
+bloc = 34	move =686
+bloc = 35	move =698
+bloc = 36	move =708
+bloc = 37	move =705
+bloc = 38	move =713
+bloc = 39	move =764
+best taille = 14	best blok =583
+
+
+
+
+bloc = 1	move =1479
+bloc = 2	move =1053
+bloc = 3	move =882
+bloc = 4	move =760
+bloc = 5	move =717
+bloc = 6	move =673
+bloc = 7	move =652
+bloc = 8	move =647
+bloc = 9	move =604
+bloc = 10	move =593
+bloc = 11	move =607
+bloc = 12	move =601
+bloc = 13	move =606
+bloc = 14	move =593
+bloc = 15	move =612
+bloc = 16	move =622
+bloc = 17	move =665
+bloc = 18	move =658
+bloc = 19	move =657
+bloc = 20	move =660
+bloc = 21	move =636
+bloc = 22	move =634
+bloc = 23	move =658
+bloc = 24	move =666
+bloc = 25	move =691
+bloc = 26	move =687
+bloc = 27	move =682
+bloc = 28	move =683
+bloc = 29	move =694
+bloc = 30	move =693
+bloc = 31	move =710
+bloc = 32	move =740
+bloc = 33	move =751
+bloc = 34	move =747
+bloc = 35	move =743
+bloc = 36	move =787
+bloc = 37	move =786
+bloc = 38	move =774
+bloc = 39	move =800
+best taille = 10	best blok =593
+
+
+
+
+bloc = 1	move =1499
+bloc = 2	move =1095
+bloc = 3	move =903
+bloc = 4	move =851
+bloc = 5	move =735
+bloc = 6	move =684
+bloc = 7	move =658
+bloc = 8	move =621
+bloc = 9	move =618
+bloc = 10	move =606
+bloc = 11	move =603
+bloc = 12	move =583
+bloc = 13	move =580
+bloc = 14	move =584
+bloc = 15	move =608
+bloc = 16	move =597
+bloc = 17	move =602
+bloc = 18	move =598
+bloc = 19	move =618
+bloc = 20	move =612
+bloc = 21	move =603
+bloc = 22	move =624
+bloc = 23	move =624
+bloc = 24	move =628
+bloc = 25	move =633
+bloc = 26	move =629
+bloc = 27	move =632
+bloc = 28	move =647
+bloc = 29	move =665
+bloc = 30	move =688
+bloc = 31	move =680
+bloc = 32	move =687
+bloc = 33	move =690
+bloc = 34	move =706
+bloc = 35	move =708
+bloc = 36	move =712
+bloc = 37	move =757
+bloc = 38	move =764
+bloc = 39	move =762
+best taille = 13	best blok =580
+
+
+
+
+bloc = 1	move =1570
+bloc = 2	move =944
+bloc = 3	move =906
+bloc = 4	move =841
+bloc = 5	move =739
+bloc = 6	move =695
+bloc = 7	move =673
+bloc = 8	move =623
+bloc = 9	move =632
+bloc = 10	move =607
+bloc = 11	move =610
+bloc = 12	move =601
+bloc = 13	move =611
+bloc = 14	move =609
+bloc = 15	move =593
+bloc = 16	move =587
+bloc = 17	move =612
+bloc = 18	move =608
+bloc = 19	move =601
+bloc = 20	move =601
+bloc = 21	move =618
+bloc = 22	move =628
+bloc = 23	move =634
+bloc = 24	move =619
+bloc = 25	move =650
+bloc = 26	move =644
+bloc = 27	move =670
+bloc = 28	move =674
+bloc = 29	move =665
+bloc = 30	move =663
+bloc = 31	move =680
+bloc = 32	move =677
+bloc = 33	move =685
+bloc = 34	move =694
+bloc = 35	move =696
+bloc = 36	move =705
+bloc = 37	move =711
+bloc = 38	move =730
+bloc = 39	move =742
+best taille = 16	best blok =587
+
+
+
+
+bloc = 1	move =1390
+bloc = 2	move =976
+bloc = 3	move =901
+bloc = 4	move =808
+bloc = 5	move =749
+bloc = 6	move =670
+bloc = 7	move =654
+bloc = 8	move =629
+bloc = 9	move =624
+bloc = 10	move =603
+bloc = 11	move =607
+bloc = 12	move =574
+bloc = 13	move =606
+bloc = 14	move =610
+bloc = 15	move =593
+bloc = 16	move =598
+bloc = 17	move =633
+bloc = 18	move =631
+bloc = 19	move =633
+bloc = 20	move =643
+bloc = 21	move =624
+bloc = 22	move =641
+bloc = 23	move =634
+bloc = 24	move =643
+bloc = 25	move =653
+bloc = 26	move =650
+bloc = 27	move =643
+bloc = 28	move =640
+bloc = 29	move =633
+bloc = 30	move =631
+bloc = 31	move =633
+bloc = 32	move =661
+bloc = 33	move =671
+bloc = 34	move =699
+bloc = 35	move =697
+bloc = 36	move =697
+bloc = 37	move =738
+bloc = 38	move =770
+bloc = 39	move =771
+best taille = 12	best blok =574
+
+
+
+
+bloc = 1	move =1461
+bloc = 2	move =1029
+bloc = 3	move =878
+bloc = 4	move =813
+bloc = 5	move =766
+bloc = 6	move =707
+bloc = 7	move =663
+bloc = 8	move =635
+bloc = 9	move =601
+bloc = 10	move =599
+bloc = 11	move =600
+bloc = 12	move =583
+bloc = 13	move =570
+bloc = 14	move =577
+bloc = 15	move =578
+bloc = 16	move =579
+bloc = 17	move =577
+bloc = 18	move =571
+bloc = 19	move =584
+bloc = 20	move =581
+bloc = 21	move =577
+bloc = 22	move =597
+bloc = 23	move =604
+bloc = 24	move =629
+bloc = 25	move =635
+bloc = 26	move =634
+bloc = 27	move =634
+bloc = 28	move =644
+bloc = 29	move =639
+bloc = 30	move =629
+bloc = 31	move =618
+bloc = 32	move =621
+bloc = 33	move =632
+bloc = 34	move =636
+bloc = 35	move =659
+bloc = 36	move =668
+bloc = 37	move =663
+bloc = 38	move =682
+bloc = 39	move =696
+best taille = 13	best blok =570
+
+
+
+
+bloc = 1	move =1417
+bloc = 2	move =1067
+bloc = 3	move =922
+bloc = 4	move =807
+bloc = 5	move =768
+bloc = 6	move =688
+bloc = 7	move =650
+bloc = 8	move =614
+bloc = 9	move =639
+bloc = 10	move =624
+bloc = 11	move =598
+bloc = 12	move =561
+bloc = 13	move =571
+bloc = 14	move =622
+bloc = 15	move =603
+bloc = 16	move =624
+bloc = 17	move =610
+bloc = 18	move =625
+bloc = 19	move =624
+bloc = 20	move =644
+bloc = 21	move =659
+bloc = 22	move =653
+bloc = 23	move =666
+bloc = 24	move =668
+bloc = 25	move =665
+bloc = 26	move =662
+bloc = 27	move =666
+bloc = 28	move =693
+bloc = 29	move =673
+bloc = 30	move =669
+bloc = 31	move =667
+bloc = 32	move =698
+bloc = 33	move =706
+bloc = 34	move =702
+bloc = 35	move =700
+bloc = 36	move =700
+bloc = 37	move =695
+bloc = 38	move =697
+bloc = 39	move =717
+best taille = 12	best blok =561
+
+
+
+
+bloc = 1	move =1572
+bloc = 2	move =1070
+bloc = 3	move =933
+bloc = 4	move =802
+bloc = 5	move =751
+bloc = 6	move =701
+bloc = 7	move =643
+bloc = 8	move =630
+bloc = 9	move =608
+bloc = 10	move =608
+bloc = 11	move =601
+bloc = 12	move =596
+bloc = 13	move =599
+bloc = 14	move =563
+bloc = 15	move =577
+bloc = 16	move =591
+bloc = 17	move =600
+bloc = 18	move =602
+bloc = 19	move =623
+bloc = 20	move =639
+bloc = 21	move =650
+bloc = 22	move =644
+bloc = 23	move =622
+bloc = 24	move =657
+bloc = 25	move =683
+bloc = 26	move =670
+bloc = 27	move =662
+bloc = 28	move =693
+bloc = 29	move =689
+bloc = 30	move =708
+bloc = 31	move =708
+bloc = 32	move =711
+bloc = 33	move =711
+bloc = 34	move =734
+bloc = 35	move =739
+bloc = 36	move =736
+bloc = 37	move =733
+bloc = 38	move =730
+bloc = 39	move =733
+best taille = 14	best blok =563
+
+
+
+
+bloc = 1	move =1631
+bloc = 2	move =1019
+bloc = 3	move =891
+bloc = 4	move =777
+bloc = 5	move =741
+bloc = 6	move =692
+bloc = 7	move =641
+bloc = 8	move =628
+bloc = 9	move =622
+bloc = 10	move =617
+bloc = 11	move =589
+bloc = 12	move =578
+bloc = 13	move =562
+bloc = 14	move =590
+bloc = 15	move =627
+bloc = 16	move =613
+bloc = 17	move =610
+bloc = 18	move =599
+bloc = 19	move =608
+bloc = 20	move =645
+bloc = 21	move =646
+bloc = 22	move =664
+bloc = 23	move =662
+bloc = 24	move =667
+bloc = 25	move =673
+bloc = 26	move =669
+bloc = 27	move =699
+bloc = 28	move =697
+bloc = 29	move =698
+bloc = 30	move =715
+bloc = 31	move =700
+bloc = 32	move =719
+bloc = 33	move =711
+bloc = 34	move =754
+bloc = 35	move =784
+bloc = 36	move =782
+bloc = 37	move =792
+bloc = 38	move =794
+bloc = 39	move =825
+best taille = 13	best blok =562
+
+
+
+
+bloc = 1	move =1495
+bloc = 2	move =1101
+bloc = 3	move =855
+bloc = 4	move =741
+bloc = 5	move =758
+bloc = 6	move =694
+bloc = 7	move =668
+bloc = 8	move =627
+bloc = 9	move =630
+bloc = 10	move =619
+bloc = 11	move =611
+bloc = 12	move =582
+bloc = 13	move =600
+bloc = 14	move =597
+bloc = 15	move =590
+bloc = 16	move =591
+bloc = 17	move =588
+bloc = 18	move =569
+bloc = 19	move =582
+bloc = 20	move =603
+bloc = 21	move =642
+bloc = 22	move =630
+bloc = 23	move =660
+bloc = 24	move =657
+bloc = 25	move =682
+bloc = 26	move =678
+bloc = 27	move =678
+bloc = 28	move =668
+bloc = 29	move =663
+bloc = 30	move =655
+bloc = 31	move =669
+bloc = 32	move =673
+bloc = 33	move =691
+bloc = 34	move =721
+bloc = 35	move =717
+bloc = 36	move =712
+bloc = 37	move =720
+bloc = 38	move =745
+bloc = 39	move =742
+best taille = 18	best blok =569
+
+
+
+
+bloc = 1	move =1415
+bloc = 2	move =1053
+bloc = 3	move =885
+bloc = 4	move =792
+bloc = 5	move =712
+bloc = 6	move =682
+bloc = 7	move =638
+bloc = 8	move =623
+bloc = 9	move =599
+bloc = 10	move =598
+bloc = 11	move =576
+bloc = 12	move =573
+bloc = 13	move =588
+bloc = 14	move =589
+bloc = 15	move =560
+bloc = 16	move =563
+bloc = 17	move =561
+bloc = 18	move =594
+bloc = 19	move =602
+bloc = 20	move =607
+bloc = 21	move =626
+bloc = 22	move =635
+bloc = 23	move =650
+bloc = 24	move =657
+bloc = 25	move =659
+bloc = 26	move =654
+bloc = 27	move =637
+bloc = 28	move =650
+bloc = 29	move =653
+bloc = 30	move =645
+bloc = 31	move =643
+bloc = 32	move =648
+bloc = 33	move =669
+bloc = 34	move =667
+bloc = 35	move =666
+bloc = 36	move =687
+bloc = 37	move =695
+bloc = 38	move =743
+bloc = 39	move =746
+best taille = 15	best blok =560
+
+
+
+
+bloc = 1	move =1445
+bloc = 2	move =1119
+bloc = 3	move =917
+bloc = 4	move =780
+bloc = 5	move =708
+bloc = 6	move =668
+bloc = 7	move =637
+bloc = 8	move =643
+bloc = 9	move =616
+bloc = 10	move =591
+bloc = 11	move =592
+bloc = 12	move =603
+bloc = 13	move =602
+bloc = 14	move =592
+bloc = 15	move =602
+bloc = 16	move =588
+bloc = 17	move =619
+bloc = 18	move =622
+bloc = 19	move =593
+bloc = 20	move =631
+bloc = 21	move =634
+bloc = 22	move =619
+bloc = 23	move =632
+bloc = 24	move =639
+bloc = 25	move =651
+bloc = 26	move =648
+bloc = 27	move =659
+bloc = 28	move =659
+bloc = 29	move =650
+bloc = 30	move =666
+bloc = 31	move =691
+bloc = 32	move =689
+bloc = 33	move =701
+bloc = 34	move =714
+bloc = 35	move =753
+bloc = 36	move =771
+bloc = 37	move =770
+bloc = 38	move =779
+bloc = 39	move =821
+best taille = 16	best blok =588
+
+
+
+
+bloc = 1	move =1316
+bloc = 2	move =986
+bloc = 3	move =888
+bloc = 4	move =820
+bloc = 5	move =742
+bloc = 6	move =688
+bloc = 7	move =651
+bloc = 8	move =622
+bloc = 9	move =604
+bloc = 10	move =610
+bloc = 11	move =607
+bloc = 12	move =582
+bloc = 13	move =609
+bloc = 14	move =604
+bloc = 15	move =606
+bloc = 16	move =586
+bloc = 17	move =581
+bloc = 18	move =597
+bloc = 19	move =597
+bloc = 20	move =601
+bloc = 21	move =624
+bloc = 22	move =627
+bloc = 23	move =622
+bloc = 24	move =632
+bloc = 25	move =638
+bloc = 26	move =641
+bloc = 27	move =648
+bloc = 28	move =649
+bloc = 29	move =644
+bloc = 30	move =643
+bloc = 31	move =665
+bloc = 32	move =660
+bloc = 33	move =668
+bloc = 34	move =687
+bloc = 35	move =700
+bloc = 36	move =701
+bloc = 37	move =701
+bloc = 38	move =731
+bloc = 39	move =771
+best taille = 17	best blok =581
+
+
+
+
+bloc = 1	move =1407
+bloc = 2	move =1135
+bloc = 3	move =940
+bloc = 4	move =828
+bloc = 5	move =744
+bloc = 6	move =676
+bloc = 7	move =643
+bloc = 8	move =624
+bloc = 9	move =647
+bloc = 10	move =625
+bloc = 11	move =616
+bloc = 12	move =600
+bloc = 13	move =583
+bloc = 14	move =610
+bloc = 15	move =613
+bloc = 16	move =608
+bloc = 17	move =631
+bloc = 18	move =614
+bloc = 19	move =619
+bloc = 20	move =613
+bloc = 21	move =635
+bloc = 22	move =675
+bloc = 23	move =691
+bloc = 24	move =683
+bloc = 25	move =702
+bloc = 26	move =698
+bloc = 27	move =707
+bloc = 28	move =734
+bloc = 29	move =725
+bloc = 30	move =727
+bloc = 31	move =721
+bloc = 32	move =703
+bloc = 33	move =700
+bloc = 34	move =710
+bloc = 35	move =714
+bloc = 36	move =711
+bloc = 37	move =740
+bloc = 38	move =752
+bloc = 39	move =752
+best taille = 13	best blok =583
+
+
+
+
+bloc = 1	move =1350
+bloc = 2	move =986
+bloc = 3	move =887
+bloc = 4	move =751
+bloc = 5	move =698
+bloc = 6	move =667
+bloc = 7	move =628
+bloc = 8	move =614
+bloc = 9	move =596
+bloc = 10	move =578
+bloc = 11	move =608
+bloc = 12	move =601
+bloc = 13	move =598
+bloc = 14	move =618
+bloc = 15	move =617
+bloc = 16	move =590
+bloc = 17	move =578
+bloc = 18	move =579
+bloc = 19	move =581
+bloc = 20	move =569
+bloc = 21	move =595
+bloc = 22	move =601
+bloc = 23	move =636
+bloc = 24	move =623
+bloc = 25	move =635
+bloc = 26	move =633
+bloc = 27	move =638
+bloc = 28	move =646
+bloc = 29	move =646
+bloc = 30	move =633
+bloc = 31	move =628
+bloc = 32	move =647
+bloc = 33	move =645
+bloc = 34	move =659
+bloc = 35	move =704
+bloc = 36	move =707
+bloc = 37	move =707
+bloc = 38	move =707
+bloc = 39	move =717
+best taille = 20	best blok =569
+
+
+
+
+bloc = 1	move =1363
+bloc = 2	move =1083
+bloc = 3	move =902
+bloc = 4	move =797
+bloc = 5	move =707
+bloc = 6	move =721
+bloc = 7	move =645
+bloc = 8	move =627
+bloc = 9	move =649
+bloc = 10	move =610
+bloc = 11	move =593
+bloc = 12	move =608
+bloc = 13	move =612
+bloc = 14	move =592
+bloc = 15	move =590
+bloc = 16	move =599
+bloc = 17	move =597
+bloc = 18	move =624
+bloc = 19	move =604
+bloc = 20	move =634
+bloc = 21	move =629
+bloc = 22	move =647
+bloc = 23	move =662
+bloc = 24	move =676
+bloc = 25	move =685
+bloc = 26	move =678
+bloc = 27	move =675
+bloc = 28	move =704
+bloc = 29	move =697
+bloc = 30	move =700
+bloc = 31	move =706
+bloc = 32	move =698
+bloc = 33	move =700
+bloc = 34	move =706
+bloc = 35	move =743
+bloc = 36	move =750
+bloc = 37	move =735
+bloc = 38	move =776
+bloc = 39	move =797
+best taille = 15	best blok =590
+
+
+
+
+bloc = 1	move =1492
+bloc = 2	move =1104
+bloc = 3	move =859
+bloc = 4	move =779
+bloc = 5	move =717
+bloc = 6	move =689
+bloc = 7	move =664
+bloc = 8	move =620
+bloc = 9	move =628
+bloc = 10	move =606
+bloc = 11	move =604
+bloc = 12	move =603
+bloc = 13	move =590
+bloc = 14	move =609
+bloc = 15	move =613
+bloc = 16	move =611
+bloc = 17	move =624
+bloc = 18	move =641
+bloc = 19	move =651
+bloc = 20	move =622
+bloc = 21	move =628
+bloc = 22	move =652
+bloc = 23	move =668
+bloc = 24	move =653
+bloc = 25	move =657
+bloc = 26	move =668
+bloc = 27	move =662
+bloc = 28	move =653
+bloc = 29	move =638
+bloc = 30	move =675
+bloc = 31	move =680
+bloc = 32	move =671
+bloc = 33	move =666
+bloc = 34	move =677
+bloc = 35	move =677
+bloc = 36	move =710
+bloc = 37	move =727
+bloc = 38	move =730
+bloc = 39	move =735
+best taille = 13	best blok =590
+
+
+
+
+bloc = 1	move =1468
+bloc = 2	move =1106
+bloc = 3	move =968
+bloc = 4	move =775
+bloc = 5	move =758
+bloc = 6	move =687
+bloc = 7	move =656
+bloc = 8	move =644
+bloc = 9	move =637
+bloc = 10	move =626
+bloc = 11	move =611
+bloc = 12	move =616
+bloc = 13	move =612
+bloc = 14	move =610
+bloc = 15	move =603
+bloc = 16	move =626
+bloc = 17	move =632
+bloc = 18	move =634
+bloc = 19	move =639
+bloc = 20	move =617
+bloc = 21	move =628
+bloc = 22	move =640
+bloc = 23	move =648
+bloc = 24	move =690
+bloc = 25	move =691
+bloc = 26	move =682
+bloc = 27	move =703
+bloc = 28	move =721
+bloc = 29	move =713
+bloc = 30	move =713
+bloc = 31	move =750
+bloc = 32	move =750
+bloc = 33	move =766
+bloc = 34	move =721
+bloc = 35	move =755
+bloc = 36	move =765
+bloc = 37	move =771
+bloc = 38	move =781
+bloc = 39	move =771
+best taille = 15	best blok =603
+
+
+
+
+bloc = 1	move =1414
+bloc = 2	move =978
+bloc = 3	move =844
+bloc = 4	move =771
+bloc = 5	move =743
+bloc = 6	move =676
+bloc = 7	move =644
+bloc = 8	move =653
+bloc = 9	move =617
+bloc = 10	move =601
+bloc = 11	move =606
+bloc = 12	move =595
+bloc = 13	move =592
+bloc = 14	move =593
+bloc = 15	move =604
+bloc = 16	move =621
+bloc = 17	move =620
+bloc = 18	move =604
+bloc = 19	move =604
+bloc = 20	move =651
+bloc = 21	move =633
+bloc = 22	move =634
+bloc = 23	move =666
+bloc = 24	move =657
+bloc = 25	move =671
+bloc = 26	move =688
+bloc = 27	move =682
+bloc = 28	move =691
+bloc = 29	move =692
+bloc = 30	move =675
+bloc = 31	move =662
+bloc = 32	move =671
+bloc = 33	move =697
+bloc = 34	move =717
+bloc = 35	move =737
+bloc = 36	move =729
+bloc = 37	move =732
+bloc = 38	move =746
+bloc = 39	move =784
+best taille = 13	best blok =592
+
+
+
+
+bloc = 1	move =1472
+bloc = 2	move =1114
+bloc = 3	move =868
+bloc = 4	move =798
+bloc = 5	move =714
+bloc = 6	move =664
+bloc = 7	move =644
+bloc = 8	move =612
+bloc = 9	move =605
+bloc = 10	move =591
+bloc = 11	move =600
+bloc = 12	move =574
+bloc = 13	move =568
+bloc = 14	move =561
+bloc = 15	move =573
+bloc = 16	move =598
+bloc = 17	move =588
+bloc = 18	move =593
+bloc = 19	move =575
+bloc = 20	move =613
+bloc = 21	move =646
+bloc = 22	move =659
+bloc = 23	move =642
+bloc = 24	move =668
+bloc = 25	move =687
+bloc = 26	move =673
+bloc = 27	move =676
+bloc = 28	move =673
+bloc = 29	move =673
+bloc = 30	move =674
+bloc = 31	move =669
+bloc = 32	move =707
+bloc = 33	move =702
+bloc = 34	move =693
+bloc = 35	move =713
+bloc = 36	move =710
+bloc = 37	move =709
+bloc = 38	move =741
+bloc = 39	move =742
+best taille = 14	best blok =561
+
+
+
+
+bloc = 1	move =1273
+bloc = 2	move =1027
+bloc = 3	move =863
+bloc = 4	move =777
+bloc = 5	move =735
+bloc = 6	move =709
+bloc = 7	move =649
+bloc = 8	move =631
+bloc = 9	move =576
+bloc = 10	move =601
+bloc = 11	move =593
+bloc = 12	move =606
+bloc = 13	move =591
+bloc = 14	move =582
+bloc = 15	move =611
+bloc = 16	move =590
+bloc = 17	move =592
+bloc = 18	move =596
+bloc = 19	move =604
+bloc = 20	move =619
+bloc = 21	move =592
+bloc = 22	move =592
+bloc = 23	move =672
+bloc = 24	move =654
+bloc = 25	move =662
+bloc = 26	move =697
+bloc = 27	move =689
+bloc = 28	move =668
+bloc = 29	move =661
+bloc = 30	move =695
+bloc = 31	move =719
+bloc = 32	move =709
+bloc = 33	move =705
+bloc = 34	move =717
+bloc = 35	move =736
+bloc = 36	move =741
+bloc = 37	move =756
+bloc = 38	move =753
+bloc = 39	move =778
+best taille = 9	best blok =576
+
+
+
+
+bloc = 1	move =1545
+bloc = 2	move =1119
+bloc = 3	move =873
+bloc = 4	move =835
+bloc = 5	move =742
+bloc = 6	move =672
+bloc = 7	move =640
+bloc = 8	move =630
+bloc = 9	move =602
+bloc = 10	move =607
+bloc = 11	move =601
+bloc = 12	move =586
+bloc = 13	move =601
+bloc = 14	move =623
+bloc = 15	move =598
+bloc = 16	move =590
+bloc = 17	move =618
+bloc = 18	move =625
+bloc = 19	move =598
+bloc = 20	move =623
+bloc = 21	move =625
+bloc = 22	move =675
+bloc = 23	move =687
+bloc = 24	move =682
+bloc = 25	move =680
+bloc = 26	move =695
+bloc = 27	move =704
+bloc = 28	move =699
+bloc = 29	move =697
+bloc = 30	move =702
+bloc = 31	move =696
+bloc = 32	move =690
+bloc = 33	move =714
+bloc = 34	move =707
+bloc = 35	move =702
+bloc = 36	move =733
+bloc = 37	move =728
+bloc = 38	move =729
+bloc = 39	move =752
+best taille = 12	best blok =586
+
+
+
+
+bloc = 1	move =1427
+bloc = 2	move =1099
+bloc = 3	move =935
+bloc = 4	move =818
+bloc = 5	move =770
+bloc = 6	move =725
+bloc = 7	move =675
+bloc = 8	move =651
+bloc = 9	move =636
+bloc = 10	move =630
+bloc = 11	move =594
+bloc = 12	move =611
+bloc = 13	move =591
+bloc = 14	move =584
+bloc = 15	move =609
+bloc = 16	move =591
+bloc = 17	move =598
+bloc = 18	move =620
+bloc = 19	move =620
+bloc = 20	move =642
+bloc = 21	move =645
+bloc = 22	move =649
+bloc = 23	move =657
+bloc = 24	move =667
+bloc = 25	move =673
+bloc = 26	move =689
+bloc = 27	move =682
+bloc = 28	move =687
+bloc = 29	move =687
+bloc = 30	move =701
+bloc = 31	move =711
+bloc = 32	move =697
+bloc = 33	move =712
+bloc = 34	move =709
+bloc = 35	move =711
+bloc = 36	move =745
+bloc = 37	move =750
+bloc = 38	move =754
+bloc = 39	move =748
+best taille = 14	best blok =584
+
+
+
+
+bloc = 1	move =1410
+bloc = 2	move =1114
+bloc = 3	move =879
+bloc = 4	move =782
+bloc = 5	move =710
+bloc = 6	move =686
+bloc = 7	move =632
+bloc = 8	move =630
+bloc = 9	move =617
+bloc = 10	move =616
+bloc = 11	move =614
+bloc = 12	move =590
+bloc = 13	move =581
+bloc = 14	move =584
+bloc = 15	move =605
+bloc = 16	move =596
+bloc = 17	move =598
+bloc = 18	move =611
+bloc = 19	move =591
+bloc = 20	move =588
+bloc = 21	move =610
+bloc = 22	move =630
+bloc = 23	move =630
+bloc = 24	move =635
+bloc = 25	move =654
+bloc = 26	move =646
+bloc = 27	move =637
+bloc = 28	move =646
+bloc = 29	move =639
+bloc = 30	move =653
+bloc = 31	move =640
+bloc = 32	move =649
+bloc = 33	move =648
+bloc = 34	move =652
+bloc = 35	move =690
+bloc = 36	move =688
+bloc = 37	move =680
+bloc = 38	move =707
+bloc = 39	move =715
+best taille = 13	best blok =581
+
+
+
+
+bloc = 1	move =1605
+bloc = 2	move =1113
+bloc = 3	move =940
+bloc = 4	move =779
+bloc = 5	move =735
+bloc = 6	move =682
+bloc = 7	move =641
+bloc = 8	move =607
+bloc = 9	move =615
+bloc = 10	move =591
+bloc = 11	move =595
+bloc = 12	move =564
+bloc = 13	move =582
+bloc = 14	move =583
+bloc = 15	move =574
+bloc = 16	move =575
+bloc = 17	move =572
+bloc = 18	move =566
+bloc = 19	move =589
+bloc = 20	move =611
+bloc = 21	move =612
+bloc = 22	move =620
+bloc = 23	move =604
+bloc = 24	move =602
+bloc = 25	move =589
+bloc = 26	move =593
+bloc = 27	move =581
+bloc = 28	move =601
+bloc = 29	move =600
+bloc = 30	move =594
+bloc = 31	move =595
+bloc = 32	move =645
+bloc = 33	move =647
+bloc = 34	move =651
+bloc = 35	move =662
+bloc = 36	move =685
+bloc = 37	move =682
+bloc = 38	move =685
+bloc = 39	move =692
+best taille = 12	best blok =564
+
+
+
+
+bloc = 1	move =1388
+bloc = 2	move =1070
+bloc = 3	move =904
+bloc = 4	move =776
+bloc = 5	move =738
+bloc = 6	move =685
+bloc = 7	move =644
+bloc = 8	move =642
+bloc = 9	move =612
+bloc = 10	move =607
+bloc = 11	move =593
+bloc = 12	move =597
+bloc = 13	move =598
+bloc = 14	move =586
+bloc = 15	move =581
+bloc = 16	move =598
+bloc = 17	move =606
+bloc = 18	move =599
+bloc = 19	move =614
+bloc = 20	move =624
+bloc = 21	move =598
+bloc = 22	move =601
+bloc = 23	move =607
+bloc = 24	move =619
+bloc = 25	move =622
+bloc = 26	move =656
+bloc = 27	move =645
+bloc = 28	move =647
+bloc = 29	move =645
+bloc = 30	move =643
+bloc = 31	move =644
+bloc = 32	move =664
+bloc = 33	move =667
+bloc = 34	move =665
+bloc = 35	move =668
+bloc = 36	move =676
+bloc = 37	move =707
+bloc = 38	move =707
+bloc = 39	move =710
+best taille = 15	best blok =581
+
+
+
+
+bloc = 1	move =1409
+bloc = 2	move =1119
+bloc = 3	move =871
+bloc = 4	move =806
+bloc = 5	move =711
+bloc = 6	move =688
+bloc = 7	move =655
+bloc = 8	move =614
+bloc = 9	move =592
+bloc = 10	move =581
+bloc = 11	move =593
+bloc = 12	move =589
+bloc = 13	move =622
+bloc = 14	move =607
+bloc = 15	move =607
+bloc = 16	move =592
+bloc = 17	move =594
+bloc = 18	move =574
+bloc = 19	move =589
+bloc = 20	move =623
+bloc = 21	move =630
+bloc = 22	move =648
+bloc = 23	move =679
+bloc = 24	move =704
+bloc = 25	move =668
+bloc = 26	move =659
+bloc = 27	move =680
+bloc = 28	move =665
+bloc = 29	move =658
+bloc = 30	move =656
+bloc = 31	move =658
+bloc = 32	move =652
+bloc = 33	move =657
+bloc = 34	move =695
+bloc = 35	move =687
+bloc = 36	move =685
+bloc = 37	move =680
+bloc = 38	move =697
+bloc = 39	move =726
+best taille = 18	best blok =574
+
+
+
+
+bloc = 1	move =1455
+bloc = 2	move =1075
+bloc = 3	move =936
+bloc = 4	move =769
+bloc = 5	move =726
+bloc = 6	move =705
+bloc = 7	move =658
+bloc = 8	move =626
+bloc = 9	move =626
+bloc = 10	move =630
+bloc = 11	move =610
+bloc = 12	move =593
+bloc = 13	move =589
+bloc = 14	move =586
+bloc = 15	move =582
+bloc = 16	move =581
+bloc = 17	move =585
+bloc = 18	move =592
+bloc = 19	move =616
+bloc = 20	move =605
+bloc = 21	move =624
+bloc = 22	move =614
+bloc = 23	move =629
+bloc = 24	move =645
+bloc = 25	move =661
+bloc = 26	move =651
+bloc = 27	move =645
+bloc = 28	move =644
+bloc = 29	move =662
+bloc = 30	move =668
+bloc = 31	move =659
+bloc = 32	move =680
+bloc = 33	move =716
+bloc = 34	move =716
+bloc = 35	move =715
+bloc = 36	move =736
+bloc = 37	move =757
+bloc = 38	move =794
+bloc = 39	move =802
+best taille = 16	best blok =581
+
+
+
+
+bloc = 1	move =1360
+bloc = 2	move =1122
+bloc = 3	move =948
+bloc = 4	move =801
+bloc = 5	move =758
+bloc = 6	move =701
+bloc = 7	move =640
+bloc = 8	move =627
+bloc = 9	move =611
+bloc = 10	move =620
+bloc = 11	move =585
+bloc = 12	move =585
+bloc = 13	move =589
+bloc = 14	move =583
+bloc = 15	move =574
+bloc = 16	move =609
+bloc = 17	move =588
+bloc = 18	move =612
+bloc = 19	move =608
+bloc = 20	move =625
+bloc = 21	move =645
+bloc = 22	move =650
+bloc = 23	move =661
+bloc = 24	move =663
+bloc = 25	move =674
+bloc = 26	move =663
+bloc = 27	move =664
+bloc = 28	move =680
+bloc = 29	move =671
+bloc = 30	move =667
+bloc = 31	move =669
+bloc = 32	move =696
+bloc = 33	move =718
+bloc = 34	move =721
+bloc = 35	move =709
+bloc = 36	move =727
+bloc = 37	move =749
+bloc = 38	move =759
+bloc = 39	move =760
+best taille = 15	best blok =574
+
+
+
+
+bloc = 1	move =1419
+bloc = 2	move =1075
+bloc = 3	move =905
+bloc = 4	move =756
+bloc = 5	move =727
+bloc = 6	move =679
+bloc = 7	move =650
+bloc = 8	move =634
+bloc = 9	move =621
+bloc = 10	move =588
+bloc = 11	move =585
+bloc = 12	move =581
+bloc = 13	move =577
+bloc = 14	move =584
+bloc = 15	move =568
+bloc = 16	move =573
+bloc = 17	move =581
+bloc = 18	move =587
+bloc = 19	move =608
+bloc = 20	move =615
+bloc = 21	move =659
+bloc = 22	move =652
+bloc = 23	move =644
+bloc = 24	move =675
+bloc = 25	move =650
+bloc = 26	move =644
+bloc = 27	move =640
+bloc = 28	move =638
+bloc = 29	move =651
+bloc = 30	move =647
+bloc = 31	move =656
+bloc = 32	move =650
+bloc = 33	move =663
+bloc = 34	move =686
+bloc = 35	move =729
+bloc = 36	move =732
+bloc = 37	move =720
+bloc = 38	move =727
+bloc = 39	move =771
+best taille = 15	best blok =568
+
+
+
+
+bloc = 1	move =1476
+bloc = 2	move =1090
+bloc = 3	move =945
+bloc = 4	move =744
+bloc = 5	move =728
+bloc = 6	move =675
+bloc = 7	move =644
+bloc = 8	move =615
+bloc = 9	move =591
+bloc = 10	move =615
+bloc = 11	move =580
+bloc = 12	move =569
+bloc = 13	move =577
+bloc = 14	move =571
+bloc = 15	move =582
+bloc = 16	move =581
+bloc = 17	move =574
+bloc = 18	move =589
+bloc = 19	move =582
+bloc = 20	move =563
+bloc = 21	move =626
+bloc = 22	move =619
+bloc = 23	move =617
+bloc = 24	move =636
+bloc = 25	move =616
+bloc = 26	move =614
+bloc = 27	move =615
+bloc = 28	move =611
+bloc = 29	move =634
+bloc = 30	move =641
+bloc = 31	move =637
+bloc = 32	move =643
+bloc = 33	move =625
+bloc = 34	move =634
+bloc = 35	move =630
+bloc = 36	move =652
+bloc = 37	move =672
+bloc = 38	move =676
+bloc = 39	move =693
+best taille = 20	best blok =563
+
+
+
+
+bloc = 1	move =1391
+bloc = 2	move =1037
+bloc = 3	move =952
+bloc = 4	move =814
+bloc = 5	move =755
+bloc = 6	move =668
+bloc = 7	move =679
+bloc = 8	move =638
+bloc = 9	move =631
+bloc = 10	move =599
+bloc = 11	move =610
+bloc = 12	move =594
+bloc = 13	move =593
+bloc = 14	move =597
+bloc = 15	move =585
+bloc = 16	move =606
+bloc = 17	move =594
+bloc = 18	move =595
+bloc = 19	move =607
+bloc = 20	move =599
+bloc = 21	move =611
+bloc = 22	move =606
+bloc = 23	move =615
+bloc = 24	move =624
+bloc = 25	move =641
+bloc = 26	move =642
+bloc = 27	move =675
+bloc = 28	move =659
+bloc = 29	move =660
+bloc = 30	move =674
+bloc = 31	move =676
+bloc = 32	move =672
+bloc = 33	move =671
+bloc = 34	move =737
+bloc = 35	move =737
+bloc = 36	move =734
+bloc = 37	move =732
+bloc = 38	move =728
+bloc = 39	move =767
+best taille = 15	best blok =585
+
+
+
+
+bloc = 1	move =1553
+bloc = 2	move =1019
+bloc = 3	move =891
+bloc = 4	move =817
+bloc = 5	move =706
+bloc = 6	move =635
+bloc = 7	move =647
+bloc = 8	move =641
+bloc = 9	move =610
+bloc = 10	move =606
+bloc = 11	move =600
+bloc = 12	move =602
+bloc = 13	move =588
+bloc = 14	move =599
+bloc = 15	move =595
+bloc = 16	move =606
+bloc = 17	move =636
+bloc = 18	move =625
+bloc = 19	move =599
+bloc = 20	move =612
+bloc = 21	move =598
+bloc = 22	move =590
+bloc = 23	move =592
+bloc = 24	move =614
+bloc = 25	move =632
+bloc = 26	move =626
+bloc = 27	move =646
+bloc = 28	move =667
+bloc = 29	move =661
+bloc = 30	move =665
+bloc = 31	move =682
+bloc = 32	move =683
+bloc = 33	move =685
+bloc = 34	move =700
+bloc = 35	move =702
+bloc = 36	move =721
+bloc = 37	move =742
+bloc = 38	move =737
+bloc = 39	move =782
+best taille = 13	best blok =588
+
+
+
+
+bloc = 1	move =1492
+bloc = 2	move =982
+bloc = 3	move =889
+bloc = 4	move =789
+bloc = 5	move =747
+bloc = 6	move =665
+bloc = 7	move =662
+bloc = 8	move =630
+bloc = 9	move =594
+bloc = 10	move =598
+bloc = 11	move =590
+bloc = 12	move =599
+bloc = 13	move =576
+bloc = 14	move =602
+bloc = 15	move =589
+bloc = 16	move =585
+bloc = 17	move =579
+bloc = 18	move =606
+bloc = 19	move =567
+bloc = 20	move =614
+bloc = 21	move =620
+bloc = 22	move =626
+bloc = 23	move =645
+bloc = 24	move =671
+bloc = 25	move =666
+bloc = 26	move =668
+bloc = 27	move =668
+bloc = 28	move =671
+bloc = 29	move =664
+bloc = 30	move =662
+bloc = 31	move =664
+bloc = 32	move =659
+bloc = 33	move =654
+bloc = 34	move =649
+bloc = 35	move =658
+bloc = 36	move =687
+bloc = 37	move =702
+bloc = 38	move =705
+bloc = 39	move =703
+best taille = 19	best blok =567
+
+
+
+
+bloc = 1	move =1484
+bloc = 2	move =1090
+bloc = 3	move =869
+bloc = 4	move =802
+bloc = 5	move =732
+bloc = 6	move =678
+bloc = 7	move =643
+bloc = 8	move =599
+bloc = 9	move =594
+bloc = 10	move =591
+bloc = 11	move =582
+bloc = 12	move =593
+bloc = 13	move =581
+bloc = 14	move =585
+bloc = 15	move =588
+bloc = 16	move =595
+bloc = 17	move =566
+bloc = 18	move =592
+bloc = 19	move =598
+bloc = 20	move =602
+bloc = 21	move =630
+bloc = 22	move =635
+bloc = 23	move =625
+bloc = 24	move =635
+bloc = 25	move =628
+bloc = 26	move =627
+bloc = 27	move =643
+bloc = 28	move =645
+bloc = 29	move =647
+bloc = 30	move =692
+bloc = 31	move =688
+bloc = 32	move =709
+bloc = 33	move =703
+bloc = 34	move =699
+bloc = 35	move =744
+bloc = 36	move =746
+bloc = 37	move =753
+bloc = 38	move =781
+bloc = 39	move =779
+best taille = 17	best blok =566
+
+
+
+
+bloc = 1	move =1478
+bloc = 2	move =1084
+bloc = 3	move =916
+bloc = 4	move =764
+bloc = 5	move =746
+bloc = 6	move =676
+bloc = 7	move =631
+bloc = 8	move =625
+bloc = 9	move =608
+bloc = 10	move =606
+bloc = 11	move =585
+bloc = 12	move =591
+bloc = 13	move =593
+bloc = 14	move =600
+bloc = 15	move =589
+bloc = 16	move =627
+bloc = 17	move =600
+bloc = 18	move =631
+bloc = 19	move =618
+bloc = 20	move =634
+bloc = 21	move =607
+bloc = 22	move =664
+bloc = 23	move =653
+bloc = 24	move =650
+bloc = 25	move =670
+bloc = 26	move =675
+bloc = 27	move =667
+bloc = 28	move =671
+bloc = 29	move =713
+bloc = 30	move =699
+bloc = 31	move =703
+bloc = 32	move =727
+bloc = 33	move =717
+bloc = 34	move =733
+bloc = 35	move =770
+bloc = 36	move =763
+bloc = 37	move =767
+bloc = 38	move =772
+bloc = 39	move =782
+best taille = 11	best blok =585
+
+
+
+
+bloc = 1	move =1514
+bloc = 2	move =996
+bloc = 3	move =861
+bloc = 4	move =798
+bloc = 5	move =712
+bloc = 6	move =674
+bloc = 7	move =650
+bloc = 8	move =626
+bloc = 9	move =613
+bloc = 10	move =613
+bloc = 11	move =589
+bloc = 12	move =582
+bloc = 13	move =602
+bloc = 14	move =612
+bloc = 15	move =620
+bloc = 16	move =606
+bloc = 17	move =607
+bloc = 18	move =627
+bloc = 19	move =625
+bloc = 20	move =637
+bloc = 21	move =640
+bloc = 22	move =630
+bloc = 23	move =668
+bloc = 24	move =677
+bloc = 25	move =674
+bloc = 26	move =689
+bloc = 27	move =689
+bloc = 28	move =705
+bloc = 29	move =714
+bloc = 30	move =709
+bloc = 31	move =707
+bloc = 32	move =700
+bloc = 33	move =700
+bloc = 34	move =715
+bloc = 35	move =770
+bloc = 36	move =769
+bloc = 37	move =765
+bloc = 38	move =788
+bloc = 39	move =792
+best taille = 12	best blok =582
+
+
+
+
+bloc = 1	move =1515
+bloc = 2	move =1123
+bloc = 3	move =943
+bloc = 4	move =823
+bloc = 5	move =726
+bloc = 6	move =671
+bloc = 7	move =674
+bloc = 8	move =660
+bloc = 9	move =645
+bloc = 10	move =634
+bloc = 11	move =630
+bloc = 12	move =610
+bloc = 13	move =628
+bloc = 14	move =603
+bloc = 15	move =605
+bloc = 16	move =607
+bloc = 17	move =618
+bloc = 18	move =619
+bloc = 19	move =608
+bloc = 20	move =626
+bloc = 21	move =647
+bloc = 22	move =649
+bloc = 23	move =686
+bloc = 24	move =699
+bloc = 25	move =711
+bloc = 26	move =703
+bloc = 27	move =710
+bloc = 28	move =705
+bloc = 29	move =698
+bloc = 30	move =712
+bloc = 31	move =712
+bloc = 32	move =724
+bloc = 33	move =746
+bloc = 34	move =752
+bloc = 35	move =741
+bloc = 36	move =739
+bloc = 37	move =759
+bloc = 38	move =760
+bloc = 39	move =793
+best taille = 14	best blok =603
+
+
+
+
+bloc = 1	move =1365
+bloc = 2	move =1075
+bloc = 3	move =863
+bloc = 4	move =774
+bloc = 5	move =739
+bloc = 6	move =679
+bloc = 7	move =651
+bloc = 8	move =624
+bloc = 9	move =618
+bloc = 10	move =613
+bloc = 11	move =591
+bloc = 12	move =578
+bloc = 13	move =583
+bloc = 14	move =591
+bloc = 15	move =582
+bloc = 16	move =584
+bloc = 17	move =592
+bloc = 18	move =585
+bloc = 19	move =596
+bloc = 20	move =616
+bloc = 21	move =627
+bloc = 22	move =655
+bloc = 23	move =625
+bloc = 24	move =660
+bloc = 25	move =681
+bloc = 26	move =667
+bloc = 27	move =664
+bloc = 28	move =679
+bloc = 29	move =695
+bloc = 30	move =693
+bloc = 31	move =683
+bloc = 32	move =693
+bloc = 33	move =726
+bloc = 34	move =727
+bloc = 35	move =730
+bloc = 36	move =737
+bloc = 37	move =780
+bloc = 38	move =789
+bloc = 39	move =779
+best taille = 12	best blok =578
+
+
+
+
+bloc = 1	move =1552
+bloc = 2	move =1076
+bloc = 3	move =910
+bloc = 4	move =846
+bloc = 5	move =751
+bloc = 6	move =678
+bloc = 7	move =640
+bloc = 8	move =655
+bloc = 9	move =615
+bloc = 10	move =629
+bloc = 11	move =596
+bloc = 12	move =598
+bloc = 13	move =617
+bloc = 14	move =598
+bloc = 15	move =609
+bloc = 16	move =586
+bloc = 17	move =608
+bloc = 18	move =604
+bloc = 19	move =610
+bloc = 20	move =609
+bloc = 21	move =622
+bloc = 22	move =675
+bloc = 23	move =698
+bloc = 24	move =697
+bloc = 25	move =682
+bloc = 26	move =697
+bloc = 27	move =689
+bloc = 28	move =677
+bloc = 29	move =693
+bloc = 30	move =695
+bloc = 31	move =684
+bloc = 32	move =684
+bloc = 33	move =695
+bloc = 34	move =712
+bloc = 35	move =709
+bloc = 36	move =725
+bloc = 37	move =737
+bloc = 38	move =737
+bloc = 39	move =734
+best taille = 16	best blok =586
+
+
+
+
+bloc = 1	move =1521
+bloc = 2	move =1057
+bloc = 3	move =910
+bloc = 4	move =813
+bloc = 5	move =703
+bloc = 6	move =662
+bloc = 7	move =631
+bloc = 8	move =623
+bloc = 9	move =596
+bloc = 10	move =592
+bloc = 11	move =600
+bloc = 12	move =626
+bloc = 13	move =605
+bloc = 14	move =602
+bloc = 15	move =610
+bloc = 16	move =605
+bloc = 17	move =596
+bloc = 18	move =619
+bloc = 19	move =643
+bloc = 20	move =664
+bloc = 21	move =641
+bloc = 22	move =647
+bloc = 23	move =711
+bloc = 24	move =687
+bloc = 25	move =687
+bloc = 26	move =684
+bloc = 27	move =680
+bloc = 28	move =672
+bloc = 29	move =682
+bloc = 30	move =674
+bloc = 31	move =665
+bloc = 32	move =705
+bloc = 33	move =694
+bloc = 34	move =712
+bloc = 35	move =730
+bloc = 36	move =724
+bloc = 37	move =725
+bloc = 38	move =768
+bloc = 39	move =787
+best taille = 10	best blok =592
+
+
+
+
+bloc = 1	move =1659
+bloc = 2	move =1179
+bloc = 3	move =893
+bloc = 4	move =826
+bloc = 5	move =781
+bloc = 6	move =691
+bloc = 7	move =674
+bloc = 8	move =646
+bloc = 9	move =622
+bloc = 10	move =600
+bloc = 11	move =611
+bloc = 12	move =605
+bloc = 13	move =580
+bloc = 14	move =591
+bloc = 15	move =605
+bloc = 16	move =616
+bloc = 17	move =606
+bloc = 18	move =602
+bloc = 19	move =586
+bloc = 20	move =613
+bloc = 21	move =652
+bloc = 22	move =660
+bloc = 23	move =661
+bloc = 24	move =704
+bloc = 25	move =694
+bloc = 26	move =699
+bloc = 27	move =710
+bloc = 28	move =717
+bloc = 29	move =701
+bloc = 30	move =711
+bloc = 31	move =706
+bloc = 32	move =725
+bloc = 33	move =725
+bloc = 34	move =715
+bloc = 35	move =751
+bloc = 36	move =748
+bloc = 37	move =764
+bloc = 38	move =763
+bloc = 39	move =833
+best taille = 13	best blok =580
+
+
+
+
+bloc = 1	move =1662
+bloc = 2	move =1070
+bloc = 3	move =926
+bloc = 4	move =789
+bloc = 5	move =762
+bloc = 6	move =686
+bloc = 7	move =652
+bloc = 8	move =639
+bloc = 9	move =636
+bloc = 10	move =608
+bloc = 11	move =600
+bloc = 12	move =596
+bloc = 13	move =585
+bloc = 14	move =581
+bloc = 15	move =613
+bloc = 16	move =618
+bloc = 17	move =631
+bloc = 18	move =633
+bloc = 19	move =615
+bloc = 20	move =607
+bloc = 21	move =612
+bloc = 22	move =641
+bloc = 23	move =636
+bloc = 24	move =648
+bloc = 25	move =677
+bloc = 26	move =699
+bloc = 27	move =687
+bloc = 28	move =689
+bloc = 29	move =682
+bloc = 30	move =714
+bloc = 31	move =708
+bloc = 32	move =720
+bloc = 33	move =723
+bloc = 34	move =727
+bloc = 35	move =768
+bloc = 36	move =774
+bloc = 37	move =815
+bloc = 38	move =818
+bloc = 39	move =836
+best taille = 14	best blok =581
+
+
+
+
+bloc = 1	move =1481
+bloc = 2	move =1079
+bloc = 3	move =888
+bloc = 4	move =718
+bloc = 5	move =745
+bloc = 6	move =671
+bloc = 7	move =645
+bloc = 8	move =613
+bloc = 9	move =605
+bloc = 10	move =603
+bloc = 11	move =598
+bloc = 12	move =575
+bloc = 13	move =591
+bloc = 14	move =573
+bloc = 15	move =584
+bloc = 16	move =625
+bloc = 17	move =624
+bloc = 18	move =587
+bloc = 19	move =600
+bloc = 20	move =601
+bloc = 21	move =634
+bloc = 22	move =636
+bloc = 23	move =644
+bloc = 24	move =637
+bloc = 25	move =641
+bloc = 26	move =659
+bloc = 27	move =664
+bloc = 28	move =661
+bloc = 29	move =658
+bloc = 30	move =658
+bloc = 31	move =666
+bloc = 32	move =670
+bloc = 33	move =686
+bloc = 34	move =696
+bloc = 35	move =692
+bloc = 36	move =693
+bloc = 37	move =701
+bloc = 38	move =702
+bloc = 39	move =724
+best taille = 14	best blok =573
+
+
+
+
+bloc = 1	move =1419
+bloc = 2	move =1127
+bloc = 3	move =911
+bloc = 4	move =825
+bloc = 5	move =719
+bloc = 6	move =707
+bloc = 7	move =650
+bloc = 8	move =622
+bloc = 9	move =631
+bloc = 10	move =602
+bloc = 11	move =597
+bloc = 12	move =599
+bloc = 13	move =621
+bloc = 14	move =609
+bloc = 15	move =588
+bloc = 16	move =625
+bloc = 17	move =626
+bloc = 18	move =609
+bloc = 19	move =626
+bloc = 20	move =631
+bloc = 21	move =651
+bloc = 22	move =659
+bloc = 23	move =691
+bloc = 24	move =683
+bloc = 25	move =686
+bloc = 26	move =704
+bloc = 27	move =712
+bloc = 28	move =712
+bloc = 29	move =700
+bloc = 30	move =700
+bloc = 31	move =703
+bloc = 32	move =703
+bloc = 33	move =718
+bloc = 34	move =763
+bloc = 35	move =761
+bloc = 36	move =824
+bloc = 37	move =851
+bloc = 38	move =890
+bloc = 39	move =893
+best taille = 15	best blok =588
+
+
+
+
+bloc = 1	move =1614
+bloc = 2	move =1120
+bloc = 3	move =922
+bloc = 4	move =810
+bloc = 5	move =747
+bloc = 6	move =691
+bloc = 7	move =641
+bloc = 8	move =632
+bloc = 9	move =608
+bloc = 10	move =607
+bloc = 11	move =605
+bloc = 12	move =600
+bloc = 13	move =594
+bloc = 14	move =601
+bloc = 15	move =618
+bloc = 16	move =602
+bloc = 17	move =616
+bloc = 18	move =594
+bloc = 19	move =600
+bloc = 20	move =601
+bloc = 21	move =636
+bloc = 22	move =630
+bloc = 23	move =643
+bloc = 24	move =656
+bloc = 25	move =663
+bloc = 26	move =663
+bloc = 27	move =658
+bloc = 28	move =668
+bloc = 29	move =693
+bloc = 30	move =680
+bloc = 31	move =678
+bloc = 32	move =696
+bloc = 33	move =718
+bloc = 34	move =717
+bloc = 35	move =714
+bloc = 36	move =708
+bloc = 37	move =739
+bloc = 38	move =770
+bloc = 39	move =796
+best taille = 13	best blok =594
+
+
+
+
+bloc = 1	move =1439
+bloc = 2	move =1081
+bloc = 3	move =913
+bloc = 4	move =792
+bloc = 5	move =708
+bloc = 6	move =709
+bloc = 7	move =675
+bloc = 8	move =630
+bloc = 9	move =605
+bloc = 10	move =612
+bloc = 11	move =597
+bloc = 12	move =556
+bloc = 13	move =564
+bloc = 14	move =585
+bloc = 15	move =601
+bloc = 16	move =614
+bloc = 17	move =635
+bloc = 18	move =611
+bloc = 19	move =613
+bloc = 20	move =600
+bloc = 21	move =603
+bloc = 22	move =644
+bloc = 23	move =661
+bloc = 24	move =640
+bloc = 25	move =674
+bloc = 26	move =681
+bloc = 27	move =676
+bloc = 28	move =681
+bloc = 29	move =691
+bloc = 30	move =688
+bloc = 31	move =705
+bloc = 32	move =718
+bloc = 33	move =725
+bloc = 34	move =752
+bloc = 35	move =745
+bloc = 36	move =749
+bloc = 37	move =756
+bloc = 38	move =774
+bloc = 39	move =772
+best taille = 12	best blok =556
+
+
+
+
+bloc = 1	move =1505
+bloc = 2	move =1103
+bloc = 3	move =947
+bloc = 4	move =799
+bloc = 5	move =711
+bloc = 6	move =681
+bloc = 7	move =653
+bloc = 8	move =615
+bloc = 9	move =606
+bloc = 10	move =599
+bloc = 11	move =604
+bloc = 12	move =585
+bloc = 13	move =601
+bloc = 14	move =630
+bloc = 15	move =617
+bloc = 16	move =598
+bloc = 17	move =592
+bloc = 18	move =581
+bloc = 19	move =600
+bloc = 20	move =615
+bloc = 21	move =631
+bloc = 22	move =653
+bloc = 23	move =642
+bloc = 24	move =619
+bloc = 25	move =643
+bloc = 26	move =641
+bloc = 27	move =631
+bloc = 28	move =643
+bloc = 29	move =666
+bloc = 30	move =676
+bloc = 31	move =672
+bloc = 32	move =670
+bloc = 33	move =697
+bloc = 34	move =719
+bloc = 35	move =729
+bloc = 36	move =752
+bloc = 37	move =793
+bloc = 38	move =796
+bloc = 39	move =813
+best taille = 18	best blok =581
+
+
+
+
+bloc = 1	move =1453
+bloc = 2	move =1043
+bloc = 3	move =883
+bloc = 4	move =803
+bloc = 5	move =694
+bloc = 6	move =632
+bloc = 7	move =656
+bloc = 8	move =643
+bloc = 9	move =620
+bloc = 10	move =600
+bloc = 11	move =594
+bloc = 12	move =571
+bloc = 13	move =593
+bloc = 14	move =585
+bloc = 15	move =585
+bloc = 16	move =592
+bloc = 17	move =595
+bloc = 18	move =583
+bloc = 19	move =601
+bloc = 20	move =612
+bloc = 21	move =621
+bloc = 22	move =621
+bloc = 23	move =624
+bloc = 24	move =672
+bloc = 25	move =680
+bloc = 26	move =695
+bloc = 27	move =688
+bloc = 28	move =716
+bloc = 29	move =723
+bloc = 30	move =725
+bloc = 31	move =721
+bloc = 32	move =715
+bloc = 33	move =716
+bloc = 34	move =718
+bloc = 35	move =733
+bloc = 36	move =732
+bloc = 37	move =732
+bloc = 38	move =722
+bloc = 39	move =723
+best taille = 12	best blok =571
+
+
+
+
+bloc = 1	move =1519
+bloc = 2	move =1059
+bloc = 3	move =896
+bloc = 4	move =822
+bloc = 5	move =735
+bloc = 6	move =675
+bloc = 7	move =671
+bloc = 8	move =634
+bloc = 9	move =617
+bloc = 10	move =592
+bloc = 11	move =588
+bloc = 12	move =609
+bloc = 13	move =585
+bloc = 14	move =618
+bloc = 15	move =624
+bloc = 16	move =603
+bloc = 17	move =597
+bloc = 18	move =612
+bloc = 19	move =599
+bloc = 20	move =644
+bloc = 21	move =652
+bloc = 22	move =646
+bloc = 23	move =646
+bloc = 24	move =647
+bloc = 25	move =646
+bloc = 26	move =664
+bloc = 27	move =657
+bloc = 28	move =656
+bloc = 29	move =659
+bloc = 30	move =667
+bloc = 31	move =660
+bloc = 32	move =671
+bloc = 33	move =677
+bloc = 34	move =716
+bloc = 35	move =737
+bloc = 36	move =751
+bloc = 37	move =764
+bloc = 38	move =740
+bloc = 39	move =749
+best taille = 13	best blok =585
+
+
+
+
+bloc = 1	move =1555
+bloc = 2	move =1095
+bloc = 3	move =959
+bloc = 4	move =807
+bloc = 5	move =718
+bloc = 6	move =703
+bloc = 7	move =660
+bloc = 8	move =627
+bloc = 9	move =611
+bloc = 10	move =609
+bloc = 11	move =592
+bloc = 12	move =596
+bloc = 13	move =610
+bloc = 14	move =591
+bloc = 15	move =592
+bloc = 16	move =602
+bloc = 17	move =570
+bloc = 18	move =573
+bloc = 19	move =611
+bloc = 20	move =614
+bloc = 21	move =609
+bloc = 22	move =641
+bloc = 23	move =639
+bloc = 24	move =682
+bloc = 25	move =685
+bloc = 26	move =674
+bloc = 27	move =667
+bloc = 28	move =663
+bloc = 29	move =695
+bloc = 30	move =703
+bloc = 31	move =706
+bloc = 32	move =740
+bloc = 33	move =737
+bloc = 34	move =731
+bloc = 35	move =739
+bloc = 36	move =731
+bloc = 37	move =731
+bloc = 38	move =761
+bloc = 39	move =756
+best taille = 17	best blok =570
+
+
+
+
+bloc = 1	move =1547
+bloc = 2	move =1099
+bloc = 3	move =884
+bloc = 4	move =798
+bloc = 5	move =697
+bloc = 6	move =692
+bloc = 7	move =632
+bloc = 8	move =626
+bloc = 9	move =608
+bloc = 10	move =591
+bloc = 11	move =601
+bloc = 12	move =592
+bloc = 13	move =588
+bloc = 14	move =599
+bloc = 15	move =591
+bloc = 16	move =609
+bloc = 17	move =625
+bloc = 18	move =633
+bloc = 19	move =613
+bloc = 20	move =618
+bloc = 21	move =600
+bloc = 22	move =626
+bloc = 23	move =626
+bloc = 24	move =653
+bloc = 25	move =681
+bloc = 26	move =668
+bloc = 27	move =669
+bloc = 28	move =657
+bloc = 29	move =668
+bloc = 30	move =665
+bloc = 31	move =664
+bloc = 32	move =662
+bloc = 33	move =697
+bloc = 34	move =721
+bloc = 35	move =717
+bloc = 36	move =720
+bloc = 37	move =757
+bloc = 38	move =799
+bloc = 39	move =797
+best taille = 13	best blok =588
+
+
+
+
+bloc = 1	move =1585
+bloc = 2	move =1131
+bloc = 3	move =903
+bloc = 4	move =743
+bloc = 5	move =702
+bloc = 6	move =681
+bloc = 7	move =657
+bloc = 8	move =607
+bloc = 9	move =621
+bloc = 10	move =592
+bloc = 11	move =606
+bloc = 12	move =579
+bloc = 13	move =586
+bloc = 14	move =572
+bloc = 15	move =588
+bloc = 16	move =619
+bloc = 17	move =614
+bloc = 18	move =607
+bloc = 19	move =613
+bloc = 20	move =620
+bloc = 21	move =635
+bloc = 22	move =635
+bloc = 23	move =614
+bloc = 24	move =643
+bloc = 25	move =637
+bloc = 26	move =644
+bloc = 27	move =629
+bloc = 28	move =681
+bloc = 29	move =707
+bloc = 30	move =700
+bloc = 31	move =692
+bloc = 32	move =706
+bloc = 33	move =696
+bloc = 34	move =693
+bloc = 35	move =690
+bloc = 36	move =710
+bloc = 37	move =742
+bloc = 38	move =744
+bloc = 39	move =748
+best taille = 14	best blok =572
+
+
+
+
+bloc = 1	move =1461
+bloc = 2	move =981
+bloc = 3	move =854
+bloc = 4	move =795
+bloc = 5	move =725
+bloc = 6	move =696
+bloc = 7	move =648
+bloc = 8	move =620
+bloc = 9	move =590
+bloc = 10	move =597
+bloc = 11	move =605
+bloc = 12	move =579
+bloc = 13	move =586
+bloc = 14	move =578
+bloc = 15	move =594
+bloc = 16	move =608
+bloc = 17	move =590
+bloc = 18	move =575
+bloc = 19	move =587
+bloc = 20	move =596
+bloc = 21	move =605
+bloc = 22	move =634
+bloc = 23	move =641
+bloc = 24	move =654
+bloc = 25	move =655
+bloc = 26	move =652
+bloc = 27	move =646
+bloc = 28	move =640
+bloc = 29	move =639
+bloc = 30	move =630
+bloc = 31	move =650
+bloc = 32	move =658
+bloc = 33	move =674
+bloc = 34	move =684
+bloc = 35	move =679
+bloc = 36	move =705
+bloc = 37	move =693
+bloc = 38	move =731
+bloc = 39	move =729
+best taille = 18	best blok =575
+
+
+
+
+bloc = 1	move =1475
+bloc = 2	move =1079
+bloc = 3	move =856
+bloc = 4	move =740
+bloc = 5	move =715
+bloc = 6	move =668
+bloc = 7	move =631
+bloc = 8	move =635
+bloc = 9	move =606
+bloc = 10	move =609
+bloc = 11	move =616
+bloc = 12	move =598
+bloc = 13	move =591
+bloc = 14	move =603
+bloc = 15	move =594
+bloc = 16	move =576
+bloc = 17	move =595
+bloc = 18	move =582
+bloc = 19	move =593
+bloc = 20	move =594
+bloc = 21	move =625
+bloc = 22	move =616
+bloc = 23	move =604
+bloc = 24	move =613
+bloc = 25	move =662
+bloc = 26	move =656
+bloc = 27	move =654
+bloc = 28	move =655
+bloc = 29	move =664
+bloc = 30	move =667
+bloc = 31	move =698
+bloc = 32	move =697
+bloc = 33	move =713
+bloc = 34	move =731
+bloc = 35	move =725
+bloc = 36	move =714
+bloc = 37	move =744
+bloc = 38	move =757
+bloc = 39	move =754
+best taille = 16	best blok =576
+
+
+
+
+bloc = 1	move =1469
+bloc = 2	move =1061
+bloc = 3	move =837
+bloc = 4	move =780
+bloc = 5	move =729
+bloc = 6	move =676
+bloc = 7	move =616
+bloc = 8	move =599
+bloc = 9	move =605
+bloc = 10	move =589
+bloc = 11	move =600
+bloc = 12	move =608
+bloc = 13	move =580
+bloc = 14	move =564
+bloc = 15	move =558
+bloc = 16	move =605
+bloc = 17	move =611
+bloc = 18	move =601
+bloc = 19	move =623
+bloc = 20	move =607
+bloc = 21	move =604
+bloc = 22	move =597
+bloc = 23	move =589
+bloc = 24	move =592
+bloc = 25	move =630
+bloc = 26	move =622
+bloc = 27	move =633
+bloc = 28	move =630
+bloc = 29	move =630
+bloc = 30	move =619
+bloc = 31	move =655
+bloc = 32	move =655
+bloc = 33	move =668
+bloc = 34	move =674
+bloc = 35	move =674
+bloc = 36	move =670
+bloc = 37	move =666
+bloc = 38	move =709
+bloc = 39	move =714
+best taille = 15	best blok =558
+
+
+
+
+bloc = 1	move =1465
+bloc = 2	move =1075
+bloc = 3	move =890
+bloc = 4	move =804
+bloc = 5	move =717
+bloc = 6	move =672
+bloc = 7	move =632
+bloc = 8	move =637
+bloc = 9	move =596
+bloc = 10	move =613
+bloc = 11	move =593
+bloc = 12	move =584
+bloc = 13	move =588
+bloc = 14	move =588
+bloc = 15	move =596
+bloc = 16	move =587
+bloc = 17	move =594
+bloc = 18	move =588
+bloc = 19	move =605
+bloc = 20	move =609
+bloc = 21	move =622
+bloc = 22	move =652
+bloc = 23	move =628
+bloc = 24	move =649
+bloc = 25	move =649
+bloc = 26	move =646
+bloc = 27	move =634
+bloc = 28	move =629
+bloc = 29	move =659
+bloc = 30	move =655
+bloc = 31	move =650
+bloc = 32	move =652
+bloc = 33	move =670
+bloc = 34	move =693
+bloc = 35	move =689
+bloc = 36	move =687
+bloc = 37	move =730
+bloc = 38	move =725
+bloc = 39	move =728
+best taille = 12	best blok =584
+
+
+
+
+bloc = 1	move =1461
+bloc = 2	move =1155
+bloc = 3	move =944
+bloc = 4	move =780
+bloc = 5	move =733
+bloc = 6	move =648
+bloc = 7	move =623
+bloc = 8	move =633
+bloc = 9	move =617
+bloc = 10	move =598
+bloc = 11	move =599
+bloc = 12	move =607
+bloc = 13	move =598
+bloc = 14	move =604
+bloc = 15	move =567
+bloc = 16	move =586
+bloc = 17	move =599
+bloc = 18	move =594
+bloc = 19	move =624
+bloc = 20	move =635
+bloc = 21	move =666
+bloc = 22	move =669
+bloc = 23	move =678
+bloc = 24	move =667
+bloc = 25	move =692
+bloc = 26	move =690
+bloc = 27	move =696
+bloc = 28	move =687
+bloc = 29	move =682
+bloc = 30	move =683
+bloc = 31	move =685
+bloc = 32	move =725
+bloc = 33	move =724
+bloc = 34	move =716
+bloc = 35	move =717
+bloc = 36	move =722
+bloc = 37	move =805
+bloc = 38	move =792
+bloc = 39	move =792
+best taille = 15	best blok =567
+
+
+
+
+bloc = 1	move =1463
+bloc = 2	move =1075
+bloc = 3	move =923
+bloc = 4	move =810
+bloc = 5	move =723
+bloc = 6	move =677
+bloc = 7	move =626
+bloc = 8	move =641
+bloc = 9	move =615
+bloc = 10	move =621
+bloc = 11	move =620
+bloc = 12	move =581
+bloc = 13	move =583
+bloc = 14	move =575
+bloc = 15	move =577
+bloc = 16	move =629
+bloc = 17	move =599
+bloc = 18	move =592
+bloc = 19	move =625
+bloc = 20	move =617
+bloc = 21	move =612
+bloc = 22	move =657
+bloc = 23	move =650
+bloc = 24	move =677
+bloc = 25	move =672
+bloc = 26	move =673
+bloc = 27	move =668
+bloc = 28	move =647
+bloc = 29	move =645
+bloc = 30	move =636
+bloc = 31	move =635
+bloc = 32	move =672
+bloc = 33	move =668
+bloc = 34	move =667
+bloc = 35	move =664
+bloc = 36	move =652
+bloc = 37	move =685
+bloc = 38	move =691
+bloc = 39	move =703
+best taille = 14	best blok =575
+
+
+
+
+bloc = 1	move =1316
+bloc = 2	move =1010
+bloc = 3	move =873
+bloc = 4	move =788
+bloc = 5	move =712
+bloc = 6	move =674
+bloc = 7	move =659
+bloc = 8	move =636
+bloc = 9	move =630
+bloc = 10	move =631
+bloc = 11	move =612
+bloc = 12	move =600
+bloc = 13	move =563
+bloc = 14	move =585
+bloc = 15	move =606
+bloc = 16	move =605
+bloc = 17	move =601
+bloc = 18	move =620
+bloc = 19	move =613
+bloc = 20	move =635
+bloc = 21	move =629
+bloc = 22	move =660
+bloc = 23	move =658
+bloc = 24	move =657
+bloc = 25	move =666
+bloc = 26	move =662
+bloc = 27	move =672
+bloc = 28	move =664
+bloc = 29	move =664
+bloc = 30	move =656
+bloc = 31	move =681
+bloc = 32	move =669
+bloc = 33	move =668
+bloc = 34	move =666
+bloc = 35	move =684
+bloc = 36	move =698
+bloc = 37	move =694
+bloc = 38	move =691
+bloc = 39	move =695
+best taille = 13	best blok =563
+
+
+
+
+bloc = 1	move =1479
+bloc = 2	move =1119
+bloc = 3	move =894
+bloc = 4	move =804
+bloc = 5	move =740
+bloc = 6	move =670
+bloc = 7	move =643
+bloc = 8	move =634
+bloc = 9	move =620
+bloc = 10	move =612
+bloc = 11	move =615
+bloc = 12	move =596
+bloc = 13	move =579
+bloc = 14	move =581
+bloc = 15	move =588
+bloc = 16	move =565
+bloc = 17	move =574
+bloc = 18	move =562
+bloc = 19	move =567
+bloc = 20	move =590
+bloc = 21	move =583
+bloc = 22	move =621
+bloc = 23	move =619
+bloc = 24	move =658
+bloc = 25	move =644
+bloc = 26	move =668
+bloc = 27	move =673
+bloc = 28	move =673
+bloc = 29	move =661
+bloc = 30	move =661
+bloc = 31	move =646
+bloc = 32	move =653
+bloc = 33	move =654
+bloc = 34	move =666
+bloc = 35	move =668
+bloc = 36	move =661
+bloc = 37	move =672
+bloc = 38	move =671
+bloc = 39	move =695
+best taille = 18	best blok =562
+
+
+
+
+bloc = 1	move =1480
+bloc = 2	move =1118
+bloc = 3	move =938
+bloc = 4	move =798
+bloc = 5	move =755
+bloc = 6	move =667
+bloc = 7	move =647
+bloc = 8	move =638
+bloc = 9	move =632
+bloc = 10	move =619
+bloc = 11	move =603
+bloc = 12	move =599
+bloc = 13	move =627
+bloc = 14	move =614
+bloc = 15	move =599
+bloc = 16	move =598
+bloc = 17	move =616
+bloc = 18	move =606
+bloc = 19	move =600
+bloc = 20	move =644
+bloc = 21	move =645
+bloc = 22	move =644
+bloc = 23	move =667
+bloc = 24	move =677
+bloc = 25	move =682
+bloc = 26	move =682
+bloc = 27	move =689
+bloc = 28	move =706
+bloc = 29	move =700
+bloc = 30	move =692
+bloc = 31	move =683
+bloc = 32	move =673
+bloc = 33	move =674
+bloc = 34	move =701
+bloc = 35	move =693
+bloc = 36	move =689
+bloc = 37	move =696
+bloc = 38	move =687
+bloc = 39	move =735
+best taille = 16	best blok =598
+
+
+
+
+bloc = 1	move =1529
+bloc = 2	move =1099
+bloc = 3	move =874
+bloc = 4	move =799
+bloc = 5	move =748
+bloc = 6	move =678
+bloc = 7	move =637
+bloc = 8	move =627
+bloc = 9	move =605
+bloc = 10	move =585
+bloc = 11	move =584
+bloc = 12	move =572
+bloc = 13	move =594
+bloc = 14	move =608
+bloc = 15	move =592
+bloc = 16	move =611
+bloc = 17	move =632
+bloc = 18	move =620
+bloc = 19	move =608
+bloc = 20	move =612
+bloc = 21	move =643
+bloc = 22	move =640
+bloc = 23	move =656
+bloc = 24	move =641
+bloc = 25	move =650
+bloc = 26	move =666
+bloc = 27	move =677
+bloc = 28	move =674
+bloc = 29	move =677
+bloc = 30	move =670
+bloc = 31	move =694
+bloc = 32	move =689
+bloc = 33	move =706
+bloc = 34	move =737
+bloc = 35	move =744
+bloc = 36	move =743
+bloc = 37	move =783
+bloc = 38	move =775
+bloc = 39	move =819
+best taille = 12	best blok =572
+
+
+
+
+bloc = 1	move =1550
+bloc = 2	move =1108
+bloc = 3	move =923
+bloc = 4	move =765
+bloc = 5	move =750
+bloc = 6	move =701
+bloc = 7	move =674
+bloc = 8	move =627
+bloc = 9	move =618
+bloc = 10	move =615
+bloc = 11	move =596
+bloc = 12	move =582
+bloc = 13	move =612
+bloc = 14	move =603
+bloc = 15	move =597
+bloc = 16	move =594
+bloc = 17	move =618
+bloc = 18	move =625
+bloc = 19	move =622
+bloc = 20	move =627
+bloc = 21	move =622
+bloc = 22	move =652
+bloc = 23	move =660
+bloc = 24	move =660
+bloc = 25	move =696
+bloc = 26	move =674
+bloc = 27	move =687
+bloc = 28	move =710
+bloc = 29	move =714
+bloc = 30	move =705
+bloc = 31	move =721
+bloc = 32	move =718
+bloc = 33	move =742
+bloc = 34	move =747
+bloc = 35	move =759
+bloc = 36	move =777
+bloc = 37	move =778
+bloc = 38	move =780
+bloc = 39	move =805
+best taille = 12	best blok =582
+
+
+
+
+bloc = 1	move =1502
+bloc = 2	move =1006
+bloc = 3	move =908
+bloc = 4	move =792
+bloc = 5	move =706
+bloc = 6	move =665
+bloc = 7	move =655
+bloc = 8	move =643
+bloc = 9	move =603
+bloc = 10	move =609
+bloc = 11	move =626
+bloc = 12	move =638
+bloc = 13	move =608
+bloc = 14	move =596
+bloc = 15	move =588
+bloc = 16	move =604
+bloc = 17	move =586
+bloc = 18	move =598
+bloc = 19	move =602
+bloc = 20	move =593
+bloc = 21	move =590
+bloc = 22	move =629
+bloc = 23	move =653
+bloc = 24	move =669
+bloc = 25	move =652
+bloc = 26	move =673
+bloc = 27	move =668
+bloc = 28	move =657
+bloc = 29	move =652
+bloc = 30	move =680
+bloc = 31	move =679
+bloc = 32	move =678
+bloc = 33	move =677
+bloc = 34	move =666
+bloc = 35	move =704
+bloc = 36	move =715
+bloc = 37	move =711
+bloc = 38	move =704
+bloc = 39	move =702
+best taille = 17	best blok =586
+
+
+
+
+bloc = 1	move =1450
+bloc = 2	move =1040
+bloc = 3	move =888
+bloc = 4	move =774
+bloc = 5	move =703
+bloc = 6	move =670
+bloc = 7	move =626
+bloc = 8	move =621
+bloc = 9	move =601
+bloc = 10	move =582
+bloc = 11	move =595
+bloc = 12	move =604
+bloc = 13	move =599
+bloc = 14	move =604
+bloc = 15	move =602
+bloc = 16	move =581
+bloc = 17	move =586
+bloc = 18	move =588
+bloc = 19	move =575
+bloc = 20	move =566
+bloc = 21	move =586
+bloc = 22	move =621
+bloc = 23	move =600
+bloc = 24	move =655
+bloc = 25	move =669
+bloc = 26	move =664
+bloc = 27	move =668
+bloc = 28	move =661
+bloc = 29	move =654
+bloc = 30	move =669
+bloc = 31	move =672
+bloc = 32	move =677
+bloc = 33	move =691
+bloc = 34	move =687
+bloc = 35	move =688
+bloc = 36	move =700
+bloc = 37	move =697
+bloc = 38	move =712
+bloc = 39	move =732
+best taille = 20	best blok =566
+
+
+
+
+bloc = 1	move =1598
+bloc = 2	move =1110
+bloc = 3	move =893
+bloc = 4	move =785
+bloc = 5	move =720
+bloc = 6	move =689
+bloc = 7	move =670
+bloc = 8	move =652
+bloc = 9	move =636
+bloc = 10	move =609
+bloc = 11	move =595
+bloc = 12	move =609
+bloc = 13	move =577
+bloc = 14	move =572
+bloc = 15	move =590
+bloc = 16	move =601
+bloc = 17	move =598
+bloc = 18	move =620
+bloc = 19	move =637
+bloc = 20	move =617
+bloc = 21	move =632
+bloc = 22	move =629
+bloc = 23	move =613
+bloc = 24	move =630
+bloc = 25	move =627
+bloc = 26	move =615
+bloc = 27	move =631
+bloc = 28	move =642
+bloc = 29	move =638
+bloc = 30	move =638
+bloc = 31	move =646
+bloc = 32	move =666
+bloc = 33	move =665
+bloc = 34	move =688
+bloc = 35	move =690
+bloc = 36	move =709
+bloc = 37	move =714
+bloc = 38	move =761
+bloc = 39	move =756
+best taille = 14	best blok =572
+
+
+
+
+bloc = 1	move =1372
+bloc = 2	move =1106
+bloc = 3	move =899
+bloc = 4	move =810
+bloc = 5	move =732
+bloc = 6	move =718
+bloc = 7	move =666
+bloc = 8	move =649
+bloc = 9	move =614
+bloc = 10	move =638
+bloc = 11	move =615
+bloc = 12	move =605
+bloc = 13	move =602
+bloc = 14	move =605
+bloc = 15	move =610
+bloc = 16	move =640
+bloc = 17	move =642
+bloc = 18	move =630
+bloc = 19	move =633
+bloc = 20	move =636
+bloc = 21	move =669
+bloc = 22	move =670
+bloc = 23	move =711
+bloc = 24	move =707
+bloc = 25	move =695
+bloc = 26	move =687
+bloc = 27	move =683
+bloc = 28	move =681
+bloc = 29	move =679
+bloc = 30	move =674
+bloc = 31	move =714
+bloc = 32	move =733
+bloc = 33	move =728
+bloc = 34	move =730
+bloc = 35	move =718
+bloc = 36	move =720
+bloc = 37	move =772
+bloc = 38	move =780
+bloc = 39	move =788
+best taille = 13	best blok =602
+
+
+
+
+bloc = 1	move =1654
+bloc = 2	move =1070
+bloc = 3	move =917
+bloc = 4	move =788
+bloc = 5	move =737
+bloc = 6	move =701
+bloc = 7	move =644
+bloc = 8	move =627
+bloc = 9	move =616
+bloc = 10	move =604
+bloc = 11	move =587
+bloc = 12	move =615
+bloc = 13	move =614
+bloc = 14	move =594
+bloc = 15	move =582
+bloc = 16	move =610
+bloc = 17	move =600
+bloc = 18	move =597
+bloc = 19	move =612
+bloc = 20	move =631
+bloc = 21	move =613
+bloc = 22	move =606
+bloc = 23	move =605
+bloc = 24	move =632
+bloc = 25	move =663
+bloc = 26	move =676
+bloc = 27	move =659
+bloc = 28	move =651
+bloc = 29	move =646
+bloc = 30	move =635
+bloc = 31	move =643
+bloc = 32	move =636
+bloc = 33	move =630
+bloc = 34	move =652
+bloc = 35	move =653
+bloc = 36	move =654
+bloc = 37	move =654
+bloc = 38	move =722
+bloc = 39	move =714
+best taille = 15	best blok =582
+
+
+
+
+bloc = 1	move =1581
+bloc = 2	move =1151
+bloc = 3	move =851
+bloc = 4	move =822
+bloc = 5	move =728
+bloc = 6	move =678
+bloc = 7	move =665
+bloc = 8	move =637
+bloc = 9	move =608
+bloc = 10	move =600
+bloc = 11	move =586
+bloc = 12	move =590
+bloc = 13	move =574
+bloc = 14	move =574
+bloc = 15	move =590
+bloc = 16	move =596
+bloc = 17	move =579
+bloc = 18	move =563
+bloc = 19	move =581
+bloc = 20	move =586
+bloc = 21	move =586
+bloc = 22	move =593
+bloc = 23	move =632
+bloc = 24	move =639
+bloc = 25	move =662
+bloc = 26	move =657
+bloc = 27	move =683
+bloc = 28	move =668
+bloc = 29	move =679
+bloc = 30	move =675
+bloc = 31	move =700
+bloc = 32	move =689
+bloc = 33	move =696
+bloc = 34	move =685
+bloc = 35	move =687
+bloc = 36	move =694
+bloc = 37	move =697
+bloc = 38	move =722
+bloc = 39	move =722
+best taille = 18	best blok =563
+
+
+
+
+bloc = 1	move =1523
+bloc = 2	move =1187
+bloc = 3	move =853
+bloc = 4	move =785
+bloc = 5	move =725
+bloc = 6	move =672
+bloc = 7	move =631
+bloc = 8	move =634
+bloc = 9	move =609
+bloc = 10	move =596
+bloc = 11	move =608
+bloc = 12	move =593
+bloc = 13	move =585
+bloc = 14	move =606
+bloc = 15	move =590
+bloc = 16	move =601
+bloc = 17	move =576
+bloc = 18	move =584
+bloc = 19	move =592
+bloc = 20	move =583
+bloc = 21	move =597
+bloc = 22	move =594
+bloc = 23	move =612
+bloc = 24	move =638
+bloc = 25	move =629
+bloc = 26	move =627
+bloc = 27	move =628
+bloc = 28	move =628
+bloc = 29	move =638
+bloc = 30	move =649
+bloc = 31	move =667
+bloc = 32	move =667
+bloc = 33	move =654
+bloc = 34	move =656
+bloc = 35	move =656
+bloc = 36	move =660
+bloc = 37	move =686
+bloc = 38	move =693
+bloc = 39	move =703
+best taille = 17	best blok =576
+
+
+
+
+bloc = 1	move =1476
+bloc = 2	move =1078
+bloc = 3	move =934
+bloc = 4	move =833
+bloc = 5	move =762
+bloc = 6	move =691
+bloc = 7	move =672
+bloc = 8	move =632
+bloc = 9	move =600
+bloc = 10	move =609
+bloc = 11	move =598
+bloc = 12	move =616
+bloc = 13	move =569
+bloc = 14	move =587
+bloc = 15	move =607
+bloc = 16	move =610
+bloc = 17	move =584
+bloc = 18	move =568
+bloc = 19	move =582
+bloc = 20	move =609
+bloc = 21	move =615
+bloc = 22	move =606
+bloc = 23	move =591
+bloc = 24	move =625
+bloc = 25	move =631
+bloc = 26	move =637
+bloc = 27	move =629
+bloc = 28	move =625
+bloc = 29	move =627
+bloc = 30	move =647
+bloc = 31	move =664
+bloc = 32	move =665
+bloc = 33	move =666
+bloc = 34	move =670
+bloc = 35	move =666
+bloc = 36	move =687
+bloc = 37	move =695
+bloc = 38	move =743
+bloc = 39	move =755
+best taille = 18	best blok =568
+
+
+
+
+bloc = 1	move =1575
+bloc = 2	move =1125
+bloc = 3	move =888
+bloc = 4	move =823
+bloc = 5	move =740
+bloc = 6	move =691
+bloc = 7	move =663
+bloc = 8	move =642
+bloc = 9	move =610
+bloc = 10	move =610
+bloc = 11	move =598
+bloc = 12	move =628
+bloc = 13	move =586
+bloc = 14	move =599
+bloc = 15	move =617
+bloc = 16	move =634
+bloc = 17	move =582
+bloc = 18	move =593
+bloc = 19	move =596
+bloc = 20	move =640
+bloc = 21	move =662
+bloc = 22	move =648
+bloc = 23	move =656
+bloc = 24	move =683
+bloc = 25	move =692
+bloc = 26	move =682
+bloc = 27	move =674
+bloc = 28	move =718
+bloc = 29	move =710
+bloc = 30	move =710
+bloc = 31	move =708
+bloc = 32	move =707
+bloc = 33	move =706
+bloc = 34	move =706
+bloc = 35	move =706
+bloc = 36	move =720
+bloc = 37	move =763
+bloc = 38	move =765
+bloc = 39	move =762
+best taille = 17	best blok =582
+
+
+
+
+bloc = 1	move =1468
+bloc = 2	move =1070
+bloc = 3	move =841
+bloc = 4	move =797
+bloc = 5	move =748
+bloc = 6	move =705
+bloc = 7	move =657
+bloc = 8	move =639
+bloc = 9	move =621
+bloc = 10	move =609
+bloc = 11	move =614
+bloc = 12	move =581
+bloc = 13	move =578
+bloc = 14	move =561
+bloc = 15	move =575
+bloc = 16	move =582
+bloc = 17	move =595
+bloc = 18	move =583
+bloc = 19	move =609
+bloc = 20	move =609
+bloc = 21	move =631
+bloc = 22	move =654
+bloc = 23	move =631
+bloc = 24	move =651
+bloc = 25	move =626
+bloc = 26	move =625
+bloc = 27	move =631
+bloc = 28	move =625
+bloc = 29	move =620
+bloc = 30	move =637
+bloc = 31	move =638
+bloc = 32	move =637
+bloc = 33	move =663
+bloc = 34	move =663
+bloc = 35	move =682
+bloc = 36	move =708
+bloc = 37	move =710
+bloc = 38	move =716
+bloc = 39	move =722
+best taille = 14	best blok =561
+
+
+
+
+bloc = 1	move =1523
+bloc = 2	move =1053
+bloc = 3	move =865
+bloc = 4	move =775
+bloc = 5	move =703
+bloc = 6	move =676
+bloc = 7	move =649
+bloc = 8	move =629
+bloc = 9	move =608
+bloc = 10	move =591
+bloc = 11	move =595
+bloc = 12	move =569
+bloc = 13	move =571
+bloc = 14	move =581
+bloc = 15	move =613
+bloc = 16	move =631
+bloc = 17	move =618
+bloc = 18	move =600
+bloc = 19	move =563
+bloc = 20	move =573
+bloc = 21	move =586
+bloc = 22	move =587
+bloc = 23	move =591
+bloc = 24	move =627
+bloc = 25	move =630
+bloc = 26	move =642
+bloc = 27	move =628
+bloc = 28	move =628
+bloc = 29	move =624
+bloc = 30	move =658
+bloc = 31	move =660
+bloc = 32	move =667
+bloc = 33	move =674
+bloc = 34	move =676
+bloc = 35	move =718
+bloc = 36	move =725
+bloc = 37	move =721
+bloc = 38	move =731
+bloc = 39	move =754
+best taille = 19	best blok =563
+
+
+
+
+bloc = 1	move =1510
+bloc = 2	move =1186
+bloc = 3	move =931
+bloc = 4	move =831
+bloc = 5	move =704
+bloc = 6	move =689
+bloc = 7	move =646
+bloc = 8	move =638
+bloc = 9	move =621
+bloc = 10	move =624
+bloc = 11	move =622
+bloc = 12	move =592
+bloc = 13	move =591
+bloc = 14	move =562
+bloc = 15	move =585
+bloc = 16	move =596
+bloc = 17	move =621
+bloc = 18	move =617
+bloc = 19	move =641
+bloc = 20	move =640
+bloc = 21	move =640
+bloc = 22	move =638
+bloc = 23	move =623
+bloc = 24	move =643
+bloc = 25	move =665
+bloc = 26	move =654
+bloc = 27	move =659
+bloc = 28	move =650
+bloc = 29	move =672
+bloc = 30	move =660
+bloc = 31	move =651
+bloc = 32	move =675
+bloc = 33	move =713
+bloc = 34	move =715
+bloc = 35	move =714
+bloc = 36	move =713
+bloc = 37	move =714
+bloc = 38	move =750
+bloc = 39	move =786
+best taille = 14	best blok =562
+
+
+
+
+bloc = 1	move =1460
+bloc = 2	move =1164
+bloc = 3	move =956
+bloc = 4	move =840
+bloc = 5	move =771
+bloc = 6	move =705
+bloc = 7	move =668
+bloc = 8	move =618
+bloc = 9	move =621
+bloc = 10	move =591
+bloc = 11	move =598
+bloc = 12	move =601
+bloc = 13	move =576
+bloc = 14	move =585
+bloc = 15	move =606
+bloc = 16	move =590
+bloc = 17	move =590
+bloc = 18	move =587
+bloc = 19	move =590
+bloc = 20	move =608
+bloc = 21	move =607
+bloc = 22	move =603
+bloc = 23	move =614
+bloc = 24	move =645
+bloc = 25	move =629
+bloc = 26	move =639
+bloc = 27	move =639
+bloc = 28	move =654
+bloc = 29	move =655
+bloc = 30	move =649
+bloc = 31	move =654
+bloc = 32	move =637
+bloc = 33	move =632
+bloc = 34	move =649
+bloc = 35	move =683
+bloc = 36	move =673
+bloc = 37	move =668
+bloc = 38	move =675
+bloc = 39	move =682
+best taille = 13	best blok =576
+
+
+
+
+bloc = 1	move =1434
+bloc = 2	move =1124
+bloc = 3	move =943
+bloc = 4	move =811
+bloc = 5	move =733
+bloc = 6	move =682
+bloc = 7	move =680
+bloc = 8	move =644
+bloc = 9	move =608
+bloc = 10	move =620
+bloc = 11	move =598
+bloc = 12	move =612
+bloc = 13	move =604
+bloc = 14	move =594
+bloc = 15	move =619
+bloc = 16	move =618
+bloc = 17	move =606
+bloc = 18	move =613
+bloc = 19	move =626
+bloc = 20	move =643
+bloc = 21	move =642
+bloc = 22	move =635
+bloc = 23	move =656
+bloc = 24	move =666
+bloc = 25	move =699
+bloc = 26	move =697
+bloc = 27	move =689
+bloc = 28	move =688
+bloc = 29	move =690
+bloc = 30	move =684
+bloc = 31	move =677
+bloc = 32	move =706
+bloc = 33	move =726
+bloc = 34	move =719
+bloc = 35	move =725
+bloc = 36	move =741
+bloc = 37	move =769
+bloc = 38	move =775
+bloc = 39	move =782
+best taille = 14	best blok =594
+
+
+
+
+bloc = 1	move =1509
+bloc = 2	move =1037
+bloc = 3	move =870
+bloc = 4	move =783
+bloc = 5	move =726
+bloc = 6	move =691
+bloc = 7	move =662
+bloc = 8	move =625
+bloc = 9	move =608
+bloc = 10	move =599
+bloc = 11	move =595
+bloc = 12	move =607
+bloc = 13	move =600
+bloc = 14	move =589
+bloc = 15	move =600
+bloc = 16	move =589
+bloc = 17	move =612
+bloc = 18	move =605
+bloc = 19	move =601
+bloc = 20	move =599
+bloc = 21	move =610
+bloc = 22	move =609
+bloc = 23	move =629
+bloc = 24	move =637
+bloc = 25	move =684
+bloc = 26	move =666
+bloc = 27	move =666
+bloc = 28	move =657
+bloc = 29	move =652
+bloc = 30	move =664
+bloc = 31	move =670
+bloc = 32	move =668
+bloc = 33	move =691
+bloc = 34	move =726
+bloc = 35	move =725
+bloc = 36	move =732
+bloc = 37	move =732
+bloc = 38	move =756
+bloc = 39	move =762
+best taille = 14	best blok =589
+
+
+
+
+bloc = 1	move =1406
+bloc = 2	move =1070
+bloc = 3	move =930
+bloc = 4	move =804
+bloc = 5	move =776
+bloc = 6	move =702
+bloc = 7	move =666
+bloc = 8	move =628
+bloc = 9	move =636
+bloc = 10	move =616
+bloc = 11	move =584
+bloc = 12	move =594
+bloc = 13	move =606
+bloc = 14	move =612
+bloc = 15	move =600
+bloc = 16	move =598
+bloc = 17	move =620
+bloc = 18	move =612
+bloc = 19	move =617
+bloc = 20	move =616
+bloc = 21	move =672
+bloc = 22	move =683
+bloc = 23	move =681
+bloc = 24	move =699
+bloc = 25	move =686
+bloc = 26	move =670
+bloc = 27	move =684
+bloc = 28	move =673
+bloc = 29	move =675
+bloc = 30	move =678
+bloc = 31	move =691
+bloc = 32	move =687
+bloc = 33	move =685
+bloc = 34	move =710
+bloc = 35	move =713
+bloc = 36	move =709
+bloc = 37	move =717
+bloc = 38	move =764
+bloc = 39	move =761
+best taille = 11	best blok =584
+
+
+
+
+bloc = 1	move =1375
+bloc = 2	move =999
+bloc = 3	move =905
+bloc = 4	move =821
+bloc = 5	move =727
+bloc = 6	move =656
+bloc = 7	move =640
+bloc = 8	move =604
+bloc = 9	move =642
+bloc = 10	move =614
+bloc = 11	move =595
+bloc = 12	move =608
+bloc = 13	move =601
+bloc = 14	move =603
+bloc = 15	move =615
+bloc = 16	move =598
+bloc = 17	move =621
+bloc = 18	move =623
+bloc = 19	move =620
+bloc = 20	move =619
+bloc = 21	move =631
+bloc = 22	move =611
+bloc = 23	move =665
+bloc = 24	move =669
+bloc = 25	move =681
+bloc = 26	move =664
+bloc = 27	move =663
+bloc = 28	move =661
+bloc = 29	move =668
+bloc = 30	move =686
+bloc = 31	move =705
+bloc = 32	move =702
+bloc = 33	move =715
+bloc = 34	move =733
+bloc = 35	move =731
+bloc = 36	move =727
+bloc = 37	move =757
+bloc = 38	move =758
+bloc = 39	move =754
+best taille = 11	best blok =595
+
+
+
+
+bloc = 1	move =1508
+bloc = 2	move =1088
+bloc = 3	move =908
+bloc = 4	move =812
+bloc = 5	move =737
+bloc = 6	move =693
+bloc = 7	move =662
+bloc = 8	move =661
+bloc = 9	move =622
+bloc = 10	move =611
+bloc = 11	move =605
+bloc = 12	move =599
+bloc = 13	move =609
+bloc = 14	move =603
+bloc = 15	move =609
+bloc = 16	move =631
+bloc = 17	move =614
+bloc = 18	move =598
+bloc = 19	move =619
+bloc = 20	move =613
+bloc = 21	move =631
+bloc = 22	move =648
+bloc = 23	move =647
+bloc = 24	move =671
+bloc = 25	move =684
+bloc = 26	move =695
+bloc = 27	move =699
+bloc = 28	move =689
+bloc = 29	move =683
+bloc = 30	move =693
+bloc = 31	move =699
+bloc = 32	move =712
+bloc = 33	move =712
+bloc = 34	move =709
+bloc = 35	move =711
+bloc = 36	move =708
+bloc = 37	move =713
+bloc = 38	move =742
+bloc = 39	move =743
+best taille = 18	best blok =598
+
+
+
+
+bloc = 1	move =1602
+bloc = 2	move =970
+bloc = 3	move =885
+bloc = 4	move =809
+bloc = 5	move =726
+bloc = 6	move =662
+bloc = 7	move =646
+bloc = 8	move =626
+bloc = 9	move =618
+bloc = 10	move =621
+bloc = 11	move =588
+bloc = 12	move =558
+bloc = 13	move =567
+bloc = 14	move =577
+bloc = 15	move =583
+bloc = 16	move =593
+bloc = 17	move =626
+bloc = 18	move =611
+bloc = 19	move =636
+bloc = 20	move =631
+bloc = 21	move =633
+bloc = 22	move =613
+bloc = 23	move =618
+bloc = 24	move =630
+bloc = 25	move =644
+bloc = 26	move =642
+bloc = 27	move =651
+bloc = 28	move =625
+bloc = 29	move =651
+bloc = 30	move =661
+bloc = 31	move =636
+bloc = 32	move =636
+bloc = 33	move =646
+bloc = 34	move =657
+bloc = 35	move =647
+bloc = 36	move =656
+bloc = 37	move =651
+bloc = 38	move =694
+bloc = 39	move =696
+best taille = 12	best blok =558
+
+
+
+
+bloc = 1	move =1430
+bloc = 2	move =976
+bloc = 3	move =935
+bloc = 4	move =822
+bloc = 5	move =713
+bloc = 6	move =671
+bloc = 7	move =644
+bloc = 8	move =621
+bloc = 9	move =611
+bloc = 10	move =603
+bloc = 11	move =608
+bloc = 12	move =595
+bloc = 13	move =610
+bloc = 14	move =599
+bloc = 15	move =577
+bloc = 16	move =572
+bloc = 17	move =574
+bloc = 18	move =575
+bloc = 19	move =590
+bloc = 20	move =615
+bloc = 21	move =621
+bloc = 22	move =675
+bloc = 23	move =662
+bloc = 24	move =660
+bloc = 25	move =669
+bloc = 26	move =683
+bloc = 27	move =678
+bloc = 28	move =670
+bloc = 29	move =660
+bloc = 30	move =676
+bloc = 31	move =675
+bloc = 32	move =668
+bloc = 33	move =691
+bloc = 34	move =694
+bloc = 35	move =689
+bloc = 36	move =728
+bloc = 37	move =749
+bloc = 38	move =742
+bloc = 39	move =741
+best taille = 16	best blok =572
+
+
+
+
+bloc = 1	move =1393
+bloc = 2	move =1065
+bloc = 3	move =916
+bloc = 4	move =794
+bloc = 5	move =748
+bloc = 6	move =706
+bloc = 7	move =650
+bloc = 8	move =640
+bloc = 9	move =620
+bloc = 10	move =629
+bloc = 11	move =615
+bloc = 12	move =619
+bloc = 13	move =607
+bloc = 14	move =594
+bloc = 15	move =617
+bloc = 16	move =632
+bloc = 17	move =596
+bloc = 18	move =595
+bloc = 19	move =598
+bloc = 20	move =612
+bloc = 21	move =612
+bloc = 22	move =647
+bloc = 23	move =666
+bloc = 24	move =689
+bloc = 25	move =676
+bloc = 26	move =669
+bloc = 27	move =657
+bloc = 28	move =657
+bloc = 29	move =659
+bloc = 30	move =669
+bloc = 31	move =683
+bloc = 32	move =683
+bloc = 33	move =679
+bloc = 34	move =669
+bloc = 35	move =699
+bloc = 36	move =699
+bloc = 37	move =692
+bloc = 38	move =688
+bloc = 39	move =721
+best taille = 14	best blok =594
+
+
+
+
+bloc = 1	move =1612
+bloc = 2	move =1174
+bloc = 3	move =972
+bloc = 4	move =833
+bloc = 5	move =752
+bloc = 6	move =712
+bloc = 7	move =669
+bloc = 8	move =664
+bloc = 9	move =619
+bloc = 10	move =593
+bloc = 11	move =582
+bloc = 12	move =590
+bloc = 13	move =582
+bloc = 14	move =593
+bloc = 15	move =606
+bloc = 16	move =630
+bloc = 17	move =618
+bloc = 18	move =620
+bloc = 19	move =605
+bloc = 20	move =596
+bloc = 21	move =618
+bloc = 22	move =643
+bloc = 23	move =653
+bloc = 24	move =684
+bloc = 25	move =680
+bloc = 26	move =686
+bloc = 27	move =679
+bloc = 28	move =666
+bloc = 29	move =696
+bloc = 30	move =699
+bloc = 31	move =715
+bloc = 32	move =723
+bloc = 33	move =724
+bloc = 34	move =744
+bloc = 35	move =801
+bloc = 36	move =803
+bloc = 37	move =798
+bloc = 38	move =784
+bloc = 39	move =756
+best taille = 11	best blok =582
+
+
+
+
+bloc = 1	move =1436
+bloc = 2	move =1132
+bloc = 3	move =939
+bloc = 4	move =836
+bloc = 5	move =749
+bloc = 6	move =694
+bloc = 7	move =667
+bloc = 8	move =628
+bloc = 9	move =641
+bloc = 10	move =629
+bloc = 11	move =611
+bloc = 12	move =609
+bloc = 13	move =603
+bloc = 14	move =602
+bloc = 15	move =610
+bloc = 16	move =620
+bloc = 17	move =619
+bloc = 18	move =628
+bloc = 19	move =627
+bloc = 20	move =624
+bloc = 21	move =642
+bloc = 22	move =633
+bloc = 23	move =672
+bloc = 24	move =690
+bloc = 25	move =701
+bloc = 26	move =699
+bloc = 27	move =703
+bloc = 28	move =703
+bloc = 29	move =741
+bloc = 30	move =732
+bloc = 31	move =728
+bloc = 32	move =719
+bloc = 33	move =722
+bloc = 34	move =717
+bloc = 35	move =717
+bloc = 36	move =720
+bloc = 37	move =726
+bloc = 38	move =724
+bloc = 39	move =722
+best taille = 14	best blok =602
+
+
+
+
+bloc = 1	move =1545
+bloc = 2	move =1021
+bloc = 3	move =910
+bloc = 4	move =753
+bloc = 5	move =698
+bloc = 6	move =679
+bloc = 7	move =664
+bloc = 8	move =613
+bloc = 9	move =623
+bloc = 10	move =580
+bloc = 11	move =594
+bloc = 12	move =597
+bloc = 13	move =591
+bloc = 14	move =621
+bloc = 15	move =611
+bloc = 16	move =623
+bloc = 17	move =610
+bloc = 18	move =615
+bloc = 19	move =599
+bloc = 20	move =606
+bloc = 21	move =613
+bloc = 22	move =614
+bloc = 23	move =648
+bloc = 24	move =673
+bloc = 25	move =669
+bloc = 26	move =659
+bloc = 27	move =668
+bloc = 28	move =674
+bloc = 29	move =673
+bloc = 30	move =657
+bloc = 31	move =654
+bloc = 32	move =650
+bloc = 33	move =652
+bloc = 34	move =659
+bloc = 35	move =683
+bloc = 36	move =684
+bloc = 37	move =691
+bloc = 38	move =685
+bloc = 39	move =713
+best taille = 10	best blok =580
+
+
+
+
+bloc = 1	move =1420
+bloc = 2	move =1158
+bloc = 3	move =923
+bloc = 4	move =805
+bloc = 5	move =726
+bloc = 6	move =675
+bloc = 7	move =641
+bloc = 8	move =632
+bloc = 9	move =616
+bloc = 10	move =599
+bloc = 11	move =618
+bloc = 12	move =577
+bloc = 13	move =605
+bloc = 14	move =597
+bloc = 15	move =605
+bloc = 16	move =586
+bloc = 17	move =636
+bloc = 18	move =606
+bloc = 19	move =598
+bloc = 20	move =603
+bloc = 21	move =609
+bloc = 22	move =638
+bloc = 23	move =638
+bloc = 24	move =630
+bloc = 25	move =666
+bloc = 26	move =676
+bloc = 27	move =681
+bloc = 28	move =680
+bloc = 29	move =670
+bloc = 30	move =677
+bloc = 31	move =683
+bloc = 32	move =699
+bloc = 33	move =685
+bloc = 34	move =732
+bloc = 35	move =739
+bloc = 36	move =733
+bloc = 37	move =732
+bloc = 38	move =758
+bloc = 39	move =775
+best taille = 12	best blok =577
+
+
+
+
+bloc = 1	move =1486
+bloc = 2	move =1032
+bloc = 3	move =898
+bloc = 4	move =807
+bloc = 5	move =722
+bloc = 6	move =670
+bloc = 7	move =647
+bloc = 8	move =628
+bloc = 9	move =596
+bloc = 10	move =584
+bloc = 11	move =617
+bloc = 12	move =588
+bloc = 13	move =581
+bloc = 14	move =573
+bloc = 15	move =582
+bloc = 16	move =591
+bloc = 17	move =618
+bloc = 18	move =588
+bloc = 19	move =593
+bloc = 20	move =598
+bloc = 21	move =628
+bloc = 22	move =668
+bloc = 23	move =662
+bloc = 24	move =668
+bloc = 25	move =652
+bloc = 26	move =651
+bloc = 27	move =644
+bloc = 28	move =638
+bloc = 29	move =642
+bloc = 30	move =646
+bloc = 31	move =665
+bloc = 32	move =668
+bloc = 33	move =669
+bloc = 34	move =704
+bloc = 35	move =714
+bloc = 36	move =711
+bloc = 37	move =728
+bloc = 38	move =722
+bloc = 39	move =720
+best taille = 14	best blok =573
+
+
+
+
+bloc = 1	move =1509
+bloc = 2	move =1101
+bloc = 3	move =985
+bloc = 4	move =763
+bloc = 5	move =737
+bloc = 6	move =681
+bloc = 7	move =635
+bloc = 8	move =622
+bloc = 9	move =625
+bloc = 10	move =623
+bloc = 11	move =604
+bloc = 12	move =593
+bloc = 13	move =573
+bloc = 14	move =597
+bloc = 15	move =597
+bloc = 16	move =602
+bloc = 17	move =602
+bloc = 18	move =616
+bloc = 19	move =649
+bloc = 20	move =649
+bloc = 21	move =646
+bloc = 22	move =646
+bloc = 23	move =654
+bloc = 24	move =666
+bloc = 25	move =674
+bloc = 26	move =657
+bloc = 27	move =665
+bloc = 28	move =679
+bloc = 29	move =674
+bloc = 30	move =660
+bloc = 31	move =663
+bloc = 32	move =704
+bloc = 33	move =706
+bloc = 34	move =711
+bloc = 35	move =727
+bloc = 36	move =727
+bloc = 37	move =741
+bloc = 38	move =782
+bloc = 39	move =800
+best taille = 13	best blok =573
+
+
+
+
+bloc = 1	move =1467
+bloc = 2	move =1031
+bloc = 3	move =945
+bloc = 4	move =752
+bloc = 5	move =671
+bloc = 6	move =663
+bloc = 7	move =648
+bloc = 8	move =602
+bloc = 9	move =578
+bloc = 10	move =587
+bloc = 11	move =574
+bloc = 12	move =584
+bloc = 13	move =569
+bloc = 14	move =565
+bloc = 15	move =575
+bloc = 16	move =559
+bloc = 17	move =561
+bloc = 18	move =572
+bloc = 19	move =557
+bloc = 20	move =592
+bloc = 21	move =581
+bloc = 22	move =595
+bloc = 23	move =624
+bloc = 24	move =624
+bloc = 25	move =619
+bloc = 26	move =609
+bloc = 27	move =622
+bloc = 28	move =623
+bloc = 29	move =615
+bloc = 30	move =627
+bloc = 31	move =627
+bloc = 32	move =615
+bloc = 33	move =618
+bloc = 34	move =611
+bloc = 35	move =659
+bloc = 36	move =660
+bloc = 37	move =645
+bloc = 38	move =643
+bloc = 39	move =661
+best taille = 19	best blok =557
+
+
+
+
+bloc = 1	move =1394
+bloc = 2	move =1048
+bloc = 3	move =883
+bloc = 4	move =807
+bloc = 5	move =701
+bloc = 6	move =688
+bloc = 7	move =658
+bloc = 8	move =634
+bloc = 9	move =600
+bloc = 10	move =578
+bloc = 11	move =594
+bloc = 12	move =591
+bloc = 13	move =564
+bloc = 14	move =601
+bloc = 15	move =578
+bloc = 16	move =593
+bloc = 17	move =587
+bloc = 18	move =614
+bloc = 19	move =612
+bloc = 20	move =571
+bloc = 21	move =608
+bloc = 22	move =622
+bloc = 23	move =622
+bloc = 24	move =661
+bloc = 25	move =675
+bloc = 26	move =676
+bloc = 27	move =669
+bloc = 28	move =671
+bloc = 29	move =696
+bloc = 30	move =684
+bloc = 31	move =678
+bloc = 32	move =709
+bloc = 33	move =709
+bloc = 34	move =716
+bloc = 35	move =728
+bloc = 36	move =756
+bloc = 37	move =773
+bloc = 38	move =780
+bloc = 39	move =779
+best taille = 13	best blok =564
+
+
+
+
+bloc = 1	move =1488
+bloc = 2	move =1102
+bloc = 3	move =917
+bloc = 4	move =799
+bloc = 5	move =742
+bloc = 6	move =673
+bloc = 7	move =658
+bloc = 8	move =659
+bloc = 9	move =622
+bloc = 10	move =614
+bloc = 11	move =621
+bloc = 12	move =617
+bloc = 13	move =611
+bloc = 14	move =612
+bloc = 15	move =600
+bloc = 16	move =603
+bloc = 17	move =600
+bloc = 18	move =597
+bloc = 19	move =615
+bloc = 20	move =627
+bloc = 21	move =626
+bloc = 22	move =673
+bloc = 23	move =691
+bloc = 24	move =710
+bloc = 25	move =698
+bloc = 26	move =681
+bloc = 27	move =672
+bloc = 28	move =689
+bloc = 29	move =698
+bloc = 30	move =685
+bloc = 31	move =679
+bloc = 32	move =671
+bloc = 33	move =698
+bloc = 34	move =663
+bloc = 35	move =663
+bloc = 36	move =671
+bloc = 37	move =684
+bloc = 38	move =711
+bloc = 39	move =744
+best taille = 18	best blok =597
+
+
+
+
+bloc = 1	move =1508
+bloc = 2	move =1060
+bloc = 3	move =914
+bloc = 4	move =759
+bloc = 5	move =738
+bloc = 6	move =679
+bloc = 7	move =660
+bloc = 8	move =621
+bloc = 9	move =609
+bloc = 10	move =595
+bloc = 11	move =584
+bloc = 12	move =581
+bloc = 13	move =580
+bloc = 14	move =589
+bloc = 15	move =612
+bloc = 16	move =581
+bloc = 17	move =576
+bloc = 18	move =565
+bloc = 19	move =572
+bloc = 20	move =555
+bloc = 21	move =567
+bloc = 22	move =593
+bloc = 23	move =626
+bloc = 24	move =610
+bloc = 25	move =600
+bloc = 26	move =599
+bloc = 27	move =603
+bloc = 28	move =610
+bloc = 29	move =628
+bloc = 30	move =629
+bloc = 31	move =630
+bloc = 32	move =628
+bloc = 33	move =631
+bloc = 34	move =655
+bloc = 35	move =661
+bloc = 36	move =658
+bloc = 37	move =664
+bloc = 38	move =702
+bloc = 39	move =699
+best taille = 20	best blok =555
+
+
+
+
+bloc = 1	move =1479
+bloc = 2	move =1103
+bloc = 3	move =895
+bloc = 4	move =766
+bloc = 5	move =731
+bloc = 6	move =693
+bloc = 7	move =646
+bloc = 8	move =650
+bloc = 9	move =640
+bloc = 10	move =630
+bloc = 11	move =623
+bloc = 12	move =628
+bloc = 13	move =599
+bloc = 14	move =594
+bloc = 15	move =625
+bloc = 16	move =612
+bloc = 17	move =604
+bloc = 18	move =589
+bloc = 19	move =598
+bloc = 20	move =607
+bloc = 21	move =620
+bloc = 22	move =639
+bloc = 23	move =650
+bloc = 24	move =665
+bloc = 25	move =664
+bloc = 26	move =679
+bloc = 27	move =664
+bloc = 28	move =656
+bloc = 29	move =689
+bloc = 30	move =702
+bloc = 31	move =699
+bloc = 32	move =699
+bloc = 33	move =709
+bloc = 34	move =701
+bloc = 35	move =699
+bloc = 36	move =694
+bloc = 37	move =754
+bloc = 38	move =746
+bloc = 39	move =750
+best taille = 18	best blok =589
+
+
+
+
+bloc = 1	move =1538
+bloc = 2	move =1106
+bloc = 3	move =853
+bloc = 4	move =823
+bloc = 5	move =733
+bloc = 6	move =663
+bloc = 7	move =641
+bloc = 8	move =649
+bloc = 9	move =619
+bloc = 10	move =604
+bloc = 11	move =613
+bloc = 12	move =630
+bloc = 13	move =614
+bloc = 14	move =598
+bloc = 15	move =579
+bloc = 16	move =599
+bloc = 17	move =629
+bloc = 18	move =636
+bloc = 19	move =604
+bloc = 20	move =603
+bloc = 21	move =620
+bloc = 22	move =644
+bloc = 23	move =636
+bloc = 24	move =680
+bloc = 25	move =708
+bloc = 26	move =694
+bloc = 27	move =685
+bloc = 28	move =704
+bloc = 29	move =699
+bloc = 30	move =706
+bloc = 31	move =725
+bloc = 32	move =727
+bloc = 33	move =746
+bloc = 34	move =765
+bloc = 35	move =782
+bloc = 36	move =788
+bloc = 37	move =789
+bloc = 38	move =787
+bloc = 39	move =778
+best taille = 15	best blok =579
+
+
+
+
+bloc = 1	move =1589
+bloc = 2	move =1009
+bloc = 3	move =947
+bloc = 4	move =825
+bloc = 5	move =743
+bloc = 6	move =681
+bloc = 7	move =643
+bloc = 8	move =613
+bloc = 9	move =609
+bloc = 10	move =609
+bloc = 11	move =616
+bloc = 12	move =589
+bloc = 13	move =593
+bloc = 14	move =595
+bloc = 15	move =611
+bloc = 16	move =605
+bloc = 17	move =614
+bloc = 18	move =605
+bloc = 19	move =602
+bloc = 20	move =612
+bloc = 21	move =617
+bloc = 22	move =592
+bloc = 23	move =630
+bloc = 24	move =617
+bloc = 25	move =609
+bloc = 26	move =615
+bloc = 27	move =636
+bloc = 28	move =642
+bloc = 29	move =652
+bloc = 30	move =648
+bloc = 31	move =646
+bloc = 32	move =667
+bloc = 33	move =711
+bloc = 34	move =705
+bloc = 35	move =703
+bloc = 36	move =711
+bloc = 37	move =711
+bloc = 38	move =717
+bloc = 39	move =719
+best taille = 12	best blok =589
+
+
+
+
+bloc = 1	move =1400
+bloc = 2	move =1072
+bloc = 3	move =925
+bloc = 4	move =820
+bloc = 5	move =754
+bloc = 6	move =697
+bloc = 7	move =657
+bloc = 8	move =628
+bloc = 9	move =589
+bloc = 10	move =603
+bloc = 11	move =609
+bloc = 12	move =594
+bloc = 13	move =578
+bloc = 14	move =577
+bloc = 15	move =562
+bloc = 16	move =574
+bloc = 17	move =591
+bloc = 18	move =596
+bloc = 19	move =582
+bloc = 20	move =590
+bloc = 21	move =604
+bloc = 22	move =627
+bloc = 23	move =616
+bloc = 24	move =618
+bloc = 25	move =615
+bloc = 26	move =606
+bloc = 27	move =612
+bloc = 28	move =614
+bloc = 29	move =613
+bloc = 30	move =622
+bloc = 31	move =626
+bloc = 32	move =642
+bloc = 33	move =636
+bloc = 34	move =666
+bloc = 35	move =685
+bloc = 36	move =692
+bloc = 37	move =696
+bloc = 38	move =692
+bloc = 39	move =688
+best taille = 15	best blok =562
+
+
+
+
+bloc = 1	move =1391
+bloc = 2	move =1075
+bloc = 3	move =926
+bloc = 4	move =732
+bloc = 5	move =696
+bloc = 6	move =675
+bloc = 7	move =653
+bloc = 8	move =611
+bloc = 9	move =596
+bloc = 10	move =611
+bloc = 11	move =594
+bloc = 12	move =594
+bloc = 13	move =603
+bloc = 14	move =598
+bloc = 15	move =578
+bloc = 16	move =600
+bloc = 17	move =596
+bloc = 18	move =583
+bloc = 19	move =606
+bloc = 20	move =615
+bloc = 21	move =655
+bloc = 22	move =626
+bloc = 23	move =629
+bloc = 24	move =656
+bloc = 25	move =676
+bloc = 26	move =671
+bloc = 27	move =696
+bloc = 28	move =688
+bloc = 29	move =700
+bloc = 30	move =698
+bloc = 31	move =689
+bloc = 32	move =718
+bloc = 33	move =737
+bloc = 34	move =748
+bloc = 35	move =747
+bloc = 36	move =738
+bloc = 37	move =768
+bloc = 38	move =787
+bloc = 39	move =786
+best taille = 15	best blok =578
+
+
+
+
+bloc = 1	move =1571
+bloc = 2	move =1139
+bloc = 3	move =868
+bloc = 4	move =798
+bloc = 5	move =740
+bloc = 6	move =720
+bloc = 7	move =675
+bloc = 8	move =654
+bloc = 9	move =646
+bloc = 10	move =630
+bloc = 11	move =625
+bloc = 12	move =621
+bloc = 13	move =613
+bloc = 14	move =590
+bloc = 15	move =597
+bloc = 16	move =615
+bloc = 17	move =626
+bloc = 18	move =625
+bloc = 19	move =634
+bloc = 20	move =632
+bloc = 21	move =643
+bloc = 22	move =644
+bloc = 23	move =660
+bloc = 24	move =682
+bloc = 25	move =694
+bloc = 26	move =690
+bloc = 27	move =694
+bloc = 28	move =690
+bloc = 29	move =678
+bloc = 30	move =684
+bloc = 31	move =696
+bloc = 32	move =711
+bloc = 33	move =715
+bloc = 34	move =714
+bloc = 35	move =718
+bloc = 36	move =714
+bloc = 37	move =752
+bloc = 38	move =746
+bloc = 39	move =741
+best taille = 14	best blok =590
+
+
+
+
+bloc = 1	move =1480
+bloc = 2	move =1154
+bloc = 3	move =949
+bloc = 4	move =826
+bloc = 5	move =733
+bloc = 6	move =684
+bloc = 7	move =656
+bloc = 8	move =629
+bloc = 9	move =611
+bloc = 10	move =597
+bloc = 11	move =590
+bloc = 12	move =591
+bloc = 13	move =604
+bloc = 14	move =601
+bloc = 15	move =586
+bloc = 16	move =600
+bloc = 17	move =633
+bloc = 18	move =614
+bloc = 19	move =619
+bloc = 20	move =633
+bloc = 21	move =617
+bloc = 22	move =630
+bloc = 23	move =650
+bloc = 24	move =649
+bloc = 25	move =682
+bloc = 26	move =687
+bloc = 27	move =690
+bloc = 28	move =697
+bloc = 29	move =702
+bloc = 30	move =700
+bloc = 31	move =695
+bloc = 32	move =729
+bloc = 33	move =736
+bloc = 34	move =730
+bloc = 35	move =754
+bloc = 36	move =787
+bloc = 37	move =797
+bloc = 38	move =795
+bloc = 39	move =793
+best taille = 15	best blok =586
+
+
+
+
+bloc = 1	move =1408
+bloc = 2	move =1068
+bloc = 3	move =808
+bloc = 4	move =806
+bloc = 5	move =756
+bloc = 6	move =673
+bloc = 7	move =640
+bloc = 8	move =627
+bloc = 9	move =596
+bloc = 10	move =595
+bloc = 11	move =604
+bloc = 12	move =581
+bloc = 13	move =583
+bloc = 14	move =582
+bloc = 15	move =587
+bloc = 16	move =596
+bloc = 17	move =603
+bloc = 18	move =608
+bloc = 19	move =627
+bloc = 20	move =619
+bloc = 21	move =617
+bloc = 22	move =622
+bloc = 23	move =625
+bloc = 24	move =643
+bloc = 25	move =659
+bloc = 26	move =643
+bloc = 27	move =637
+bloc = 28	move =638
+bloc = 29	move =654
+bloc = 30	move =662
+bloc = 31	move =654
+bloc = 32	move =658
+bloc = 33	move =688
+bloc = 34	move =689
+bloc = 35	move =701
+bloc = 36	move =693
+bloc = 37	move =737
+bloc = 38	move =737
+bloc = 39	move =765
+best taille = 12	best blok =581
+
+
+
+
+bloc = 1	move =1501
+bloc = 2	move =1063
+bloc = 3	move =882
+bloc = 4	move =796
+bloc = 5	move =725
+bloc = 6	move =698
+bloc = 7	move =663
+bloc = 8	move =632
+bloc = 9	move =614
+bloc = 10	move =628
+bloc = 11	move =585
+bloc = 12	move =588
+bloc = 13	move =615
+bloc = 14	move =573
+bloc = 15	move =600
+bloc = 16	move =586
+bloc = 17	move =577
+bloc = 18	move =610
+bloc = 19	move =614
+bloc = 20	move =626
+bloc = 21	move =630
+bloc = 22	move =614
+bloc = 23	move =623
+bloc = 24	move =620
+bloc = 25	move =646
+bloc = 26	move =652
+bloc = 27	move =635
+bloc = 28	move =642
+bloc = 29	move =660
+bloc = 30	move =671
+bloc = 31	move =683
+bloc = 32	move =670
+bloc = 33	move =666
+bloc = 34	move =661
+bloc = 35	move =701
+bloc = 36	move =712
+bloc = 37	move =705
+bloc = 38	move =723
+bloc = 39	move =764
+best taille = 14	best blok =573
+
+
+
+
+bloc = 1	move =1382
+bloc = 2	move =1012
+bloc = 3	move =940
+bloc = 4	move =790
+bloc = 5	move =737
+bloc = 6	move =685
+bloc = 7	move =630
+bloc = 8	move =637
+bloc = 9	move =623
+bloc = 10	move =591
+bloc = 11	move =574
+bloc = 12	move =584
+bloc = 13	move =578
+bloc = 14	move =579
+bloc = 15	move =554
+bloc = 16	move =571
+bloc = 17	move =560
+bloc = 18	move =588
+bloc = 19	move =574
+bloc = 20	move =596
+bloc = 21	move =609
+bloc = 22	move =593
+bloc = 23	move =636
+bloc = 24	move =631
+bloc = 25	move =623
+bloc = 26	move =638
+bloc = 27	move =624
+bloc = 28	move =615
+bloc = 29	move =609
+bloc = 30	move =606
+bloc = 31	move =621
+bloc = 32	move =645
+bloc = 33	move =642
+bloc = 34	move =631
+bloc = 35	move =680
+bloc = 36	move =678
+bloc = 37	move =673
+bloc = 38	move =674
+bloc = 39	move =691
+best taille = 15	best blok =554
+
+
+
+
+bloc = 1	move =1473
+bloc = 2	move =947
+bloc = 3	move =933
+bloc = 4	move =766
+bloc = 5	move =737
+bloc = 6	move =661
+bloc = 7	move =652
+bloc = 8	move =631
+bloc = 9	move =597
+bloc = 10	move =613
+bloc = 11	move =606
+bloc = 12	move =608
+bloc = 13	move =619
+bloc = 14	move =591
+bloc = 15	move =611
+bloc = 16	move =633
+bloc = 17	move =629
+bloc = 18	move =633
+bloc = 19	move =629
+bloc = 20	move =633
+bloc = 21	move =674
+bloc = 22	move =645
+bloc = 23	move =675
+bloc = 24	move =716
+bloc = 25	move =729
+bloc = 26	move =712
+bloc = 27	move =704
+bloc = 28	move =701
+bloc = 29	move =717
+bloc = 30	move =721
+bloc = 31	move =719
+bloc = 32	move =732
+bloc = 33	move =735
+bloc = 34	move =750
+bloc = 35	move =764
+bloc = 36	move =780
+bloc = 37	move =777
+bloc = 38	move =770
+bloc = 39	move =771
+best taille = 14	best blok =591
+
+
+
+
+bloc = 1	move =1425
+bloc = 2	move =1095
+bloc = 3	move =909
+bloc = 4	move =814
+bloc = 5	move =744
+bloc = 6	move =685
+bloc = 7	move =648
+bloc = 8	move =608
+bloc = 9	move =602
+bloc = 10	move =606
+bloc = 11	move =601
+bloc = 12	move =611
+bloc = 13	move =596
+bloc = 14	move =545
+bloc = 15	move =566
+bloc = 16	move =568
+bloc = 17	move =570
+bloc = 18	move =570
+bloc = 19	move =582
+bloc = 20	move =578
+bloc = 21	move =585
+bloc = 22	move =605
+bloc = 23	move =630
+bloc = 24	move =622
+bloc = 25	move =632
+bloc = 26	move =623
+bloc = 27	move =616
+bloc = 28	move =605
+bloc = 29	move =606
+bloc = 30	move =634
+bloc = 31	move =629
+bloc = 32	move =639
+bloc = 33	move =632
+bloc = 34	move =634
+bloc = 35	move =680
+bloc = 36	move =682
+bloc = 37	move =685
+bloc = 38	move =707
+bloc = 39	move =734
+best taille = 14	best blok =545
+
+
+
+
+bloc = 1	move =1386
+bloc = 2	move =1030
+bloc = 3	move =886
+bloc = 4	move =818
+bloc = 5	move =722
+bloc = 6	move =670
+bloc = 7	move =648
+bloc = 8	move =647
+bloc = 9	move =631
+bloc = 10	move =624
+bloc = 11	move =600
+bloc = 12	move =597
+bloc = 13	move =570
+bloc = 14	move =586
+bloc = 15	move =584
+bloc = 16	move =585
+bloc = 17	move =585
+bloc = 18	move =595
+bloc = 19	move =631
+bloc = 20	move =618
+bloc = 21	move =620
+bloc = 22	move =643
+bloc = 23	move =663
+bloc = 24	move =664
+bloc = 25	move =662
+bloc = 26	move =694
+bloc = 27	move =690
+bloc = 28	move =690
+bloc = 29	move =694
+bloc = 30	move =699
+bloc = 31	move =693
+bloc = 32	move =702
+bloc = 33	move =695
+bloc = 34	move =720
+bloc = 35	move =719
+bloc = 36	move =714
+bloc = 37	move =721
+bloc = 38	move =734
+bloc = 39	move =768
+best taille = 13	best blok =570
+
+
+
+
+bloc = 1	move =1552
+bloc = 2	move =1088
+bloc = 3	move =888
+bloc = 4	move =763
+bloc = 5	move =761
+bloc = 6	move =691
+bloc = 7	move =674
+bloc = 8	move =633
+bloc = 9	move =608
+bloc = 10	move =629
+bloc = 11	move =597
+bloc = 12	move =585
+bloc = 13	move =585
+bloc = 14	move =592
+bloc = 15	move =584
+bloc = 16	move =614
+bloc = 17	move =588
+bloc = 18	move =568
+bloc = 19	move =589
+bloc = 20	move =610
+bloc = 21	move =596
+bloc = 22	move =632
+bloc = 23	move =619
+bloc = 24	move =620
+bloc = 25	move =634
+bloc = 26	move =629
+bloc = 27	move =626
+bloc = 28	move =647
+bloc = 29	move =635
+bloc = 30	move =638
+bloc = 31	move =657
+bloc = 32	move =696
+bloc = 33	move =705
+bloc = 34	move =700
+bloc = 35	move =706
+bloc = 36	move =711
+bloc = 37	move =699
+bloc = 38	move =720
+bloc = 39	move =749
+best taille = 18	best blok =568
+
+
+
+
+bloc = 1	move =1455
+bloc = 2	move =1037
+bloc = 3	move =863
+bloc = 4	move =809
+bloc = 5	move =756
+bloc = 6	move =694
+bloc = 7	move =658
+bloc = 8	move =628
+bloc = 9	move =616
+bloc = 10	move =619
+bloc = 11	move =604
+bloc = 12	move =588
+bloc = 13	move =607
+bloc = 14	move =610
+bloc = 15	move =616
+bloc = 16	move =620
+bloc = 17	move =611
+bloc = 18	move =604
+bloc = 19	move =604
+bloc = 20	move =606
+bloc = 21	move =619
+bloc = 22	move =643
+bloc = 23	move =647
+bloc = 24	move =645
+bloc = 25	move =690
+bloc = 26	move =704
+bloc = 27	move =709
+bloc = 28	move =702
+bloc = 29	move =703
+bloc = 30	move =704
+bloc = 31	move =696
+bloc = 32	move =729
+bloc = 33	move =727
+bloc = 34	move =723
+bloc = 35	move =739
+bloc = 36	move =741
+bloc = 37	move =738
+bloc = 38	move =745
+bloc = 39	move =772
+best taille = 12	best blok =588
+
+
+
+
+bloc = 1	move =1487
+bloc = 2	move =1141
+bloc = 3	move =876
+bloc = 4	move =728
+bloc = 5	move =692
+bloc = 6	move =671
+bloc = 7	move =640
+bloc = 8	move =623
+bloc = 9	move =605
+bloc = 10	move =613
+bloc = 11	move =577
+bloc = 12	move =605
+bloc = 13	move =576
+bloc = 14	move =588
+bloc = 15	move =581
+bloc = 16	move =598
+bloc = 17	move =601
+bloc = 18	move =598
+bloc = 19	move =624
+bloc = 20	move =624
+bloc = 21	move =645
+bloc = 22	move =643
+bloc = 23	move =661
+bloc = 24	move =683
+bloc = 25	move =680
+bloc = 26	move =694
+bloc = 27	move =688
+bloc = 28	move =694
+bloc = 29	move =697
+bloc = 30	move =709
+bloc = 31	move =739
+bloc = 32	move =735
+bloc = 33	move =746
+bloc = 34	move =737
+bloc = 35	move =733
+bloc = 36	move =726
+bloc = 37	move =722
+bloc = 38	move =741
+bloc = 39	move =738
+best taille = 13	best blok =576
+
+
+
+
+bloc = 1	move =1411
+bloc = 2	move =1101
+bloc = 3	move =876
+bloc = 4	move =781
+bloc = 5	move =735
+bloc = 6	move =671
+bloc = 7	move =652
+bloc = 8	move =607
+bloc = 9	move =590
+bloc = 10	move =575
+bloc = 11	move =584
+bloc = 12	move =567
+bloc = 13	move =573
+bloc = 14	move =581
+bloc = 15	move =599
+bloc = 16	move =602
+bloc = 17	move =616
+bloc = 18	move =579
+bloc = 19	move =597
+bloc = 20	move =596
+bloc = 21	move =604
+bloc = 22	move =606
+bloc = 23	move =622
+bloc = 24	move =630
+bloc = 25	move =669
+bloc = 26	move =667
+bloc = 27	move =664
+bloc = 28	move =671
+bloc = 29	move =689
+bloc = 30	move =700
+bloc = 31	move =699
+bloc = 32	move =697
+bloc = 33	move =731
+bloc = 34	move =751
+bloc = 35	move =774
+bloc = 36	move =769
+bloc = 37	move =766
+bloc = 38	move =752
+bloc = 39	move =758
+best taille = 12	best blok =567
+
+
+
+
+bloc = 1	move =1494
+bloc = 2	move =1114
+bloc = 3	move =957
+bloc = 4	move =838
+bloc = 5	move =740
+bloc = 6	move =699
+bloc = 7	move =654
+bloc = 8	move =637
+bloc = 9	move =628
+bloc = 10	move =611
+bloc = 11	move =592
+bloc = 12	move =576
+bloc = 13	move =593
+bloc = 14	move =578
+bloc = 15	move =574
+bloc = 16	move =602
+bloc = 17	move =596
+bloc = 18	move =596
+bloc = 19	move =587
+bloc = 20	move =589
+bloc = 21	move =618
+bloc = 22	move =622
+bloc = 23	move =607
+bloc = 24	move =617
+bloc = 25	move =605
+bloc = 26	move =626
+bloc = 27	move =626
+bloc = 28	move =645
+bloc = 29	move =646
+bloc = 30	move =634
+bloc = 31	move =632
+bloc = 32	move =655
+bloc = 33	move =655
+bloc = 34	move =663
+bloc = 35	move =667
+bloc = 36	move =666
+bloc = 37	move =691
+bloc = 38	move =685
+bloc = 39	move =714
+best taille = 15	best blok =574
+
+
+
+
+bloc = 1	move =1321
+bloc = 2	move =1067
+bloc = 3	move =916
+bloc = 4	move =782
+bloc = 5	move =713
+bloc = 6	move =684
+bloc = 7	move =650
+bloc = 8	move =627
+bloc = 9	move =614
+bloc = 10	move =620
+bloc = 11	move =601
+bloc = 12	move =594
+bloc = 13	move =570
+bloc = 14	move =623
+bloc = 15	move =607
+bloc = 16	move =622
+bloc = 17	move =600
+bloc = 18	move =619
+bloc = 19	move =646
+bloc = 20	move =641
+bloc = 21	move =644
+bloc = 22	move =670
+bloc = 23	move =681
+bloc = 24	move =709
+bloc = 25	move =686
+bloc = 26	move =682
+bloc = 27	move =682
+bloc = 28	move =702
+bloc = 29	move =699
+bloc = 30	move =686
+bloc = 31	move =681
+bloc = 32	move =693
+bloc = 33	move =686
+bloc = 34	move =690
+bloc = 35	move =717
+bloc = 36	move =717
+bloc = 37	move =714
+bloc = 38	move =715
+bloc = 39	move =710
+best taille = 13	best blok =570
+
+
+
+
+bloc = 1	move =1495
+bloc = 2	move =1137
+bloc = 3	move =895
+bloc = 4	move =813
+bloc = 5	move =741
+bloc = 6	move =698
+bloc = 7	move =660
+bloc = 8	move =654
+bloc = 9	move =613
+bloc = 10	move =617
+bloc = 11	move =621
+bloc = 12	move =625
+bloc = 13	move =585
+bloc = 14	move =583
+bloc = 15	move =588
+bloc = 16	move =627
+bloc = 17	move =645
+bloc = 18	move =615
+bloc = 19	move =639
+bloc = 20	move =642
+bloc = 21	move =639
+bloc = 22	move =653
+bloc = 23	move =650
+bloc = 24	move =655
+bloc = 25	move =660
+bloc = 26	move =659
+bloc = 27	move =657
+bloc = 28	move =668
+bloc = 29	move =661
+bloc = 30	move =664
+bloc = 31	move =674
+bloc = 32	move =729
+bloc = 33	move =736
+bloc = 34	move =748
+bloc = 35	move =738
+bloc = 36	move =742
+bloc = 37	move =746
+bloc = 38	move =788
+bloc = 39	move =783
+best taille = 14	best blok =583
+
+
+
+
+bloc = 1	move =1520
+bloc = 2	move =1038
+bloc = 3	move =890
+bloc = 4	move =794
+bloc = 5	move =735
+bloc = 6	move =660
+bloc = 7	move =630
+bloc = 8	move =629
+bloc = 9	move =623
+bloc = 10	move =617
+bloc = 11	move =587
+bloc = 12	move =587
+bloc = 13	move =582
+bloc = 14	move =612
+bloc = 15	move =592
+bloc = 16	move =607
+bloc = 17	move =610
+bloc = 18	move =620
+bloc = 19	move =608
+bloc = 20	move =624
+bloc = 21	move =619
+bloc = 22	move =627
+bloc = 23	move =646
+bloc = 24	move =644
+bloc = 25	move =642
+bloc = 26	move =635
+bloc = 27	move =652
+bloc = 28	move =652
+bloc = 29	move =652
+bloc = 30	move =667
+bloc = 31	move =678
+bloc = 32	move =685
+bloc = 33	move =689
+bloc = 34	move =695
+bloc = 35	move =717
+bloc = 36	move =724
+bloc = 37	move =716
+bloc = 38	move =715
+bloc = 39	move =738
+best taille = 13	best blok =582
+
+
+
+
+bloc = 1	move =1506
+bloc = 2	move =1116
+bloc = 3	move =909
+bloc = 4	move =804
+bloc = 5	move =719
+bloc = 6	move =652
+bloc = 7	move =640
+bloc = 8	move =604
+bloc = 9	move =616
+bloc = 10	move =580
+bloc = 11	move =580
+bloc = 12	move =555
+bloc = 13	move =604
+bloc = 14	move =569
+bloc = 15	move =582
+bloc = 16	move =589
+bloc = 17	move =563
+bloc = 18	move =577
+bloc = 19	move =577
+bloc = 20	move =606
+bloc = 21	move =591
+bloc = 22	move =612
+bloc = 23	move =615
+bloc = 24	move =613
+bloc = 25	move =595
+bloc = 26	move =616
+bloc = 27	move =620
+bloc = 28	move =612
+bloc = 29	move =606
+bloc = 30	move =622
+bloc = 31	move =621
+bloc = 32	move =630
+bloc = 33	move =632
+bloc = 34	move =641
+bloc = 35	move =676
+bloc = 36	move =679
+bloc = 37	move =682
+bloc = 38	move =686
+bloc = 39	move =752
+best taille = 12	best blok =555
+
+
+
+
+bloc = 1	move =1685
+bloc = 2	move =1115
+bloc = 3	move =923
+bloc = 4	move =764
+bloc = 5	move =712
+bloc = 6	move =680
+bloc = 7	move =628
+bloc = 8	move =618
+bloc = 9	move =609
+bloc = 10	move =585
+bloc = 11	move =567
+bloc = 12	move =593
+bloc = 13	move =588
+bloc = 14	move =593
+bloc = 15	move =575
+bloc = 16	move =605
+bloc = 17	move =582
+bloc = 18	move =610
+bloc = 19	move =599
+bloc = 20	move =615
+bloc = 21	move =633
+bloc = 22	move =634
+bloc = 23	move =644
+bloc = 24	move =643
+bloc = 25	move =683
+bloc = 26	move =665
+bloc = 27	move =677
+bloc = 28	move =686
+bloc = 29	move =699
+bloc = 30	move =716
+bloc = 31	move =723
+bloc = 32	move =755
+bloc = 33	move =753
+bloc = 34	move =747
+bloc = 35	move =762
+bloc = 36	move =765
+bloc = 37	move =779
+bloc = 38	move =787
+bloc = 39	move =805
+best taille = 11	best blok =567
+
+
+
+
+bloc = 1	move =1519
+bloc = 2	move =1043
+bloc = 3	move =914
+bloc = 4	move =793
+bloc = 5	move =729
+bloc = 6	move =650
+bloc = 7	move =637
+bloc = 8	move =614
+bloc = 9	move =581
+bloc = 10	move =567
+bloc = 11	move =581
+bloc = 12	move =580
+bloc = 13	move =574
+bloc = 14	move =594
+bloc = 15	move =602
+bloc = 16	move =605
+bloc = 17	move =591
+bloc = 18	move =594
+bloc = 19	move =575
+bloc = 20	move =568
+bloc = 21	move =591
+bloc = 22	move =610
+bloc = 23	move =607
+bloc = 24	move =624
+bloc = 25	move =608
+bloc = 26	move =652
+bloc = 27	move =658
+bloc = 28	move =642
+bloc = 29	move =629
+bloc = 30	move =656
+bloc = 31	move =657
+bloc = 32	move =646
+bloc = 33	move =643
+bloc = 34	move =671
+bloc = 35	move =679
+bloc = 36	move =708
+bloc = 37	move =705
+bloc = 38	move =712
+bloc = 39	move =731
+best taille = 10	best blok =567
+
+
+
+
+bloc = 1	move =1387
+bloc = 2	move =1041
+bloc = 3	move =933
+bloc = 4	move =794
+bloc = 5	move =746
+bloc = 6	move =706
+bloc = 7	move =668
+bloc = 8	move =619
+bloc = 9	move =626
+bloc = 10	move =602
+bloc = 11	move =606
+bloc = 12	move =593
+bloc = 13	move =594
+bloc = 14	move =574
+bloc = 15	move =580
+bloc = 16	move =582
+bloc = 17	move =582
+bloc = 18	move =593
+bloc = 19	move =590
+bloc = 20	move =604
+bloc = 21	move =601
+bloc = 22	move =593
+bloc = 23	move =597
+bloc = 24	move =624
+bloc = 25	move =619
+bloc = 26	move =646
+bloc = 27	move =635
+bloc = 28	move =626
+bloc = 29	move =613
+bloc = 30	move =609
+bloc = 31	move =642
+bloc = 32	move =639
+bloc = 33	move =650
+bloc = 34	move =649
+bloc = 35	move =687
+bloc = 36	move =705
+bloc = 37	move =711
+bloc = 38	move =730
+bloc = 39	move =750
+best taille = 14	best blok =574
+
+
+
+
+bloc = 1	move =1484
+bloc = 2	move =1136
+bloc = 3	move =903
+bloc = 4	move =803
+bloc = 5	move =758
+bloc = 6	move =709
+bloc = 7	move =670
+bloc = 8	move =649
+bloc = 9	move =612
+bloc = 10	move =608
+bloc = 11	move =592
+bloc = 12	move =592
+bloc = 13	move =606
+bloc = 14	move =595
+bloc = 15	move =607
+bloc = 16	move =592
+bloc = 17	move =597
+bloc = 18	move =597
+bloc = 19	move =623
+bloc = 20	move =616
+bloc = 21	move =643
+bloc = 22	move =629
+bloc = 23	move =650
+bloc = 24	move =652
+bloc = 25	move =672
+bloc = 26	move =681
+bloc = 27	move =690
+bloc = 28	move =671
+bloc = 29	move =684
+bloc = 30	move =694
+bloc = 31	move =700
+bloc = 32	move =696
+bloc = 33	move =690
+bloc = 34	move =692
+bloc = 35	move =756
+bloc = 36	move =759
+bloc = 37	move =814
+bloc = 38	move =814
+bloc = 39	move =813
+best taille = 11	best blok =592
+
+
+
+
+bloc = 1	move =1461
+bloc = 2	move =1129
+bloc = 3	move =910
+bloc = 4	move =829
+bloc = 5	move =740
+bloc = 6	move =687
+bloc = 7	move =665
+bloc = 8	move =645
+bloc = 9	move =605
+bloc = 10	move =605
+bloc = 11	move =601
+bloc = 12	move =612
+bloc = 13	move =603
+bloc = 14	move =598
+bloc = 15	move =593
+bloc = 16	move =620
+bloc = 17	move =614
+bloc = 18	move =614
+bloc = 19	move =610
+bloc = 20	move =612
+bloc = 21	move =642
+bloc = 22	move =642
+bloc = 23	move =645
+bloc = 24	move =661
+bloc = 25	move =657
+bloc = 26	move =639
+bloc = 27	move =650
+bloc = 28	move =643
+bloc = 29	move =645
+bloc = 30	move =646
+bloc = 31	move =639
+bloc = 32	move =658
+bloc = 33	move =656
+bloc = 34	move =648
+bloc = 35	move =667
+bloc = 36	move =712
+bloc = 37	move =720
+bloc = 38	move =736
+bloc = 39	move =740
+best taille = 15	best blok =593
+
+
+
+
+bloc = 1	move =1401
+bloc = 2	move =1105
+bloc = 3	move =874
+bloc = 4	move =798
+bloc = 5	move =741
+bloc = 6	move =679
+bloc = 7	move =662
+bloc = 8	move =627
+bloc = 9	move =597
+bloc = 10	move =619
+bloc = 11	move =602
+bloc = 12	move =617
+bloc = 13	move =587
+bloc = 14	move =564
+bloc = 15	move =596
+bloc = 16	move =605
+bloc = 17	move =596
+bloc = 18	move =612
+bloc = 19	move =618
+bloc = 20	move =625
+bloc = 21	move =633
+bloc = 22	move =665
+bloc = 23	move =673
+bloc = 24	move =699
+bloc = 25	move =679
+bloc = 26	move =678
+bloc = 27	move =678
+bloc = 28	move =665
+bloc = 29	move =663
+bloc = 30	move =662
+bloc = 31	move =681
+bloc = 32	move =692
+bloc = 33	move =693
+bloc = 34	move =687
+bloc = 35	move =684
+bloc = 36	move =724
+bloc = 37	move =727
+bloc = 38	move =732
+bloc = 39	move =735
+best taille = 14	best blok =564
+
+
+
+
+bloc = 1	move =1474
+bloc = 2	move =986
+bloc = 3	move =842
+bloc = 4	move =797
+bloc = 5	move =742
+bloc = 6	move =658
+bloc = 7	move =625
+bloc = 8	move =606
+bloc = 9	move =618
+bloc = 10	move =582
+bloc = 11	move =593
+bloc = 12	move =586
+bloc = 13	move =618
+bloc = 14	move =588
+bloc = 15	move =590
+bloc = 16	move =585
+bloc = 17	move =609
+bloc = 18	move =590
+bloc = 19	move =613
+bloc = 20	move =625
+bloc = 21	move =625
+bloc = 22	move =643
+bloc = 23	move =638
+bloc = 24	move =652
+bloc = 25	move =654
+bloc = 26	move =668
+bloc = 27	move =670
+bloc = 28	move =660
+bloc = 29	move =655
+bloc = 30	move =670
+bloc = 31	move =655
+bloc = 32	move =675
+bloc = 33	move =662
+bloc = 34	move =677
+bloc = 35	move =673
+bloc = 36	move =703
+bloc = 37	move =757
+bloc = 38	move =759
+bloc = 39	move =723
+best taille = 10	best blok =582
+
+
+
+
+bloc = 1	move =1432
+bloc = 2	move =1112
+bloc = 3	move =910
+bloc = 4	move =788
+bloc = 5	move =720
+bloc = 6	move =686
+bloc = 7	move =658
+bloc = 8	move =641
+bloc = 9	move =604
+bloc = 10	move =601
+bloc = 11	move =587
+bloc = 12	move =586
+bloc = 13	move =601
+bloc = 14	move =586
+bloc = 15	move =589
+bloc = 16	move =584
+bloc = 17	move =611
+bloc = 18	move =619
+bloc = 19	move =638
+bloc = 20	move =631
+bloc = 21	move =621
+bloc = 22	move =628
+bloc = 23	move =655
+bloc = 24	move =664
+bloc = 25	move =673
+bloc = 26	move =672
+bloc = 27	move =679
+bloc = 28	move =690
+bloc = 29	move =708
+bloc = 30	move =716
+bloc = 31	move =701
+bloc = 32	move =695
+bloc = 33	move =748
+bloc = 34	move =758
+bloc = 35	move =764
+bloc = 36	move =802
+bloc = 37	move =806
+bloc = 38	move =814
+bloc = 39	move =812
+best taille = 16	best blok =584
+
+
+
+
+bloc = 1	move =1503
+bloc = 2	move =1087
+bloc = 3	move =863
+bloc = 4	move =792
+bloc = 5	move =727
+bloc = 6	move =703
+bloc = 7	move =659
+bloc = 8	move =639
+bloc = 9	move =629
+bloc = 10	move =623
+bloc = 11	move =611
+bloc = 12	move =585
+bloc = 13	move =576
+bloc = 14	move =607
+bloc = 15	move =604
+bloc = 16	move =600
+bloc = 17	move =594
+bloc = 18	move =583
+bloc = 19	move =568
+bloc = 20	move =578
+bloc = 21	move =605
+bloc = 22	move =622
+bloc = 23	move =629
+bloc = 24	move =638
+bloc = 25	move =668
+bloc = 26	move =671
+bloc = 27	move =644
+bloc = 28	move =663
+bloc = 29	move =660
+bloc = 30	move =655
+bloc = 31	move =657
+bloc = 32	move =662
+bloc = 33	move =657
+bloc = 34	move =658
+bloc = 35	move =650
+bloc = 36	move =650
+bloc = 37	move =652
+bloc = 38	move =652
+bloc = 39	move =673
+best taille = 19	best blok =568
+
+
+
+
+bloc = 1	move =1566
+bloc = 2	move =1084
+bloc = 3	move =946
+bloc = 4	move =762
+bloc = 5	move =711
+bloc = 6	move =668
+bloc = 7	move =649
+bloc = 8	move =640
+bloc = 9	move =611
+bloc = 10	move =597
+bloc = 11	move =591
+bloc = 12	move =579
+bloc = 13	move =591
+bloc = 14	move =596
+bloc = 15	move =593
+bloc = 16	move =622
+bloc = 17	move =629
+bloc = 18	move =630
+bloc = 19	move =615
+bloc = 20	move =638
+bloc = 21	move =641
+bloc = 22	move =672
+bloc = 23	move =668
+bloc = 24	move =651
+bloc = 25	move =677
+bloc = 26	move =675
+bloc = 27	move =686
+bloc = 28	move =695
+bloc = 29	move =692
+bloc = 30	move =689
+bloc = 31	move =683
+bloc = 32	move =735
+bloc = 33	move =730
+bloc = 34	move =727
+bloc = 35	move =749
+bloc = 36	move =751
+bloc = 37	move =752
+bloc = 38	move =748
+bloc = 39	move =751
+best taille = 12	best blok =579
+
+
+
+
+bloc = 1	move =1479
+bloc = 2	move =1049
+bloc = 3	move =950
+bloc = 4	move =810
+bloc = 5	move =708
+bloc = 6	move =682
+bloc = 7	move =658
+bloc = 8	move =620
+bloc = 9	move =606
+bloc = 10	move =595
+bloc = 11	move =577
+bloc = 12	move =568
+bloc = 13	move =595
+bloc = 14	move =588
+bloc = 15	move =593
+bloc = 16	move =611
+bloc = 17	move =596
+bloc = 18	move =614
+bloc = 19	move =622
+bloc = 20	move =648
+bloc = 21	move =624
+bloc = 22	move =629
+bloc = 23	move =627
+bloc = 24	move =621
+bloc = 25	move =611
+bloc = 26	move =661
+bloc = 27	move =663
+bloc = 28	move =665
+bloc = 29	move =663
+bloc = 30	move =661
+bloc = 31	move =659
+bloc = 32	move =659
+bloc = 33	move =663
+bloc = 34	move =680
+bloc = 35	move =714
+bloc = 36	move =718
+bloc = 37	move =713
+bloc = 38	move =735
+bloc = 39	move =733
+best taille = 12	best blok =568
+
+
+
+
+bloc = 1	move =1446
+bloc = 2	move =1060
+bloc = 3	move =918
+bloc = 4	move =806
+bloc = 5	move =751
+bloc = 6	move =655
+bloc = 7	move =630
+bloc = 8	move =608
+bloc = 9	move =595
+bloc = 10	move =599
+bloc = 11	move =580
+bloc = 12	move =600
+bloc = 13	move =571
+bloc = 14	move =574
+bloc = 15	move =588
+bloc = 16	move =632
+bloc = 17	move =624
+bloc = 18	move =608
+bloc = 19	move =586
+bloc = 20	move =588
+bloc = 21	move =615
+bloc = 22	move =620
+bloc = 23	move =621
+bloc = 24	move =641
+bloc = 25	move =673
+bloc = 26	move =673
+bloc = 27	move =676
+bloc = 28	move =672
+bloc = 29	move =707
+bloc = 30	move =708
+bloc = 31	move =703
+bloc = 32	move =713
+bloc = 33	move =706
+bloc = 34	move =723
+bloc = 35	move =715
+bloc = 36	move =727
+bloc = 37	move =726
+bloc = 38	move =727
+bloc = 39	move =731
+best taille = 13	best blok =571
+
+
+
+
+bloc = 1	move =1496
+bloc = 2	move =1080
+bloc = 3	move =892
+bloc = 4	move =790
+bloc = 5	move =707
+bloc = 6	move =672
+bloc = 7	move =628
+bloc = 8	move =614
+bloc = 9	move =604
+bloc = 10	move =608
+bloc = 11	move =589
+bloc = 12	move =598
+bloc = 13	move =589
+bloc = 14	move =591
+bloc = 15	move =608
+bloc = 16	move =590
+bloc = 17	move =581
+bloc = 18	move =580
+bloc = 19	move =605
+bloc = 20	move =599
+bloc = 21	move =594
+bloc = 22	move =621
+bloc = 23	move =630
+bloc = 24	move =644
+bloc = 25	move =652
+bloc = 26	move =659
+bloc = 27	move =663
+bloc = 28	move =662
+bloc = 29	move =715
+bloc = 30	move =716
+bloc = 31	move =711
+bloc = 32	move =749
+bloc = 33	move =739
+bloc = 34	move =729
+bloc = 35	move =731
+bloc = 36	move =757
+bloc = 37	move =784
+bloc = 38	move =789
+bloc = 39	move =784
+best taille = 18	best blok =580
+
+
+
+
+bloc = 1	move =1464
+bloc = 2	move =1030
+bloc = 3	move =935
+bloc = 4	move =787
+bloc = 5	move =722
+bloc = 6	move =700
+bloc = 7	move =661
+bloc = 8	move =623
+bloc = 9	move =603
+bloc = 10	move =602
+bloc = 11	move =606
+bloc = 12	move =599
+bloc = 13	move =599
+bloc = 14	move =580
+bloc = 15	move =566
+bloc = 16	move =610
+bloc = 17	move =603
+bloc = 18	move =569
+bloc = 19	move =571
+bloc = 20	move =593
+bloc = 21	move =612
+bloc = 22	move =615
+bloc = 23	move =609
+bloc = 24	move =650
+bloc = 25	move =652
+bloc = 26	move =679
+bloc = 27	move =683
+bloc = 28	move =678
+bloc = 29	move =672
+bloc = 30	move =660
+bloc = 31	move =660
+bloc = 32	move =707
+bloc = 33	move =705
+bloc = 34	move =700
+bloc = 35	move =711
+bloc = 36	move =734
+bloc = 37	move =737
+bloc = 38	move =741
+bloc = 39	move =783
+best taille = 15	best blok =566
+
+
+
+
+bloc = 1	move =1530
+bloc = 2	move =1090
+bloc = 3	move =846
+bloc = 4	move =752
+bloc = 5	move =723
+bloc = 6	move =703
+bloc = 7	move =641
+bloc = 8	move =622
+bloc = 9	move =607
+bloc = 10	move =600
+bloc = 11	move =599
+bloc = 12	move =610
+bloc = 13	move =628
+bloc = 14	move =607
+bloc = 15	move =588
+bloc = 16	move =585
+bloc = 17	move =598
+bloc = 18	move =584
+bloc = 19	move =608
+bloc = 20	move =616
+bloc = 21	move =591
+bloc = 22	move =616
+bloc = 23	move =623
+bloc = 24	move =621
+bloc = 25	move =704
+bloc = 26	move =711
+bloc = 27	move =688
+bloc = 28	move =679
+bloc = 29	move =670
+bloc = 30	move =671
+bloc = 31	move =692
+bloc = 32	move =681
+bloc = 33	move =709
+bloc = 34	move =733
+bloc = 35	move =732
+bloc = 36	move =728
+bloc = 37	move =751
+bloc = 38	move =756
+bloc = 39	move =768
+best taille = 18	best blok =584
+
+
+
+
+bloc = 1	move =1294
+bloc = 2	move =1030
+bloc = 3	move =871
+bloc = 4	move =763
+bloc = 5	move =738
+bloc = 6	move =650
+bloc = 7	move =644
+bloc = 8	move =599
+bloc = 9	move =598
+bloc = 10	move =597
+bloc = 11	move =585
+bloc = 12	move =567
+bloc = 13	move =590
+bloc = 14	move =613
+bloc = 15	move =614
+bloc = 16	move =598
+bloc = 17	move =595
+bloc = 18	move =553
+bloc = 19	move =566
+bloc = 20	move =576
+bloc = 21	move =583
+bloc = 22	move =590
+bloc = 23	move =617
+bloc = 24	move =614
+bloc = 25	move =621
+bloc = 26	move =621
+bloc = 27	move =631
+bloc = 28	move =647
+bloc = 29	move =649
+bloc = 30	move =648
+bloc = 31	move =642
+bloc = 32	move =633
+bloc = 33	move =644
+bloc = 34	move =643
+bloc = 35	move =648
+bloc = 36	move =666
+bloc = 37	move =673
+bloc = 38	move =702
+bloc = 39	move =700
+best taille = 18	best blok =553
+
+
+
+
+bloc = 1	move =1628
+bloc = 2	move =1112
+bloc = 3	move =865
+bloc = 4	move =802
+bloc = 5	move =744
+bloc = 6	move =671
+bloc = 7	move =647
+bloc = 8	move =622
+bloc = 9	move =607
+bloc = 10	move =595
+bloc = 11	move =575
+bloc = 12	move =579
+bloc = 13	move =580
+bloc = 14	move =577
+bloc = 15	move =581
+bloc = 16	move =605
+bloc = 17	move =601
+bloc = 18	move =605
+bloc = 19	move =629
+bloc = 20	move =616
+bloc = 21	move =638
+bloc = 22	move =613
+bloc = 23	move =651
+bloc = 24	move =639
+bloc = 25	move =662
+bloc = 26	move =645
+bloc = 27	move =657
+bloc = 28	move =677
+bloc = 29	move =663
+bloc = 30	move =653
+bloc = 31	move =712
+bloc = 32	move =703
+bloc = 33	move =692
+bloc = 34	move =700
+bloc = 35	move =687
+bloc = 36	move =693
+bloc = 37	move =712
+bloc = 38	move =735
+bloc = 39	move =758
+best taille = 11	best blok =575
+
+
+
+
+bloc = 1	move =1486
+bloc = 2	move =1076
+bloc = 3	move =915
+bloc = 4	move =823
+bloc = 5	move =724
+bloc = 6	move =655
+bloc = 7	move =626
+bloc = 8	move =614
+bloc = 9	move =606
+bloc = 10	move =594
+bloc = 11	move =593
+bloc = 12	move =591
+bloc = 13	move =598
+bloc = 14	move =628
+bloc = 15	move =639
+bloc = 16	move =588
+bloc = 17	move =612
+bloc = 18	move =607
+bloc = 19	move =620
+bloc = 20	move =614
+bloc = 21	move =614
+bloc = 22	move =646
+bloc = 23	move =679
+bloc = 24	move =669
+bloc = 25	move =672
+bloc = 26	move =672
+bloc = 27	move =705
+bloc = 28	move =696
+bloc = 29	move =690
+bloc = 30	move =690
+bloc = 31	move =684
+bloc = 32	move =681
+bloc = 33	move =676
+bloc = 34	move =683
+bloc = 35	move =675
+bloc = 36	move =685
+bloc = 37	move =710
+bloc = 38	move =725
+bloc = 39	move =716
+best taille = 16	best blok =588
+
+
+
+
+bloc = 1	move =1373
+bloc = 2	move =971
+bloc = 3	move =933
+bloc = 4	move =785
+bloc = 5	move =662
+bloc = 6	move =645
+bloc = 7	move =623
+bloc = 8	move =595
+bloc = 9	move =594
+bloc = 10	move =603
+bloc = 11	move =571
+bloc = 12	move =587
+bloc = 13	move =606
+bloc = 14	move =594
+bloc = 15	move =584
+bloc = 16	move =604
+bloc = 17	move =576
+bloc = 18	move =566
+bloc = 19	move =585
+bloc = 20	move =618
+bloc = 21	move =629
+bloc = 22	move =627
+bloc = 23	move =630
+bloc = 24	move =654
+bloc = 25	move =656
+bloc = 26	move =656
+bloc = 27	move =653
+bloc = 28	move =661
+bloc = 29	move =668
+bloc = 30	move =668
+bloc = 31	move =670
+bloc = 32	move =684
+bloc = 33	move =675
+bloc = 34	move =699
+bloc = 35	move =698
+bloc = 36	move =696
+bloc = 37	move =726
+bloc = 38	move =729
+bloc = 39	move =768
+best taille = 18	best blok =566
+
+
+
+
+bloc = 1	move =1496
+bloc = 2	move =1182
+bloc = 3	move =894
+bloc = 4	move =810
+bloc = 5	move =713
+bloc = 6	move =719
+bloc = 7	move =661
+bloc = 8	move =647
+bloc = 9	move =620
+bloc = 10	move =607
+bloc = 11	move =602
+bloc = 12	move =619
+bloc = 13	move =611
+bloc = 14	move =584
+bloc = 15	move =582
+bloc = 16	move =602
+bloc = 17	move =608
+bloc = 18	move =588
+bloc = 19	move =596
+bloc = 20	move =612
+bloc = 21	move =641
+bloc = 22	move =665
+bloc = 23	move =681
+bloc = 24	move =669
+bloc = 25	move =725
+bloc = 26	move =708
+bloc = 27	move =702
+bloc = 28	move =703
+bloc = 29	move =717
+bloc = 30	move =707
+bloc = 31	move =712
+bloc = 32	move =716
+bloc = 33	move =754
+bloc = 34	move =765
+bloc = 35	move =752
+bloc = 36	move =747
+bloc = 37	move =740
+bloc = 38	move =769
+bloc = 39	move =774
+best taille = 15	best blok =582
+
+
+
+
+bloc = 1	move =1469
+bloc = 2	move =1097
+bloc = 3	move =931
+bloc = 4	move =810
+bloc = 5	move =722
+bloc = 6	move =684
+bloc = 7	move =666
+bloc = 8	move =661
+bloc = 9	move =623
+bloc = 10	move =618
+bloc = 11	move =633
+bloc = 12	move =595
+bloc = 13	move =581
+bloc = 14	move =586
+bloc = 15	move =610
+bloc = 16	move =611
+bloc = 17	move =599
+bloc = 18	move =609
+bloc = 19	move =630
+bloc = 20	move =652
+bloc = 21	move =649
+bloc = 22	move =659
+bloc = 23	move =681
+bloc = 24	move =682
+bloc = 25	move =689
+bloc = 26	move =682
+bloc = 27	move =673
+bloc = 28	move =667
+bloc = 29	move =694
+bloc = 30	move =680
+bloc = 31	move =671
+bloc = 32	move =697
+bloc = 33	move =715
+bloc = 34	move =714
+bloc = 35	move =705
+bloc = 36	move =711
+bloc = 37	move =765
+bloc = 38	move =758
+bloc = 39	move =762
+best taille = 13	best blok =581
+
+
+
+
+bloc = 1	move =1446
+bloc = 2	move =1130
+bloc = 3	move =951
+bloc = 4	move =752
+bloc = 5	move =728
+bloc = 6	move =674
+bloc = 7	move =643
+bloc = 8	move =634
+bloc = 9	move =630
+bloc = 10	move =612
+bloc = 11	move =597
+bloc = 12	move =596
+bloc = 13	move =599
+bloc = 14	move =584
+bloc = 15	move =582
+bloc = 16	move =586
+bloc = 17	move =595
+bloc = 18	move =584
+bloc = 19	move =568
+bloc = 20	move =592
+bloc = 21	move =611
+bloc = 22	move =621
+bloc = 23	move =615
+bloc = 24	move =628
+bloc = 25	move =659
+bloc = 26	move =662
+bloc = 27	move =649
+bloc = 28	move =641
+bloc = 29	move =655
+bloc = 30	move =667
+bloc = 31	move =673
+bloc = 32	move =675
+bloc = 33	move =670
+bloc = 34	move =681
+bloc = 35	move =726
+bloc = 36	move =724
+bloc = 37	move =732
+bloc = 38	move =735
+bloc = 39	move =754
+best taille = 19	best blok =568
+
+
+
+
+bloc = 1	move =1363
+bloc = 2	move =1063
+bloc = 3	move =896
+bloc = 4	move =824
+bloc = 5	move =711
+bloc = 6	move =658
+bloc = 7	move =653
+bloc = 8	move =625
+bloc = 9	move =591
+bloc = 10	move =586
+bloc = 11	move =593
+bloc = 12	move =584
+bloc = 13	move =581
+bloc = 14	move =592
+bloc = 15	move =574
+bloc = 16	move =562
+bloc = 17	move =604
+bloc = 18	move =606
+bloc = 19	move =584
+bloc = 20	move =583
+bloc = 21	move =591
+bloc = 22	move =599
+bloc = 23	move =643
+bloc = 24	move =633
+bloc = 25	move =677
+bloc = 26	move =667
+bloc = 27	move =662
+bloc = 28	move =674
+bloc = 29	move =665
+bloc = 30	move =654
+bloc = 31	move =652
+bloc = 32	move =683
+bloc = 33	move =685
+bloc = 34	move =680
+bloc = 35	move =686
+bloc = 36	move =700
+bloc = 37	move =707
+bloc = 38	move =686
+bloc = 39	move =668
+best taille = 16	best blok =562
+
+
+
+
+bloc = 1	move =1318
+bloc = 2	move =1022
+bloc = 3	move =884
+bloc = 4	move =808
+bloc = 5	move =732
+bloc = 6	move =669
+bloc = 7	move =668
+bloc = 8	move =656
+bloc = 9	move =636
+bloc = 10	move =631
+bloc = 11	move =611
+bloc = 12	move =585
+bloc = 13	move =602
+bloc = 14	move =605
+bloc = 15	move =606
+bloc = 16	move =595
+bloc = 17	move =614
+bloc = 18	move =596
+bloc = 19	move =613
+bloc = 20	move =616
+bloc = 21	move =618
+bloc = 22	move =616
+bloc = 23	move =637
+bloc = 24	move =620
+bloc = 25	move =621
+bloc = 26	move =634
+bloc = 27	move =655
+bloc = 28	move =652
+bloc = 29	move =665
+bloc = 30	move =678
+bloc = 31	move =673
+bloc = 32	move =689
+bloc = 33	move =693
+bloc = 34	move =691
+bloc = 35	move =703
+bloc = 36	move =709
+bloc = 37	move =775
+bloc = 38	move =771
+bloc = 39	move =772
+best taille = 12	best blok =585
+
+
+
+
+bloc = 1	move =1460
+bloc = 2	move =1014
+bloc = 3	move =948
+bloc = 4	move =839
+bloc = 5	move =766
+bloc = 6	move =693
+bloc = 7	move =678
+bloc = 8	move =634
+bloc = 9	move =640
+bloc = 10	move =601
+bloc = 11	move =613
+bloc = 12	move =606
+bloc = 13	move =597
+bloc = 14	move =583
+bloc = 15	move =582
+bloc = 16	move =595
+bloc = 17	move =581
+bloc = 18	move =581
+bloc = 19	move =562
+bloc = 20	move =581
+bloc = 21	move =601
+bloc = 22	move =603
+bloc = 23	move =603
+bloc = 24	move =620
+bloc = 25	move =612
+bloc = 26	move =652
+bloc = 27	move =655
+bloc = 28	move =638
+bloc = 29	move =641
+bloc = 30	move =646
+bloc = 31	move =681
+bloc = 32	move =695
+bloc = 33	move =693
+bloc = 34	move =693
+bloc = 35	move =703
+bloc = 36	move =708
+bloc = 37	move =723
+bloc = 38	move =737
+bloc = 39	move =757
+best taille = 19	best blok =562
+
+
+
+
+bloc = 1	move =1368
+bloc = 2	move =1086
+bloc = 3	move =890
+bloc = 4	move =795
+bloc = 5	move =711
+bloc = 6	move =679
+bloc = 7	move =660
+bloc = 8	move =633
+bloc = 9	move =624
+bloc = 10	move =609
+bloc = 11	move =595
+bloc = 12	move =601
+bloc = 13	move =599
+bloc = 14	move =610
+bloc = 15	move =600
+bloc = 16	move =650
+bloc = 17	move =620
+bloc = 18	move =635
+bloc = 19	move =649
+bloc = 20	move =618
+bloc = 21	move =606
+bloc = 22	move =620
+bloc = 23	move =620
+bloc = 24	move =647
+bloc = 25	move =666
+bloc = 26	move =690
+bloc = 27	move =688
+bloc = 28	move =689
+bloc = 29	move =685
+bloc = 30	move =695
+bloc = 31	move =700
+bloc = 32	move =747
+bloc = 33	move =749
+bloc = 34	move =741
+bloc = 35	move =734
+bloc = 36	move =774
+bloc = 37	move =787
+bloc = 38	move =792
+bloc = 39	move =765
+best taille = 11	best blok =595
+
+
+
+
+bloc = 1	move =1510
+bloc = 2	move =1138
+bloc = 3	move =910
+bloc = 4	move =844
+bloc = 5	move =766
+bloc = 6	move =707
+bloc = 7	move =650
+bloc = 8	move =637
+bloc = 9	move =620
+bloc = 10	move =615
+bloc = 11	move =611
+bloc = 12	move =632
+bloc = 13	move =606
+bloc = 14	move =607
+bloc = 15	move =605
+bloc = 16	move =617
+bloc = 17	move =601
+bloc = 18	move =591
+bloc = 19	move =618
+bloc = 20	move =612
+bloc = 21	move =641
+bloc = 22	move =647
+bloc = 23	move =655
+bloc = 24	move =648
+bloc = 25	move =684
+bloc = 26	move =717
+bloc = 27	move =703
+bloc = 28	move =698
+bloc = 29	move =724
+bloc = 30	move =711
+bloc = 31	move =703
+bloc = 32	move =710
+bloc = 33	move =717
+bloc = 34	move =709
+bloc = 35	move =707
+bloc = 36	move =713
+bloc = 37	move =736
+bloc = 38	move =805
+bloc = 39	move =799
+best taille = 18	best blok =591
+
+
+
+
+bloc = 1	move =1524
+bloc = 2	move =1080
+bloc = 3	move =895
+bloc = 4	move =798
+bloc = 5	move =720
+bloc = 6	move =677
+bloc = 7	move =668
+bloc = 8	move =650
+bloc = 9	move =606
+bloc = 10	move =630
+bloc = 11	move =604
+bloc = 12	move =570
+bloc = 13	move =592
+bloc = 14	move =575
+bloc = 15	move =596
+bloc = 16	move =586
+bloc = 17	move =601
+bloc = 18	move =596
+bloc = 19	move =612
+bloc = 20	move =615
+bloc = 21	move =609
+bloc = 22	move =613
+bloc = 23	move =624
+bloc = 24	move =640
+bloc = 25	move =668
+bloc = 26	move =664
+bloc = 27	move =651
+bloc = 28	move =651
+bloc = 29	move =642
+bloc = 30	move =680
+bloc = 31	move =686
+bloc = 32	move =682
+bloc = 33	move =680
+bloc = 34	move =690
+bloc = 35	move =732
+bloc = 36	move =733
+bloc = 37	move =725
+bloc = 38	move =725
+bloc = 39	move =773
+best taille = 12	best blok =570
+
+
+
+
+bloc = 1	move =1413
+bloc = 2	move =1043
+bloc = 3	move =921
+bloc = 4	move =798
+bloc = 5	move =738
+bloc = 6	move =667
+bloc = 7	move =643
+bloc = 8	move =620
+bloc = 9	move =627
+bloc = 10	move =615
+bloc = 11	move =612
+bloc = 12	move =600
+bloc = 13	move =611
+bloc = 14	move =588
+bloc = 15	move =622
+bloc = 16	move =640
+bloc = 17	move =613
+bloc = 18	move =608
+bloc = 19	move =604
+bloc = 20	move =617
+bloc = 21	move =620
+bloc = 22	move =627
+bloc = 23	move =634
+bloc = 24	move =662
+bloc = 25	move =678
+bloc = 26	move =681
+bloc = 27	move =704
+bloc = 28	move =713
+bloc = 29	move =724
+bloc = 30	move =718
+bloc = 31	move =729
+bloc = 32	move =735
+bloc = 33	move =732
+bloc = 34	move =730
+bloc = 35	move =743
+bloc = 36	move =746
+bloc = 37	move =755
+bloc = 38	move =753
+bloc = 39	move =760
+best taille = 14	best blok =588
+
+
+
+
+bloc = 1	move =1613
+bloc = 2	move =1067
+bloc = 3	move =956
+bloc = 4	move =816
+bloc = 5	move =734
+bloc = 6	move =687
+bloc = 7	move =669
+bloc = 8	move =613
+bloc = 9	move =609
+bloc = 10	move =626
+bloc = 11	move =587
+bloc = 12	move =604
+bloc = 13	move =610
+bloc = 14	move =600
+bloc = 15	move =601
+bloc = 16	move =626
+bloc = 17	move =617
+bloc = 18	move =582
+bloc = 19	move =585
+bloc = 20	move =592
+bloc = 21	move =621
+bloc = 22	move =619
+bloc = 23	move =640
+bloc = 24	move =653
+bloc = 25	move =682
+bloc = 26	move =671
+bloc = 27	move =660
+bloc = 28	move =698
+bloc = 29	move =692
+bloc = 30	move =685
+bloc = 31	move =678
+bloc = 32	move =720
+bloc = 33	move =709
+bloc = 34	move =703
+bloc = 35	move =694
+bloc = 36	move =693
+bloc = 37	move =696
+bloc = 38	move =713
+bloc = 39	move =712
+best taille = 18	best blok =582
+
+
+
+
+bloc = 1	move =1473
+bloc = 2	move =1063
+bloc = 3	move =881
+bloc = 4	move =828
+bloc = 5	move =773
+bloc = 6	move =693
+bloc = 7	move =675
+bloc = 8	move =655
+bloc = 9	move =640
+bloc = 10	move =619
+bloc = 11	move =616
+bloc = 12	move =627
+bloc = 13	move =621
+bloc = 14	move =599
+bloc = 15	move =623
+bloc = 16	move =634
+bloc = 17	move =616
+bloc = 18	move =602
+bloc = 19	move =608
+bloc = 20	move =614
+bloc = 21	move =632
+bloc = 22	move =640
+bloc = 23	move =672
+bloc = 24	move =677
+bloc = 25	move =671
+bloc = 26	move =678
+bloc = 27	move =693
+bloc = 28	move =689
+bloc = 29	move =688
+bloc = 30	move =689
+bloc = 31	move =697
+bloc = 32	move =718
+bloc = 33	move =713
+bloc = 34	move =707
+bloc = 35	move =708
+bloc = 36	move =746
+bloc = 37	move =755
+bloc = 38	move =758
+bloc = 39	move =747
+best taille = 14	best blok =599
+
+
+
+
+bloc = 1	move =1585
+bloc = 2	move =1079
+bloc = 3	move =928
+bloc = 4	move =827
+bloc = 5	move =732
+bloc = 6	move =712
+bloc = 7	move =653
+bloc = 8	move =620
+bloc = 9	move =611
+bloc = 10	move =592
+bloc = 11	move =585
+bloc = 12	move =583
+bloc = 13	move =594
+bloc = 14	move =602
+bloc = 15	move =606
+bloc = 16	move =635
+bloc = 17	move =631
+bloc = 18	move =614
+bloc = 19	move =628
+bloc = 20	move =619
+bloc = 21	move =634
+bloc = 22	move =645
+bloc = 23	move =669
+bloc = 24	move =675
+bloc = 25	move =675
+bloc = 26	move =703
+bloc = 27	move =705
+bloc = 28	move =709
+bloc = 29	move =700
+bloc = 30	move =714
+bloc = 31	move =736
+bloc = 32	move =726
+bloc = 33	move =714
+bloc = 34	move =736
+bloc = 35	move =735
+bloc = 36	move =727
+bloc = 37	move =716
+bloc = 38	move =757
+bloc = 39	move =759
+best taille = 12	best blok =583
+
+
+
+
+bloc = 1	move =1383
+bloc = 2	move =1049
+bloc = 3	move =913
+bloc = 4	move =771
+bloc = 5	move =742
+bloc = 6	move =688
+bloc = 7	move =640
+bloc = 8	move =634
+bloc = 9	move =615
+bloc = 10	move =607
+bloc = 11	move =584
+bloc = 12	move =607
+bloc = 13	move =612
+bloc = 14	move =610
+bloc = 15	move =619
+bloc = 16	move =605
+bloc = 17	move =604
+bloc = 18	move =622
+bloc = 19	move =614
+bloc = 20	move =605
+bloc = 21	move =592
+bloc = 22	move =587
+bloc = 23	move =601
+bloc = 24	move =608
+bloc = 25	move =617
+bloc = 26	move =618
+bloc = 27	move =614
+bloc = 28	move =639
+bloc = 29	move =630
+bloc = 30	move =631
+bloc = 31	move =627
+bloc = 32	move =651
+bloc = 33	move =656
+bloc = 34	move =649
+bloc = 35	move =672
+bloc = 36	move =694
+bloc = 37	move =690
+bloc = 38	move =691
+bloc = 39	move =701
+best taille = 11	best blok =584
+
+
+
+
+bloc = 1	move =1494
+bloc = 2	move =1070
+bloc = 3	move =920
+bloc = 4	move =807
+bloc = 5	move =756
+bloc = 6	move =681
+bloc = 7	move =655
+bloc = 8	move =657
+bloc = 9	move =651
+bloc = 10	move =630
+bloc = 11	move =616
+bloc = 12	move =601
+bloc = 13	move =631
+bloc = 14	move =614
+bloc = 15	move =623
+bloc = 16	move =661
+bloc = 17	move =646
+bloc = 18	move =658
+bloc = 19	move =662
+bloc = 20	move =651
+bloc = 21	move =665
+bloc = 22	move =648
+bloc = 23	move =632
+bloc = 24	move =679
+bloc = 25	move =719
+bloc = 26	move =708
+bloc = 27	move =706
+bloc = 28	move =715
+bloc = 29	move =712
+bloc = 30	move =707
+bloc = 31	move =720
+bloc = 32	move =729
+bloc = 33	move =736
+bloc = 34	move =739
+bloc = 35	move =735
+bloc = 36	move =741
+bloc = 37	move =737
+bloc = 38	move =797
+bloc = 39	move =800
+best taille = 12	best blok =601
+
+
+
+
+bloc = 1	move =1406
+bloc = 2	move =1048
+bloc = 3	move =926
+bloc = 4	move =810
+bloc = 5	move =722
+bloc = 6	move =689
+bloc = 7	move =668
+bloc = 8	move =633
+bloc = 9	move =597
+bloc = 10	move =609
+bloc = 11	move =619
+bloc = 12	move =595
+bloc = 13	move =595
+bloc = 14	move =582
+bloc = 15	move =585
+bloc = 16	move =603
+bloc = 17	move =607
+bloc = 18	move =573
+bloc = 19	move =583
+bloc = 20	move =595
+bloc = 21	move =610
+bloc = 22	move =614
+bloc = 23	move =619
+bloc = 24	move =649
+bloc = 25	move =652
+bloc = 26	move =663
+bloc = 27	move =676
+bloc = 28	move =673
+bloc = 29	move =676
+bloc = 30	move =674
+bloc = 31	move =667
+bloc = 32	move =682
+bloc = 33	move =701
+bloc = 34	move =708
+bloc = 35	move =706
+bloc = 36	move =708
+bloc = 37	move =746
+bloc = 38	move =747
+bloc = 39	move =751
+best taille = 18	best blok =573
+
+
+
+
+bloc = 1	move =1491
+bloc = 2	move =1091
+bloc = 3	move =898
+bloc = 4	move =774
+bloc = 5	move =720
+bloc = 6	move =654
+bloc = 7	move =645
+bloc = 8	move =635
+bloc = 9	move =588
+bloc = 10	move =608
+bloc = 11	move =582
+bloc = 12	move =586
+bloc = 13	move =585
+bloc = 14	move =577
+bloc = 15	move =607
+bloc = 16	move =635
+bloc = 17	move =598
+bloc = 18	move =594
+bloc = 19	move =600
+bloc = 20	move =608
+bloc = 21	move =611
+bloc = 22	move =638
+bloc = 23	move =636
+bloc = 24	move =638
+bloc = 25	move =659
+bloc = 26	move =663
+bloc = 27	move =659
+bloc = 28	move =657
+bloc = 29	move =655
+bloc = 30	move =679
+bloc = 31	move =722
+bloc = 32	move =723
+bloc = 33	move =709
+bloc = 34	move =716
+bloc = 35	move =734
+bloc = 36	move =727
+bloc = 37	move =727
+bloc = 38	move =739
+bloc = 39	move =744
+best taille = 14	best blok =577
+
+
+
+
+bloc = 1	move =1312
+bloc = 2	move =1048
+bloc = 3	move =809
+bloc = 4	move =775
+bloc = 5	move =714
+bloc = 6	move =675
+bloc = 7	move =656
+bloc = 8	move =639
+bloc = 9	move =630
+bloc = 10	move =600
+bloc = 11	move =622
+bloc = 12	move =612
+bloc = 13	move =599
+bloc = 14	move =613
+bloc = 15	move =624
+bloc = 16	move =598
+bloc = 17	move =605
+bloc = 18	move =632
+bloc = 19	move =626
+bloc = 20	move =629
+bloc = 21	move =664
+bloc = 22	move =678
+bloc = 23	move =701
+bloc = 24	move =693
+bloc = 25	move =696
+bloc = 26	move =687
+bloc = 27	move =694
+bloc = 28	move =694
+bloc = 29	move =685
+bloc = 30	move =701
+bloc = 31	move =739
+bloc = 32	move =733
+bloc = 33	move =726
+bloc = 34	move =714
+bloc = 35	move =741
+bloc = 36	move =758
+bloc = 37	move =761
+bloc = 38	move =766
+bloc = 39	move =773
+best taille = 16	best blok =598
+
+
+
+
+bloc = 1	move =1405
+bloc = 2	move =1119
+bloc = 3	move =928
+bloc = 4	move =769
+bloc = 5	move =730
+bloc = 6	move =679
+bloc = 7	move =654
+bloc = 8	move =620
+bloc = 9	move =599
+bloc = 10	move =599
+bloc = 11	move =589
+bloc = 12	move =591
+bloc = 13	move =579
+bloc = 14	move =596
+bloc = 15	move =591
+bloc = 16	move =597
+bloc = 17	move =585
+bloc = 18	move =607
+bloc = 19	move =640
+bloc = 20	move =603
+bloc = 21	move =607
+bloc = 22	move =618
+bloc = 23	move =648
+bloc = 24	move =642
+bloc = 25	move =636
+bloc = 26	move =633
+bloc = 27	move =628
+bloc = 28	move =645
+bloc = 29	move =661
+bloc = 30	move =663
+bloc = 31	move =671
+bloc = 32	move =678
+bloc = 33	move =705
+bloc = 34	move =709
+bloc = 35	move =707
+bloc = 36	move =717
+bloc = 37	move =761
+bloc = 38	move =775
+bloc = 39	move =795
+best taille = 13	best blok =579
+
+
+
+
+bloc = 1	move =1624
+bloc = 2	move =1184
+bloc = 3	move =927
+bloc = 4	move =828
+bloc = 5	move =758
+bloc = 6	move =693
+bloc = 7	move =668
+bloc = 8	move =642
+bloc = 9	move =611
+bloc = 10	move =602
+bloc = 11	move =598
+bloc = 12	move =583
+bloc = 13	move =598
+bloc = 14	move =594
+bloc = 15	move =600
+bloc = 16	move =601
+bloc = 17	move =590
+bloc = 18	move =579
+bloc = 19	move =600
+bloc = 20	move =611
+bloc = 21	move =624
+bloc = 22	move =662
+bloc = 23	move =672
+bloc = 24	move =696
+bloc = 25	move =715
+bloc = 26	move =702
+bloc = 27	move =686
+bloc = 28	move =685
+bloc = 29	move =674
+bloc = 30	move =674
+bloc = 31	move =664
+bloc = 32	move =667
+bloc = 33	move =679
+bloc = 34	move =667
+bloc = 35	move =669
+bloc = 36	move =659
+bloc = 37	move =651
+bloc = 38	move =683
+bloc = 39	move =695
+best taille = 18	best blok =579
+
+
+
+
+bloc = 1	move =1356
+bloc = 2	move =1018
+bloc = 3	move =910
+bloc = 4	move =775
+bloc = 5	move =706
+bloc = 6	move =638
+bloc = 7	move =630
+bloc = 8	move =615
+bloc = 9	move =600
+bloc = 10	move =586
+bloc = 11	move =580
+bloc = 12	move =577
+bloc = 13	move =590
+bloc = 14	move =584
+bloc = 15	move =573
+bloc = 16	move =632
+bloc = 17	move =610
+bloc = 18	move =618
+bloc = 19	move =621
+bloc = 20	move =584
+bloc = 21	move =598
+bloc = 22	move =609
+bloc = 23	move =597
+bloc = 24	move =594
+bloc = 25	move =616
+bloc = 26	move =654
+bloc = 27	move =647
+bloc = 28	move =636
+bloc = 29	move =644
+bloc = 30	move =631
+bloc = 31	move =640
+bloc = 32	move =654
+bloc = 33	move =682
+bloc = 34	move =685
+bloc = 35	move =688
+bloc = 36	move =719
+bloc = 37	move =732
+bloc = 38	move =735
+bloc = 39	move =742
+best taille = 15	best blok =573
+
+
+
+
+bloc = 1	move =1635
+bloc = 2	move =1077
+bloc = 3	move =856
+bloc = 4	move =795
+bloc = 5	move =766
+bloc = 6	move =690
+bloc = 7	move =661
+bloc = 8	move =652
+bloc = 9	move =632
+bloc = 10	move =626
+bloc = 11	move =618
+bloc = 12	move =597
+bloc = 13	move =591
+bloc = 14	move =616
+bloc = 15	move =604
+bloc = 16	move =598
+bloc = 17	move =620
+bloc = 18	move =617
+bloc = 19	move =622
+bloc = 20	move =622
+bloc = 21	move =656
+bloc = 22	move =652
+bloc = 23	move =650
+bloc = 24	move =666
+bloc = 25	move =677
+bloc = 26	move =669
+bloc = 27	move =666
+bloc = 28	move =703
+bloc = 29	move =700
+bloc = 30	move =686
+bloc = 31	move =698
+bloc = 32	move =717
+bloc = 33	move =718
+bloc = 34	move =724
+bloc = 35	move =755
+bloc = 36	move =783
+bloc = 37	move =792
+bloc = 38	move =791
+bloc = 39	move =787
+best taille = 13	best blok =591
+
+
+
+
+bloc = 1	move =1576
+bloc = 2	move =1082
+bloc = 3	move =860
+bloc = 4	move =773
+bloc = 5	move =735
+bloc = 6	move =697
+bloc = 7	move =682
+bloc = 8	move =620
+bloc = 9	move =597
+bloc = 10	move =614
+bloc = 11	move =611
+bloc = 12	move =620
+bloc = 13	move =614
+bloc = 14	move =614
+bloc = 15	move =608
+bloc = 16	move =633
+bloc = 17	move =627
+bloc = 18	move =620
+bloc = 19	move =609
+bloc = 20	move =604
+bloc = 21	move =598
+bloc = 22	move =639
+bloc = 23	move =655
+bloc = 24	move =671
+bloc = 25	move =668
+bloc = 26	move =660
+bloc = 27	move =652
+bloc = 28	move =690
+bloc = 29	move =690
+bloc = 30	move =687
+bloc = 31	move =708
+bloc = 32	move =709
+bloc = 33	move =707
+bloc = 34	move =716
+bloc = 35	move =729
+bloc = 36	move =739
+bloc = 37	move =740
+bloc = 38	move =737
+bloc = 39	move =735
+best taille = 9	best blok =597
+
+
+
+
+bloc = 1	move =1518
+bloc = 2	move =1190
+bloc = 3	move =953
+bloc = 4	move =827
+bloc = 5	move =759
+bloc = 6	move =673
+bloc = 7	move =642
+bloc = 8	move =628
+bloc = 9	move =613
+bloc = 10	move =618
+bloc = 11	move =582
+bloc = 12	move =578
+bloc = 13	move =562
+bloc = 14	move =582
+bloc = 15	move =591
+bloc = 16	move =597
+bloc = 17	move =590
+bloc = 18	move =573
+bloc = 19	move =579
+bloc = 20	move =608
+bloc = 21	move =623
+bloc = 22	move =615
+bloc = 23	move =615
+bloc = 24	move =632
+bloc = 25	move =638
+bloc = 26	move =640
+bloc = 27	move =652
+bloc = 28	move =662
+bloc = 29	move =650
+bloc = 30	move =645
+bloc = 31	move =681
+bloc = 32	move =704
+bloc = 33	move =703
+bloc = 34	move =723
+bloc = 35	move =733
+bloc = 36	move =742
+bloc = 37	move =786
+bloc = 38	move =830
+bloc = 39	move =833
+best taille = 13	best blok =562
+
+
+
+
+bloc = 1	move =1528
+bloc = 2	move =1086
+bloc = 3	move =886
+bloc = 4	move =737
+bloc = 5	move =711
+bloc = 6	move =679
+bloc = 7	move =663
+bloc = 8	move =616
+bloc = 9	move =597
+bloc = 10	move =618
+bloc = 11	move =620
+bloc = 12	move =611
+bloc = 13	move =596
+bloc = 14	move =602
+bloc = 15	move =630
+bloc = 16	move =624
+bloc = 17	move =624
+bloc = 18	move =608
+bloc = 19	move =607
+bloc = 20	move =613
+bloc = 21	move =640
+bloc = 22	move =664
+bloc = 23	move =650
+bloc = 24	move =659
+bloc = 25	move =661
+bloc = 26	move =667
+bloc = 27	move =666
+bloc = 28	move =665
+bloc = 29	move =713
+bloc = 30	move =711
+bloc = 31	move =717
+bloc = 32	move =731
+bloc = 33	move =733
+bloc = 34	move =733
+bloc = 35	move =763
+bloc = 36	move =772
+bloc = 37	move =768
+bloc = 38	move =767
+bloc = 39	move =761
+best taille = 13	best blok =596
+
+
+
+
+bloc = 1	move =1675
+bloc = 2	move =1113
+bloc = 3	move =917
+bloc = 4	move =785
+bloc = 5	move =739
+bloc = 6	move =691
+bloc = 7	move =621
+bloc = 8	move =637
+bloc = 9	move =621
+bloc = 10	move =612
+bloc = 11	move =598
+bloc = 12	move =599
+bloc = 13	move =588
+bloc = 14	move =596
+bloc = 15	move =576
+bloc = 16	move =613
+bloc = 17	move =623
+bloc = 18	move =638
+bloc = 19	move =638
+bloc = 20	move =626
+bloc = 21	move =668
+bloc = 22	move =660
+bloc = 23	move =638
+bloc = 24	move =684
+bloc = 25	move =681
+bloc = 26	move =691
+bloc = 27	move =685
+bloc = 28	move =681
+bloc = 29	move =688
+bloc = 30	move =687
+bloc = 31	move =692
+bloc = 32	move =693
+bloc = 33	move =738
+bloc = 34	move =756
+bloc = 35	move =753
+bloc = 36	move =792
+bloc = 37	move =794
+bloc = 38	move =793
+bloc = 39	move =807
+best taille = 15	best blok =576
+
+
+
+
+bloc = 1	move =1514
+bloc = 2	move =954
+bloc = 3	move =910
+bloc = 4	move =786
+bloc = 5	move =717
+bloc = 6	move =676
+bloc = 7	move =633
+bloc = 8	move =625
+bloc = 9	move =612
+bloc = 10	move =592
+bloc = 11	move =604
+bloc = 12	move =591
+bloc = 13	move =553
+bloc = 14	move =579
+bloc = 15	move =577
+bloc = 16	move =578
+bloc = 17	move =570
+bloc = 18	move =567
+bloc = 19	move =564
+bloc = 20	move =592
+bloc = 21	move =582
+bloc = 22	move =588
+bloc = 23	move =638
+bloc = 24	move =624
+bloc = 25	move =638
+bloc = 26	move =639
+bloc = 27	move =659
+bloc = 28	move =647
+bloc = 29	move =641
+bloc = 30	move =636
+bloc = 31	move =639
+bloc = 32	move =641
+bloc = 33	move =638
+bloc = 34	move =632
+bloc = 35	move =638
+bloc = 36	move =647
+bloc = 37	move =650
+bloc = 38	move =698
+bloc = 39	move =707
+best taille = 13	best blok =553
+
+
+
+
+bloc = 1	move =1463
+bloc = 2	move =1005
+bloc = 3	move =852
+bloc = 4	move =736
+bloc = 5	move =703
+bloc = 6	move =643
+bloc = 7	move =634
+bloc = 8	move =618
+bloc = 9	move =603
+bloc = 10	move =587
+bloc = 11	move =583
+bloc = 12	move =607
+bloc = 13	move =570
+bloc = 14	move =561
+bloc = 15	move =575
+bloc = 16	move =566
+bloc = 17	move =557
+bloc = 18	move =564
+bloc = 19	move =574
+bloc = 20	move =583
+bloc = 21	move =583
+bloc = 22	move =600
+bloc = 23	move =617
+bloc = 24	move =655
+bloc = 25	move =657
+bloc = 26	move =668
+bloc = 27	move =662
+bloc = 28	move =641
+bloc = 29	move =635
+bloc = 30	move =634
+bloc = 31	move =658
+bloc = 32	move =659
+bloc = 33	move =673
+bloc = 34	move =660
+bloc = 35	move =663
+bloc = 36	move =658
+bloc = 37	move =726
+bloc = 38	move =725
+bloc = 39	move =728
+best taille = 17	best blok =557
+
+
+
+
+bloc = 1	move =1504
+bloc = 2	move =1150
+bloc = 3	move =855
+bloc = 4	move =781
+bloc = 5	move =712
+bloc = 6	move =640
+bloc = 7	move =637
+bloc = 8	move =614
+bloc = 9	move =601
+bloc = 10	move =592
+bloc = 11	move =571
+bloc = 12	move =594
+bloc = 13	move =572
+bloc = 14	move =569
+bloc = 15	move =566
+bloc = 16	move =572
+bloc = 17	move =559
+bloc = 18	move =575
+bloc = 19	move =575
+bloc = 20	move =581
+bloc = 21	move =569
+bloc = 22	move =584
+bloc = 23	move =628
+bloc = 24	move =660
+bloc = 25	move =652
+bloc = 26	move =643
+bloc = 27	move =636
+bloc = 28	move =644
+bloc = 29	move =642
+bloc = 30	move =663
+bloc = 31	move =665
+bloc = 32	move =667
+bloc = 33	move =661
+bloc = 34	move =664
+bloc = 35	move =671
+bloc = 36	move =733
+bloc = 37	move =735
+bloc = 38	move =730
+bloc = 39	move =736
+best taille = 17	best blok =559
+
+
+
+
+bloc = 1	move =1458
+bloc = 2	move =1122
+bloc = 3	move =904
+bloc = 4	move =829
+bloc = 5	move =723
+bloc = 6	move =702
+bloc = 7	move =663
+bloc = 8	move =645
+bloc = 9	move =618
+bloc = 10	move =614
+bloc = 11	move =593
+bloc = 12	move =585
+bloc = 13	move =588
+bloc = 14	move =593
+bloc = 15	move =585
+bloc = 16	move =605
+bloc = 17	move =641
+bloc = 18	move =625
+bloc = 19	move =628
+bloc = 20	move =613
+bloc = 21	move =612
+bloc = 22	move =619
+bloc = 23	move =649
+bloc = 24	move =636
+bloc = 25	move =680
+bloc = 26	move =673
+bloc = 27	move =664
+bloc = 28	move =651
+bloc = 29	move =650
+bloc = 30	move =676
+bloc = 31	move =679
+bloc = 32	move =677
+bloc = 33	move =675
+bloc = 34	move =703
+bloc = 35	move =700
+bloc = 36	move =726
+bloc = 37	move =719
+bloc = 38	move =719
+bloc = 39	move =723
+best taille = 12	best blok =585
+
+
+
+
+bloc = 1	move =1555
+bloc = 2	move =979
+bloc = 3	move =881
+bloc = 4	move =776
+bloc = 5	move =739
+bloc = 6	move =686
+bloc = 7	move =645
+bloc = 8	move =611
+bloc = 9	move =625
+bloc = 10	move =592
+bloc = 11	move =587
+bloc = 12	move =588
+bloc = 13	move =588
+bloc = 14	move =589
+bloc = 15	move =566
+bloc = 16	move =564
+bloc = 17	move =578
+bloc = 18	move =576
+bloc = 19	move =581
+bloc = 20	move =595
+bloc = 21	move =601
+bloc = 22	move =621
+bloc = 23	move =618
+bloc = 24	move =651
+bloc = 25	move =639
+bloc = 26	move =646
+bloc = 27	move =642
+bloc = 28	move =666
+bloc = 29	move =658
+bloc = 30	move =643
+bloc = 31	move =637
+bloc = 32	move =635
+bloc = 33	move =661
+bloc = 34	move =659
+bloc = 35	move =684
+bloc = 36	move =678
+bloc = 37	move =674
+bloc = 38	move =675
+bloc = 39	move =721
+best taille = 16	best blok =564
+
+
+
+
+bloc = 1	move =1568
+bloc = 2	move =1048
+bloc = 3	move =939
+bloc = 4	move =786
+bloc = 5	move =754
+bloc = 6	move =681
+bloc = 7	move =642
+bloc = 8	move =625
+bloc = 9	move =607
+bloc = 10	move =596
+bloc = 11	move =597
+bloc = 12	move =615
+bloc = 13	move =604
+bloc = 14	move =581
+bloc = 15	move =601
+bloc = 16	move =608
+bloc = 17	move =595
+bloc = 18	move =600
+bloc = 19	move =595
+bloc = 20	move =622
+bloc = 21	move =614
+bloc = 22	move =602
+bloc = 23	move =668
+bloc = 24	move =684
+bloc = 25	move =673
+bloc = 26	move =680
+bloc = 27	move =674
+bloc = 28	move =678
+bloc = 29	move =693
+bloc = 30	move =697
+bloc = 31	move =693
+bloc = 32	move =720
+bloc = 33	move =723
+bloc = 34	move =761
+bloc = 35	move =770
+bloc = 36	move =778
+bloc = 37	move =770
+bloc = 38	move =786
+bloc = 39	move =782
+best taille = 14	best blok =581
+
+
+
+
+bloc = 1	move =1377
+bloc = 2	move =1033
+bloc = 3	move =905
+bloc = 4	move =768
+bloc = 5	move =719
+bloc = 6	move =663
+bloc = 7	move =655
+bloc = 8	move =622
+bloc = 9	move =628
+bloc = 10	move =607
+bloc = 11	move =588
+bloc = 12	move =593
+bloc = 13	move =576
+bloc = 14	move =550
+bloc = 15	move =583
+bloc = 16	move =600
+bloc = 17	move =606
+bloc = 18	move =591
+bloc = 19	move =614
+bloc = 20	move =603
+bloc = 21	move =589
+bloc = 22	move =609
+bloc = 23	move =634
+bloc = 24	move =642
+bloc = 25	move =669
+bloc = 26	move =661
+bloc = 27	move =661
+bloc = 28	move =650
+bloc = 29	move =648
+bloc = 30	move =653
+bloc = 31	move =651
+bloc = 32	move =670
+bloc = 33	move =685
+bloc = 34	move =680
+bloc = 35	move =666
+bloc = 36	move =660
+bloc = 37	move =691
+bloc = 38	move =708
+bloc = 39	move =703
+best taille = 14	best blok =550
+
+
+
+
+bloc = 1	move =1634
+bloc = 2	move =1060
+bloc = 3	move =885
+bloc = 4	move =800
+bloc = 5	move =703
+bloc = 6	move =677
+bloc = 7	move =638
+bloc = 8	move =618
+bloc = 9	move =594
+bloc = 10	move =606
+bloc = 11	move =600
+bloc = 12	move =599
+bloc = 13	move =595
+bloc = 14	move =588
+bloc = 15	move =581
+bloc = 16	move =598
+bloc = 17	move =602
+bloc = 18	move =616
+bloc = 19	move =607
+bloc = 20	move =628
+bloc = 21	move =621
+bloc = 22	move =626
+bloc = 23	move =638
+bloc = 24	move =676
+bloc = 25	move =715
+bloc = 26	move =706
+bloc = 27	move =692
+bloc = 28	move =709
+bloc = 29	move =707
+bloc = 30	move =701
+bloc = 31	move =727
+bloc = 32	move =743
+bloc = 33	move =748
+bloc = 34	move =760
+bloc = 35	move =754
+bloc = 36	move =757
+bloc = 37	move =762
+bloc = 38	move =756
+bloc = 39	move =759
+best taille = 15	best blok =581
+
+
+
+
+bloc = 1	move =1512
+bloc = 2	move =1144
+bloc = 3	move =918
+bloc = 4	move =795
+bloc = 5	move =751
+bloc = 6	move =692
+bloc = 7	move =673
+bloc = 8	move =635
+bloc = 9	move =620
+bloc = 10	move =620
+bloc = 11	move =592
+bloc = 12	move =604
+bloc = 13	move =581
+bloc = 14	move =599
+bloc = 15	move =598
+bloc = 16	move =596
+bloc = 17	move =599
+bloc = 18	move =595
+bloc = 19	move =609
+bloc = 20	move =612
+bloc = 21	move =632
+bloc = 22	move =632
+bloc = 23	move =645
+bloc = 24	move =689
+bloc = 25	move =689
+bloc = 26	move =699
+bloc = 27	move =719
+bloc = 28	move =700
+bloc = 29	move =694
+bloc = 30	move =695
+bloc = 31	move =693
+bloc = 32	move =710
+bloc = 33	move =723
+bloc = 34	move =722
+bloc = 35	move =722
+bloc = 36	move =742
+bloc = 37	move =735
+bloc = 38	move =768
+bloc = 39	move =775
+best taille = 13	best blok =581
+
+
+
+
+bloc = 1	move =1469
+bloc = 2	move =1115
+bloc = 3	move =922
+bloc = 4	move =822
+bloc = 5	move =709
+bloc = 6	move =652
+bloc = 7	move =658
+bloc = 8	move =640
+bloc = 9	move =612
+bloc = 10	move =602
+bloc = 11	move =575
+bloc = 12	move =593
+bloc = 13	move =594
+bloc = 14	move =589
+bloc = 15	move =609
+bloc = 16	move =590
+bloc = 17	move =586
+bloc = 18	move =583
+bloc = 19	move =565
+bloc = 20	move =575
+bloc = 21	move =563
+bloc = 22	move =593
+bloc = 23	move =614
+bloc = 24	move =615
+bloc = 25	move =682
+bloc = 26	move =688
+bloc = 27	move =687
+bloc = 28	move =683
+bloc = 29	move =677
+bloc = 30	move =700
+bloc = 31	move =686
+bloc = 32	move =687
+bloc = 33	move =684
+bloc = 34	move =738
+bloc = 35	move =746
+bloc = 36	move =750
+bloc = 37	move =784
+bloc = 38	move =775
+bloc = 39	move =777
+best taille = 21	best blok =563
+
+
+
+
+bloc = 1	move =1581
+bloc = 2	move =1053
+bloc = 3	move =877
+bloc = 4	move =794
+bloc = 5	move =732
+bloc = 6	move =683
+bloc = 7	move =646
+bloc = 8	move =608
+bloc = 9	move =596
+bloc = 10	move =569
+bloc = 11	move =583
+bloc = 12	move =574
+bloc = 13	move =561
+bloc = 14	move =556
+bloc = 15	move =569
+bloc = 16	move =581
+bloc = 17	move =604
+bloc = 18	move =596
+bloc = 19	move =610
+bloc = 20	move =577
+bloc = 21	move =583
+bloc = 22	move =610
+bloc = 23	move =604
+bloc = 24	move =607
+bloc = 25	move =627
+bloc = 26	move =619
+bloc = 27	move =637
+bloc = 28	move =640
+bloc = 29	move =643
+bloc = 30	move =632
+bloc = 31	move =633
+bloc = 32	move =665
+bloc = 33	move =637
+bloc = 34	move =667
+bloc = 35	move =676
+bloc = 36	move =672
+bloc = 37	move =685
+bloc = 38	move =719
+bloc = 39	move =742
+best taille = 14	best blok =556
+
+
+
+
+bloc = 1	move =1442
+bloc = 2	move =1046
+bloc = 3	move =895
+bloc = 4	move =770
+bloc = 5	move =714
+bloc = 6	move =689
+bloc = 7	move =640
+bloc = 8	move =639
+bloc = 9	move =599
+bloc = 10	move =580
+bloc = 11	move =591
+bloc = 12	move =604
+bloc = 13	move =604
+bloc = 14	move =554
+bloc = 15	move =575
+bloc = 16	move =587
+bloc = 17	move =579
+bloc = 18	move =592
+bloc = 19	move =608
+bloc = 20	move =605
+bloc = 21	move =609
+bloc = 22	move =648
+bloc = 23	move =651
+bloc = 24	move =678
+bloc = 25	move =662
+bloc = 26	move =658
+bloc = 27	move =659
+bloc = 28	move =655
+bloc = 29	move =662
+bloc = 30	move =658
+bloc = 31	move =650
+bloc = 32	move =644
+bloc = 33	move =657
+bloc = 34	move =663
+bloc = 35	move =658
+bloc = 36	move =669
+bloc = 37	move =681
+bloc = 38	move =701
+bloc = 39	move =728
+best taille = 14	best blok =554
+
+
+
+
+bloc = 1	move =1378
+bloc = 2	move =1088
+bloc = 3	move =794
+bloc = 4	move =810
+bloc = 5	move =740
+bloc = 6	move =670
+bloc = 7	move =638
+bloc = 8	move =620
+bloc = 9	move =593
+bloc = 10	move =598
+bloc = 11	move =585
+bloc = 12	move =589
+bloc = 13	move =570
+bloc = 14	move =580
+bloc = 15	move =591
+bloc = 16	move =594
+bloc = 17	move =591
+bloc = 18	move =610
+bloc = 19	move =578
+bloc = 20	move =595
+bloc = 21	move =609
+bloc = 22	move =610
+bloc = 23	move =604
+bloc = 24	move =663
+bloc = 25	move =664
+bloc = 26	move =658
+bloc = 27	move =651
+bloc = 28	move =635
+bloc = 29	move =647
+bloc = 30	move =692
+bloc = 31	move =694
+bloc = 32	move =686
+bloc = 33	move =675
+bloc = 34	move =676
+bloc = 35	move =689
+bloc = 36	move =699
+bloc = 37	move =706
+bloc = 38	move =710
+bloc = 39	move =765
+best taille = 13	best blok =570
+
+
+
+
+bloc = 1	move =1470
+bloc = 2	move =1110
+bloc = 3	move =894
+bloc = 4	move =819
+bloc = 5	move =746
+bloc = 6	move =684
+bloc = 7	move =648
+bloc = 8	move =628
+bloc = 9	move =601
+bloc = 10	move =623
+bloc = 11	move =597
+bloc = 12	move =615
+bloc = 13	move =576
+bloc = 14	move =585
+bloc = 15	move =596
+bloc = 16	move =592
+bloc = 17	move =583
+bloc = 18	move =581
+bloc = 19	move =591
+bloc = 20	move =598
+bloc = 21	move =594
+bloc = 22	move =617
+bloc = 23	move =646
+bloc = 24	move =648
+bloc = 25	move =665
+bloc = 26	move =662
+bloc = 27	move =671
+bloc = 28	move =648
+bloc = 29	move =664
+bloc = 30	move =666
+bloc = 31	move =658
+bloc = 32	move =647
+bloc = 33	move =649
+bloc = 34	move =644
+bloc = 35	move =641
+bloc = 36	move =662
+bloc = 37	move =669
+bloc = 38	move =663
+bloc = 39	move =656
+best taille = 13	best blok =576
+
+
+
+
+bloc = 1	move =1536
+bloc = 2	move =1030
+bloc = 3	move =981
+bloc = 4	move =862
+bloc = 5	move =763
+bloc = 6	move =687
+bloc = 7	move =656
+bloc = 8	move =619
+bloc = 9	move =608
+bloc = 10	move =590
+bloc = 11	move =598
+bloc = 12	move =599
+bloc = 13	move =592
+bloc = 14	move =576
+bloc = 15	move =597
+bloc = 16	move =611
+bloc = 17	move =611
+bloc = 18	move =617
+bloc = 19	move =590
+bloc = 20	move =574
+bloc = 21	move =571
+bloc = 22	move =571
+bloc = 23	move =587
+bloc = 24	move =614
+bloc = 25	move =638
+bloc = 26	move =622
+bloc = 27	move =617
+bloc = 28	move =616
+bloc = 29	move =615
+bloc = 30	move =664
+bloc = 31	move =662
+bloc = 32	move =664
+bloc = 33	move =665
+bloc = 34	move =671
+bloc = 35	move =677
+bloc = 36	move =716
+bloc = 37	move =710
+bloc = 38	move =720
+bloc = 39	move =715
+best taille = 21	best blok =571
+
+
+
+
+bloc = 1	move =11
+bloc = 2	move =11
+bloc = 3	move =10
+bloc = 4	move =12
+bloc = 5	move =12
+bloc = 6	move =12
+bloc = 7	move =12
+bloc = 8	move =12
+bloc = 9	move =12
+bloc = 10	move =12
+bloc = 11	move =12
+bloc = 12	move =12
+bloc = 13	move =12
+bloc = 14	move =12
+bloc = 15	move =12
+bloc = 16	move =12
+bloc = 17	move =12
+bloc = 18	move =12
+bloc = 19	move =12
+bloc = 20	move =12
+bloc = 21	move =12
+bloc = 22	move =12
+bloc = 23	move =12
+bloc = 24	move =12
+bloc = 25	move =12
+bloc = 26	move =12
+bloc = 27	move =12
+bloc = 28	move =12
+bloc = 29	move =12
+bloc = 30	move =12
+bloc = 31	move =12
+bloc = 32	move =12
+bloc = 33	move =12
+bloc = 34	move =12
+bloc = 35	move =12
+bloc = 36	move =12
+bloc = 37	move =12
+bloc = 38	move =12
+bloc = 39	move =12
+best taille = 3	best blok =10
+
+
+
+
+bloc = 1	move =11
+bloc = 2	move =11
+bloc = 3	move =10
+bloc = 4	move =12
+bloc = 5	move =12
+bloc = 6	move =12
+bloc = 7	move =12
+bloc = 8	move =12
+bloc = 9	move =12
+bloc = 10	move =12
+bloc = 11	move =12
+bloc = 12	move =12
+bloc = 13	move =12
+bloc = 14	move =12
+bloc = 15	move =12
+bloc = 16	move =12
+bloc = 17	move =12
+bloc = 18	move =12
+bloc = 19	move =12
+bloc = 20	move =12
+bloc = 21	move =12
+bloc = 22	move =12
+bloc = 23	move =12
+bloc = 24	move =12
+bloc = 25	move =12
+bloc = 26	move =12
+bloc = 27	move =12
+bloc = 28	move =12
+bloc = 29	move =12
+bloc = 30	move =12
+bloc = 31	move =12
+bloc = 32	move =12
+bloc = 33	move =12
+bloc = 34	move =12
+bloc = 35	move =12
+bloc = 36	move =12
+bloc = 37	move =12
+bloc = 38	move =12
+bloc = 39	move =12
+best taille = 3	best blok =10
+
+
+
+

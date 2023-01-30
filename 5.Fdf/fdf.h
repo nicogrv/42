@@ -6,7 +6,7 @@
 /*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/03 18:44:51 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/24 18:12:37 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/06 20:05:31 by nicolasgriv      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,12 @@
 //
 //	LINUX: 0		MacOS: 1	LINUX ECOLE: 2	MacBook Air 13.3: 3
 //
-# define OS 3
+# define OS 0
 //
 //	Resolution	
 //
 # define WIN_WIDTH 1440
-# define WIN_HEIGHT 
+# define WIN_HEIGHT 795
 //
 //	Message error
 //
@@ -120,8 +120,8 @@
 #  define TOUCH_FOUR 21
 #  define TOUCH_FIVE 23
 #  if OS == 3
-#   define WIDTH 1440
-#   define HEIGHT 800
+#   define WIDTH 1000
+#   define HEIGHT 1000
 #  else
 #   define WIDTH WIN_WIDTH
 #   define HEIGHT WIN_HEIGHT 
