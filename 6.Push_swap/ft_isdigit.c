@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 13:21:17 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 13:39:28 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 19:09:15 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isdigit(char str)
 {	
-	if (('0' <= str && str <= '9') || str == '-')
+	if (('0' <= str && str <= '9') || str == '-' || str == '+')
 		return (0);
 	return (-1);
 }
