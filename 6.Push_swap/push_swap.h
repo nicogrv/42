@@ -19,14 +19,27 @@ typedef struct s_swap
     int verifsens;
     int verifsensnbr;
     int verifrb;
+
+    int	indeximax;
+	int	indeximin;
 }	t_swap;
 
 int	ft_atoi(const char *str);
 int	ft_isdigit(char str);
 void	*ft_calloc(size_t nbitems, size_t size);
 
+int     ft_len_tab1(t_swap *s);
+int     ft_max_in_a(t_swap *s);
+void	print_ft_monitoring(t_swap *s);
+int     ft_verif_eff(t_swap *s, int imin, int imax);
+void	ft_init_fill_tab(t_swap *s);
+
+int	ft_verif_arg(int argc, char **argv, t_swap *s);
+int	ft_verif_arg_pt2(int argc, t_swap *s);
+int	ft_push_swap_bloc(int argc, char **argv, t_swap *s);
+
 int	ft_push_swap(int argc, char **argv, t_swap *s);
-int	ft_push_swap_suite(int argc t_swap *s);
+
 
 void ft_sa(t_swap *s, int print);
 void ft_sb(t_swap *s, int print);

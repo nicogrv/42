@@ -1,4 +1,4 @@
-FILES =	ft_atoi.c ft_swap.c ft_swap_pt2.c ft_swap_pt3.c main.c ft_isdigit.c ft_calloc.c
+FILES =	ft_atoi.c ft_swap.c ft_swap_pt2.c ft_swap_pt3.c main.c main_pt2.c main_pt3.c ft_isdigit.c ft_calloc.c
 FILESBONUS = testeur.c get_next_line.c get_next_line_utils.c ft_swap_bonus.c ft_swap_bonus_pt2.c ft_swap_bonus_pt3.c ft_atoi.c ft_isdigit.c ft_strjoin.c ft_calloc.c
 OBJS = ${FILES:.c=.o}
 DEPS = ${FILES:.c=.d}
