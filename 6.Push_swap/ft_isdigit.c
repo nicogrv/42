@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
+/*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 13:21:17 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/21 11:51:23 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/30 13:39:28 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isdigit(char str)
 {	
-	if ('0' <= str && str <= '9' || str == '-')
+	if (('0' <= str && str <= '9') || str == '-')
 		return (0);
 	return (-1);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   testeur.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nicolasgriveau <nicolasgriveau@student.    +#+  +:+       +#+        */
+/*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/24 17:19:31 by nicolasgriv      ###   ########.fr       */
+/*   Updated: 2023/01/30 13:39:13 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,6 @@ void print_ft_monitoring(t_swap *s)
 void ft_init_fill_tab(t_swap *s)
 {
 	int i;
-	int value;
 	int j;
 	int k;
 	
