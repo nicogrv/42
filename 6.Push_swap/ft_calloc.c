@@ -6,11 +6,11 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 19:33:14 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 13:56:19 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 17:33:21 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap_bonus.h"
+#include "bonus_push_swap.h"
 
 void	*ft_calloc(size_t nbitems, size_t size)
 {

@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap_bonus_pt3.c                                :+:      :+:    :+:   */
+/*   bonus_ft_swap_pt3.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 14:11:42 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 14:20:39 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 17:16:10 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap_bonus.h"
+#include "bonus_push_swap.h"
 
 void	ft_rra(t_swap *s, int print)
 {

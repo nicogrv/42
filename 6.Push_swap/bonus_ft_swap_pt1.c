@@ -6,11 +6,11 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 14:11:42 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 17:13:17 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 17:16:04 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "psb.h"
+#include "bonus_push_swap.h"
 
 void	ft_ss(t_swap *s, int print)
 {
