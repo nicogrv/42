@@ -6,26 +6,28 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 13:13:00 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 13:40:43 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 13:49:30 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	ft_strlen(const char *str)
+int	ft_strlen(char *str)
 {
 	int	i;
 
 	i = 0;
-	fprintf(stderr, "str = |%s|", str);
-	while (!(str[i] == '\0'))
+	// fprintf(stderr, "str = |%s|", str);
+	// fprintf(stderr, "start str[%d] = %d\n", i, str[i]);
+	while (str[i])
 	{
+		// fprintf(stderr, "str[%d] = %c\n", i, str[i]);
 		i++;
 	}
 	return (i);
 }
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char *s1, char *s2)
 {
 	char	*str;
 	int		i;
@@ -50,6 +52,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		j++;
 	}
 	str[j] = '\0';
+	free(s1);
 	return (str);
 }
 
