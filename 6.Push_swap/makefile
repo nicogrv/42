@@ -13,18 +13,18 @@ INCLUDE = -I ./
 FLAGS = -Wall -Werror -Wextra
 
 %.o: %.c fdf.h
-			${CC} -I. -g ${FLAGS} -MMD -c $< -o ${<:.c=.o}
+			${CC} -g -I. ${FLAGS} -MMD -c $< -o ${<:.c=.o}
 
 
 all: 	${OBJS} ${OBJSBONUS}
-		${CC} ${FLAGS} -g -o ${NAME} ${OBJS} ${INCLUDE}
-		${CC} ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+		${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
+		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
 
 push_swap: 	${OBJSBONUS}
-		${CC} ${FLAGS} -g -o ${NAME} ${OBJS} ${INCLUDE}
+		${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
 
 bonus: 	${OBJSBONUS}
-		${CC} ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
 
 clean:	
 		rm -f ${OBJS}
