@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 13:21:17 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 13:40:38 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 13:46:17 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,10 @@ int	ft_isdigit(char *str)
 
 	i = 0;
 	nbr = 0;
-	while (str[i])
+	fprintf(stderr, "str = |%s|\n", str);
+	while (str[i] != '\0')
 	{
+		printf("\tlettre = |%c|\n", str[i]);
 		if (str[i] == '-' || str[i] == '+')
 		{
 			if (i != 0)
@@ -34,5 +36,6 @@ int	ft_isdigit(char *str)
 	}
 	if(nbr == 1)
 		return (0);
+	fprintf(stderr, "out = %d\n", nbr);
 	return (-1);
 }

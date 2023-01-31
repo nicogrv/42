@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 13:15:20 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 13:52:16 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,7 +108,7 @@ int	main(int argc, char **argv)
 		write(1, "OK\n", 3);
 		return (0);
 	}
-	if (ft_verif_arg(argc, argv, &s) == -1)
+	if (ft_push_swap(argc, argv, &s) == -1)
 		return (write(1, "\e[31merror\n", 11), -1);
 	ft_save_input_move(&s);
 	exit = ft_push_swap(argc, argv, &s);
