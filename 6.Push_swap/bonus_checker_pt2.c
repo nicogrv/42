@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 18:20:48 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 18:27:57 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,31 +15,30 @@
 void	ft_detect_move(t_swap *s, int i)
 {
 	if (s->arg[i] == 'r' && s->arg[i + 1] == 'r' && s->arg[i + 2] == 'a')
-		ft_rra(s, 1);
+		return (ft_rra(s, 1));
 	else if (s->arg[i] == 'r' && s->arg[i + 1] == 'r'
 		&& s->arg[i + 2] == 'b')
-		ft_rrb(s, 1);
+		return (ft_rrb(s, 1));
 	else if (s->arg[i] == 'r' && s->arg[i + 1] == 'r'
 		&& s->arg[i + 2] == 'r')
-		ft_rrr(s, 1);
+		return (ft_rrr(s, 1));
 	else if (s->arg[i] == 'p' && s->arg[i + 1] == 'b')
-		ft_pb(s, 1);
+		return (ft_pb(s, 1));
 	else if (s->arg[i] == 'p' && s->arg[i + 1] == 'a')
-		ft_pa(s, 1);
+		return (ft_pa(s, 1));
 	else if (s->arg[i] == 's' && s->arg[i + 1] == 'a')
-		ft_sa(s, 1);
+		return (ft_sa(s, 1));
 	else if (s->arg[i] == 's' && s->arg[i + 1] == 'b')
-		ft_sb(s, 1);
+		return (ft_sb(s, 1));
 	else if (s->arg[i] == 's' && s->arg[i + 1] == 's')
-		ft_ss(s, 1);
+		return (ft_ss(s, 1));
 	else if (s->arg[i] == 'r' && s->arg[i + 1] == 'r')
-		ft_rr(s, 1);
+		return (ft_rr(s, 1));
 	else if (s->arg[i] == 'r' && s->arg[i + 1] == 'a')
-		ft_ra(s, 1);
+		return (ft_ra(s, 1));
 	else if (s->arg[i] == 'r' && s->arg[i + 1] == 'b')
-		ft_rb(s, 1);
-	else
-		s->error = 1;
+		return (ft_rb(s, 1));
+	s->error = 1;
 }
 
 int	ft_verif_tab(t_swap *s)
@@ -116,10 +115,10 @@ int	main(int argc, char **argv)
 	if (argc == 1)
 		return (0);
 	if (ft_save_input_move(argc, argv, &s) == -1)
-		return (write(1, "\e[30;41mError\e[0m\n", 18), 1);
+		return (write(2, "\e[30;41mError\e[0m\n", 18), 1);
 	exit = ft_push_swap(argc, argv, &s);
 	if (s.error == 1)
-		write(1, "\e[30;41mError\e[0m\n", 18);
+		write(2, "\e[30;41mError\e[0m\n", 18);
 	else if (exit == 0)
 		write(1, "\e[30;42mOK\e[0m\n", 15);
 	else

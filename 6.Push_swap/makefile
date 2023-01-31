@@ -4,27 +4,24 @@ FILESBONUS = bonus_checker_pt1.c bonus_ft_swap_pt2.c bonus_checker_pt2.c bonus_f
 OBJS = ${FILES:.c=.o}
 DEPS = ${FILES:.c=.d}
 OBJSBONUS = ${FILESBONUS:.c=.o}
-DEPSBONUS = ${FILESBONUS:.c=.d}
+# DEPSBONUS = ${FILESBONUS:.c=.d}
 NAME = push_swap
-# NAMEBONUS = checker_bonus
 NAMEBONUS = checker
-CC = gcc
+CC = cc
 
 INCLUDE = -I ./
-FLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Wextra -Werror
 
-.c.o:
-	${CC} -g ${FLAGS} -c ${INCLUDE}  $< -o ${<:.c=.o}
 
-all: 	${OBJS} ${OBJSBONUS}
-		${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
-		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+${NAME}: 	${OBJS}
+		${CC} ${CFLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
 
-push_swap: 	${OBJS}
-		${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
+all:	${NAME}
 
-bonus: 	${OBJSBONUS}
-		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+${NAMEBONUS}: 	${OBJSBONUS}
+		${CC} ${CFLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+
+bonus:	${NAMEBONUS}
 
 clean:	
 		rm -f ${OBJS}
@@ -33,7 +30,7 @@ clean:
 
 fclean:	clean;
 		rm -f ${NAME}
-		rm -f ${NAMEBOMUS}
+		rm -f ${NAMEBONUS}
 
 re:	fclean all
 
