@@ -12,6 +12,8 @@ CC = gcc
 INCLUDE = -I ./
 FLAGS = -Wall -Werror -Wextra
 
+.c.o:
+	${CC} -g ${FLAGS} -c ${INCLUDE}  $< -o ${<:.c=.o}
 
 all: 	${OBJS} ${OBJSBONUS}
 	@	${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}

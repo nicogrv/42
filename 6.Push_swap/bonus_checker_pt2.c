@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 19:34:04 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 16:13:48 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,10 +100,9 @@ void	ft_save_input_move(t_swap *s)
 int	main(int argc, char **argv)
 {
 	t_swap	s;
-	int		i;
 	int		exit;
 
-	i = -1;
+	s.error = 0;
 	if (argc == 1 || argc == 2)
 	{
 		write(1, "OK\n", 3);
@@ -114,9 +113,9 @@ int	main(int argc, char **argv)
 	if (s.error == 1)
 		write(1, "error", 5);
 	else if (exit == 0)
-		write(1, "OK\n", 3);
+		write(1, "\e[30;42mOK\e[0m\n", 15);
 	else
-		write(1, "KO\n", 3);
+		write(1, "\e[30;41mKO\e[0m\n", 15);
 	free(s.filltab1);
 	free(s.filltab2);
 	free(s.tab1);

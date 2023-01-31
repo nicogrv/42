@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 17:16:01 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 16:00:44 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ int	ft_verif_arg(int argc, char **argv, t_swap *s)
 		j = 0;
 		while (argv[i][j] != '\0')
 		{
-			if (ft_isdigit(argv[i][j]) == -1)
+			if (ft_isdigit(argv[i]) == -1)
 				return (-1);
 			j++;
 		}
