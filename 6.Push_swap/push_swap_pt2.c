@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 13:29:44 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 19:01:05 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,20 @@
 int	ft_verif_arg(int argc, char **argv, t_swap *s)
 {
 	int	i;
+	int	j;
 
 	i = 1;
 	if (argc < 3)
 		return (-1);
 	while (argv[i] != NULL)
 	{
-		if (ft_isdigit(argv[i]) == -1)
-			return (-1);
+		j = 0;
+		while (argv[i][j] != '\0')
+		{
+			if (ft_isdigit(argv[i][j]) == -1)
+				return (-1);
+			j++;
+		}
 		i++;
 	}
 	return (ft_verif_arg_pt2(argc, s));
@@ -61,8 +67,7 @@ int	ft_push_swap_bloc(int argc, char **argv, t_swap *s)
 	s->printmove = 1;
 	while (s->bloc < 40)
 	{
-		if (ft_push_swap(argc, argv, s) != 0)
-			return (-2);	
+		ft_push_swap(argc, argv, s);
 		if (s->sort == 1)
 			return (0);
 		if (s->move < s->bestblock)

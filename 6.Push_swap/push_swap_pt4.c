@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 12:54:41 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 19:22:31 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,6 @@ int	ft_b_in_a_sort(t_swap *s)
 		}
 		s->imin--;
 	}
-	return (0);
 }
 
 int	ft_push_swap(int argc, char **argv, t_swap *s)
@@ -98,12 +97,12 @@ int	ft_push_swap(int argc, char **argv, t_swap *s)
 int	main(int argc, char **argv)
 {
 	t_swap	s;
+	int		i;
 	int		exit;
 
+	i = -1;
 	s.sort = 1;
 	exit = ft_push_swap_bloc(argc, argv, &s);
-	if (exit == -2)
-		write(1, "\e[31merror\n", 11);
 	free(s.filltab1);
 	free(s.filltab2);
 	free(s.tab1);

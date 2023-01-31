@@ -12,24 +12,19 @@ CC = gcc
 INCLUDE = -I ./
 FLAGS = -Wall -Werror -Wextra
 
-%.o: %.c push_swap.h
-		${CC} -g -I. ${FLAGS} -MMD -c $< -o ${<:.c=.o}
+%.o: %.c fdf.h
+			${CC} -g -I. ${FLAGS} -MMD -c $< -o ${<:.c=.o}
 
 
 all: 	${OBJS} ${OBJSBONUS}
 		${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
-		echo "\e[32mPUSH_SWAP OK\e[0m"
-		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE}
-		echo "\e[32mCHECKER OK\e[0m"
+		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
 
 push_swap: 	${OBJSBONUS}
 		${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
-		echo "\e[32mPUSH_SWAP OK\e[0m"
-
 
 bonus: 	${OBJSBONUS}
 		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
-		echo "\e[32mCHECKER OK\e[0m"
 
 clean:	
 		rm -f ${OBJS}
@@ -42,6 +37,5 @@ fclean:	clean;
 
 re:	fclean all
 
--include ${DEPS}
 
 .PHONY: all clean fclean re

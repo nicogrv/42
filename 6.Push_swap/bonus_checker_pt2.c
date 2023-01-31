@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 13:52:16 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 19:34:04 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,7 +87,6 @@ void	ft_save_input_move(t_swap *s)
 
 	s->arg = malloc(sizeof(char) * 1);
 	s->arg[0] = '\0';
-	
 	while (1)
 	{
 		line = get_next_line(0);
@@ -101,15 +100,15 @@ void	ft_save_input_move(t_swap *s)
 int	main(int argc, char **argv)
 {
 	t_swap	s;
+	int		i;
 	int		exit;
 
+	i = -1;
 	if (argc == 1 || argc == 2)
 	{
 		write(1, "OK\n", 3);
 		return (0);
 	}
-	if (ft_push_swap(argc, argv, &s) == -1)
-		return (write(1, "\e[31merror\n", 11), -1);
 	ft_save_input_move(&s);
 	exit = ft_push_swap(argc, argv, &s);
 	if (s.error == 1)

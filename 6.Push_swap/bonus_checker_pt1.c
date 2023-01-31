@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 13:50:44 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/30 17:16:01 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,14 +55,20 @@ void	ft_init_fill_tab(t_swap *s)
 int	ft_verif_arg(int argc, char **argv, t_swap *s)
 {
 	int	i;
+	int	j;
 
 	i = 1;
 	if (argc < 3)
 		return (-1);
 	while (argv[i] != NULL)
 	{
-		if (ft_isdigit(argv[i]) == -1)
-			return (-1);
+		j = 0;
+		while (argv[i][j] != '\0')
+		{
+			if (ft_isdigit(argv[i][j]) == -1)
+				return (-1);
+			j++;
+		}
 		i++;
 	}
 	return (ft_verif_arg_pt2(argc, s));
@@ -80,16 +86,11 @@ int	ft_verif_arg_pt2(int argc, t_swap *s)
 		while (j != argc - 1)
 		{
 			if (s->tab1[i] == s->tab1[j])
-			{
-				printf("oui\n");
 				return (-1);
-			}
 			j++;
 		}
-		fprintf(stderr, "ici = %d\n\n", i);
 		i++;
 	}
-	
 	return (0);
 }
 
