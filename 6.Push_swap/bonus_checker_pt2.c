@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 18:20:16 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 18:20:48 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,8 +101,6 @@ int	ft_save_input_move(int argc, char **argv, t_swap *s)
 		line = get_next_line(0);
 		if (line == NULL)
 			break ;
-		if (ft_comparline(line) == -1)
-			return (-1);
 		s->arg = ft_strjoin(s->arg, line);
 		free(line);
 	}
