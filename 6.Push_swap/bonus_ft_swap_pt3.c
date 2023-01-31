@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 14:11:42 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 17:16:10 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 16:57:08 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,4 +60,15 @@ void	ft_rrb(t_swap *s, int print)
 	s->move += 1;
 	if (print == 0)
 		write(1, "rrb\n", 4);
+}
+
+void	ft_rrr(t_swap *s, int print)
+{
+	ft_rra(s, 42);
+	ft_rrb(s, 42);
+	if (print == 0)
+	{
+		write(1, "rrr\n", 3);
+		s->move += 1;
+	}
 }

@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 16:00:44 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 17:56:35 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,19 +14,22 @@
 
 void	print_ft_monitoring(t_swap *s)
 {
-	int	j;
-
-	j = -1;
-	while (++j < s->len - 1)
-	{
-		printf("%d\t", s->tab1[j]);
-		printf("%d\t", s->filltab1[j]);
-		printf("|\t" );
-		printf("%d\t", s->tab2[j]);
-		printf("%d\n", s->filltab2[j]);
-	}
-	printf("coups: %d\n", s->move);
+	(void) s;
 }
+	// int	j;
+
+	// j = -1;
+	// while (++j < s->len - 1)
+	// {
+	// 	j++;
+	// 	j--;
+	// 	printf("%d\t", s->tab1[j]);
+	// 	printf("%d\t", s->filltab1[j]);
+	// 	printf("|\t" );
+	// 	printf("%d\t", s->tab2[j]);
+	// 	printf("%d\n", s->filltab2[j]);
+	// }
+	// printf("coups: %d\n", s->move);
 
 void	ft_init_fill_tab(t_swap *s)
 {
@@ -55,20 +58,12 @@ void	ft_init_fill_tab(t_swap *s)
 int	ft_verif_arg(int argc, char **argv, t_swap *s)
 {
 	int	i;
-	int	j;
 
 	i = 1;
-	if (argc < 3)
-		return (-1);
 	while (argv[i] != NULL)
 	{
-		j = 0;
-		while (argv[i][j] != '\0')
-		{
-			if (ft_isdigit(argv[i]) == -1)
-				return (-1);
-			j++;
-		}
+		if (ft_isdigit(argv[i]) == -1)
+			return (-1);
 		i++;
 	}
 	return (ft_verif_arg_pt2(argc, s));

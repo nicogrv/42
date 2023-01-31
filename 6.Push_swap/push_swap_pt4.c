@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 16:19:40 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 18:07:07 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,7 +105,7 @@ int	main(int argc, char **argv)
 	s.sort = 1;
 	exit = ft_push_swap_bloc(argc, argv, &s);
 	if (exit == -1)
-		write(1, "\e[31mError\e[0m\n", 19);
+		write(2, "\e[31mError\e[0m\n", 19);
 	free(s.filltab1);
 	free(s.filltab2);
 	free(s.tab1);

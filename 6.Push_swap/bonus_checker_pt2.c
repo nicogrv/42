@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 16:13:48 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 18:20:16 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,9 @@ void	ft_detect_move(t_swap *s, int i)
 	else if (s->arg[i] == 'r' && s->arg[i + 1] == 'r'
 		&& s->arg[i + 2] == 'b')
 		ft_rrb(s, 1);
+	else if (s->arg[i] == 'r' && s->arg[i + 1] == 'r'
+		&& s->arg[i + 2] == 'r')
+		ft_rrr(s, 1);
 	else if (s->arg[i] == 'p' && s->arg[i + 1] == 'b')
 		ft_pb(s, 1);
 	else if (s->arg[i] == 'p' && s->arg[i + 1] == 'a')
@@ -67,7 +70,7 @@ int	ft_push_swap(int argc, char **argv, t_swap *s)
 		s->tab1[i] = ft_atoi(argv[i + 1]);
 	ft_init_fill_tab(s);
 	if (ft_verif_arg(argc, argv, s) == -1)
-		return (-2);
+		return (42);
 	i = 0;
 	while (s->arg[i])
 	{
@@ -81,20 +84,29 @@ int	ft_push_swap(int argc, char **argv, t_swap *s)
 	return (ft_verif_tab(s));
 }
 
-void	ft_save_input_move(t_swap *s)
+int	ft_save_input_move(int argc, char **argv, t_swap *s)
 {
 	char	*line;
 
 	s->arg = malloc(sizeof(char) * 1);
 	s->arg[0] = '\0';
+	if (ft_push_swap(argc, argv, s) == 42)
+		return (-1);
+	free(s->filltab1);
+	free(s->filltab2);
+	free(s->tab1);
+	free(s->tab2);
 	while (1)
 	{
 		line = get_next_line(0);
 		if (line == NULL)
 			break ;
+		if (ft_comparline(line) == -1)
+			return (-1);
 		s->arg = ft_strjoin(s->arg, line);
 		free(line);
 	}
+	return (0);
 }
 
 int	main(int argc, char **argv)
@@ -103,15 +115,13 @@ int	main(int argc, char **argv)
 	int		exit;
 
 	s.error = 0;
-	if (argc == 1 || argc == 2)
-	{
-		write(1, "OK\n", 3);
+	if (argc == 1)
 		return (0);
-	}
-	ft_save_input_move(&s);
+	if (ft_save_input_move(argc, argv, &s) == -1)
+		return (write(1, "\e[30;41mError\e[0m\n", 18), 1);
 	exit = ft_push_swap(argc, argv, &s);
 	if (s.error == 1)
-		write(1, "error", 5);
+		write(1, "\e[30;41mError\e[0m\n", 18);
 	else if (exit == 0)
 		write(1, "\e[30;42mOK\e[0m\n", 15);
 	else
