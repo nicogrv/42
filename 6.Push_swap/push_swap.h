@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 17:23:25 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 18:47:52 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 14:47:15 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ typedef struct s_swap
 }	t_swap;
 
 int		ft_atoi(const char *str);
-int		ft_isdigit(char str);
+int		ft_isdigit(char *str);
 void	*ft_calloc(size_t nbitems, size_t size);
 
 int		ft_len_tab1(t_swap *s);

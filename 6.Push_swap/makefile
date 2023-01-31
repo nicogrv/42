@@ -12,28 +12,25 @@ CC = gcc
 INCLUDE = -I ./
 FLAGS = -Wall -Werror -Wextra
 
-%.o: %.c fdf.h
-			${CC} -g -I. ${FLAGS} -MMD -c $< -o ${<:.c=.o}
-
 
 all: 	${OBJS} ${OBJSBONUS}
-		${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
-		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+	@	${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
+	@	${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
 
-push_swap: 	${OBJSBONUS}
-		${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
+push_swap: 	${OBJS}
+	@	${CC} -g ${FLAGS} -o ${NAME} ${OBJS} ${INCLUDE}
 
 bonus: 	${OBJSBONUS}
-		${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
+	@	${CC} -g ${FLAGS} -o ${NAMEBONUS} ${OBJSBONUS} ${INCLUDE} 
 
 clean:	
-		rm -f ${OBJS}
-		rm -f ${OBJSBONUS}
-		rm -rf *.d
+	@	rm -f ${OBJS}
+	@	rm -f ${OBJSBONUS}
+	@	rm -rf *.d
 
 fclean:	clean;
-		rm -f ${NAME}
-		rm -f ${NAMEBOMUS}
+	@	rm -f ${NAME}
+	@	rm -f ${NAMEBOMUS}
 
 re:	fclean all
 

@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/30 19:01:05 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 15:49:12 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int	ft_verif_arg(int argc, char **argv, t_swap *s)
 		j = 0;
 		while (argv[i][j] != '\0')
 		{
-			if (ft_isdigit(argv[i][j]) == -1)
+			if (ft_isdigit(argv[i]) == -1)
 				return (-1);
 			j++;
 		}
@@ -39,11 +39,11 @@ int	ft_verif_arg_pt2(int argc, t_swap *s)
 	int	i;
 	int	j;
 
-	i = 1;
+	i = 0;
 	while (i != argc - 1)
 	{
 		j = i + 1;
-		if (s->tab1[i - 1] > s->tab1[i] && i < argc - 1)
+		if (s->tab1[i] > s->tab1[i + 1] && i < argc - 2)
 			s->sort = 0;
 		while (j != argc - 1)
 		{
@@ -67,7 +67,9 @@ int	ft_push_swap_bloc(int argc, char **argv, t_swap *s)
 	s->printmove = 1;
 	while (s->bloc < 40)
 	{
-		ft_push_swap(argc, argv, s);
+		if (ft_push_swap(argc, argv, s) == -1)
+			{printf("dw");
+			return (-1);}
 		if (s->sort == 1)
 			return (0);
 		if (s->move < s->bestblock)
