@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:37:23 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/01 12:58:57 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/01 14:35:35 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,9 @@ typedef struct s_pip
     char    **av;
     char    **env;
     char    **path;
-    int		stdin;
-    int		stdout;
+
+    int     fdin;
+    int     fdout;
 }               t_pip;
 
 # include <stdio.h>
