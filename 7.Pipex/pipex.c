@@ -6,28 +6,36 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:20:06 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/01 17:03:56 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/01 18:13:15 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "pipex.h"
+
+void ft_close_fd(t_pip *s, int *fdpip1)
+{
+		close(fdpip1[0]);
+		close(fdpip1[1]);
+		close(s->fdin);
+		close(s->fdout);
+}
 
 int ft_exe_cmd(t_pip *s, int nbcmd)
 {
 	int i;
 	char **cmd;
 	char *path;
-	char *tmppath;
 
 	cmd = ft_split(s->av[nbcmd], ' ');
+	if (cmd == NULL)
+		return (write(2, "\e[32;1mError\n\e[0m", 18), -1);
 	i = -1;
 	while (s->path[++i])
 	{
-		path = ft_strjoin(s->path[i], "/");
-		tmppath = ft_strjoin(path, cmd[0]);
-		execve(tmppath, cmd, s->env);
+		path = ft_strjoin(ft_strjoin(s->path[i], "/"), cmd[0]);
+		execve(path, cmd, s->env);
 	}
-	return (perror("\e[31;1mError\e[0m"), -1);
+	// return (perror("\e[31;1mError\e[0m"), -1);
 }
 
 int main(int ac, char **av, char **envp)
@@ -61,12 +69,11 @@ int main(int ac, char **av, char **envp)
 	id1 = fork();
 	if (id1 == 0)
 	{
-		close(fdpip1[0]);
 		dup2(s.fdin, 0);
 		dup2(fdpip1[1], 1);
-		id1 = ft_exe_cmd(&s, 2);
-			close(fdpip1[1]);
-
+		ft_close_fd(&s, fdpip1);
+		if (ft_exe_cmd(&s, 2) == -1);
+			exit(1);
 	}
 	close(fdpip1[1]);
 	id1 = fork();
@@ -74,7 +81,10 @@ int main(int ac, char **av, char **envp)
 	{
 		dup2(fdpip1[0], 0);
 		dup2(s.fdout, 1);
-		ft_exe_cmd(&s, 3);
+		ft_close_fd(&s, fdpip1);
+		if (ft_exe_cmd(&s, 3) == -1);
+			exit(1);
 	}
+	ft_close_fd(&s, fdpip1);
 	return (0);
 }
