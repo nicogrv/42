@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:20:06 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/01 18:19:24 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/01 18:20:38 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,10 +57,10 @@ int main(int ac, char **av, char **envp)
 	s.path = NULL;
 	if (ac != 5)
 		return(write(1, "\e[31;1mError Arguments\n\e[0m", 28));
-	s.fdin = open(av[1], O_CREAT, 0644 | O_RDONLY );
+	s.fdin = open(av[1], O_CREAT | O_RDONLY, 0644);
 	if (s.fdin == -1)
 		return(write(1, "\e[31;1mError File In\n\e[0m", 26));
-	s.fdout = open(av[ac - 1], O_CREAT, 0777 | O_WRONLY);
+	s.fdout = open(av[ac - 1], O_CREAT | O_WRONLY, 0777);
 	if (s.fdout == -1)
 		return(write(1, "\e[31;1mError File Out\n\e[0m", 27));
 

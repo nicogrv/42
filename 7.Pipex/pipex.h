@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:37:23 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/01 16:49:21 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/01 18:19:52 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,5 @@ typedef struct s_pip
 # include <stdio.h>
 # include "./libft/libft.h"
 # include<sys/wait.h>
+
 #endif

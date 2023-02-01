@@ -1,2 +1,7 @@
-	id1 = fork();
-	id1 = fork();
+libft
+Makefile
+out.txt
+pipex
+pipex.c
+pipex.h
+pipex.o
