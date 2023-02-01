@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:20:06 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/01 18:13:15 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/01 18:19:24 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,15 @@ int ft_exe_cmd(t_pip *s, int nbcmd)
 	i = -1;
 	while (s->path[++i])
 	{
-		path = ft_strjoin(ft_strjoin(s->path[i], "/"), cmd[0]);
+		path = ft_strjoin(s->path[i], "/");
+		if (path == NULL)
+			return (write(2, "\e[31;1mError ft_strjoin 1\n\e[0m", 31), -1);
+		path = ft_strjoin(path, cmd[0]);
+		if (path == NULL)
+			return (write(2, "\e[31;1mError ft_strjoin 2\n\e[0m", 31), -1);
 		execve(path, cmd, s->env);
 	}
-	// return (perror("\e[31;1mError\e[0m"), -1);
+	return (perror("\e[31;1mError\e[0m"), -1);
 }
 
 int main(int ac, char **av, char **envp)
@@ -52,10 +57,10 @@ int main(int ac, char **av, char **envp)
 	s.path = NULL;
 	if (ac != 5)
 		return(write(1, "\e[31;1mError Arguments\n\e[0m", 28));
-	s.fdin = open(av[1], O_RDONLY | O_CREAT, 0664);
+	s.fdin = open(av[1], O_CREAT, 0644 | O_RDONLY );
 	if (s.fdin == -1)
 		return(write(1, "\e[31;1mError File In\n\e[0m", 26));
-	s.fdout = open(av[ac - 1], O_WRONLY | O_CREAT, 0664);
+	s.fdout = open(av[ac - 1], O_CREAT, 0777 | O_WRONLY);
 	if (s.fdout == -1)
 		return(write(1, "\e[31;1mError File Out\n\e[0m", 27));
 
@@ -72,7 +77,7 @@ int main(int ac, char **av, char **envp)
 		dup2(s.fdin, 0);
 		dup2(fdpip1[1], 1);
 		ft_close_fd(&s, fdpip1);
-		if (ft_exe_cmd(&s, 2) == -1);
+		if (ft_exe_cmd(&s, 2) == -1)
 			exit(1);
 	}
 	close(fdpip1[1]);
@@ -82,7 +87,7 @@ int main(int ac, char **av, char **envp)
 		dup2(fdpip1[0], 0);
 		dup2(s.fdout, 1);
 		ft_close_fd(&s, fdpip1);
-		if (ft_exe_cmd(&s, 3) == -1);
+		if (ft_exe_cmd(&s, 3) == -1)
 			exit(1);
 	}
 	ft_close_fd(&s, fdpip1);
