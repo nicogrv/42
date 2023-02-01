@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:20:06 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/01 10:56:14 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/01 11:13:33 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ int main(int ac, char **av, char **envp)
 {
 	t_pip s;
 	int i;
-	int id;
-
+	int id1;
+	int id2;
 	i = -1;
 	s.ac = ac;
 	s.av = av;
@@ -49,13 +49,21 @@ int main(int ac, char **av, char **envp)
 	// i = -1;
 	// while (path[++i])
 	// 	printf("path = %s\n", path[i]);
-	printf("id = %d\n\n\n", id);
-	id = fork();
-	if (id == 0)
+	id1 = fork();
+	if (id1 == 0)
 	{
-		wait(2);
+		sleep(1);
 		ft_exe_cmd(&s, 1);
+		fprintf(stderr, "non pas ici\n\n");
 	}
-	ft_exe_cmd(&s, 2);
-	fprintf(stderr, "salut les amis");
+	id2 = fork();
+	if (id2 == 0)
+		ft_exe_cmd(&s, 2);
+	
+	wait(&id2);
+	wait(&id1);
+	fprintf(stderr, "salut les amis\n\n");
+	sleep(2);
+	return (0);
+
 }
