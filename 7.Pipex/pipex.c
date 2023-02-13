@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:20:06 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/13 13:23:24 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 14:23:59 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int ft_exe_cmd(t_pip *s, int nbcmd)
 	int i;
 	char **cmd;
 	char *path;
+	char *path2;
 
 	cmd = ft_split(s->av[nbcmd], ' ');
 	if (cmd == NULL)
@@ -42,15 +43,27 @@ int ft_exe_cmd(t_pip *s, int nbcmd)
 	i = -1;
 	while (s->path[++i])
 	{
+		
 		path = ft_strjoin(s->path[i], "/");
+		free(s->path[i]);
 		if (path == NULL)
 			return (write(2, "\e[31;1mError ft_strjoin 1\n\e[0m", 31), -1);
-		path = ft_strjoin(path, cmd[0]);
-		if (path == NULL)
+		path2 = ft_strjoin(path, cmd[0]);
+		free(path);
+		if (path2 == NULL)
 			return (write(2, "\e[31;1mError ft_strjoin 2\n\e[0m", 31), -1);
-		execve(path, cmd, s->env);
+		if (access(path2, X_OK) == 0)
+			execve(path2, cmd, s->env);
+		free(path2);
 	}
-	return (perror("\e[31;1mError\e[0m"), -1);
+	i = -1;
+	write(2, cmd[0], ft_strlen(cmd[0]));
+	write(2, ": command not found", 19);
+	while (cmd[++i])
+		free(cmd[i]);
+	free(cmd);
+	free(s->path);
+	return (-1);
 }
 
 int main(int ac, char **av, char **envp)
@@ -58,6 +71,8 @@ int main(int ac, char **av, char **envp)
 	t_pip s;
 	int i;
 	int id1;
+	int id2;
+	int error;
 	int fdpip1[2];
 	
 	i = -1;
@@ -65,6 +80,7 @@ int main(int ac, char **av, char **envp)
 	s.av = av;
 	s.env = envp;
 	s.path = NULL;
+	error = 0;
 	if (ac != 5)
 		return(write(1, "\e[31;1mError Arguments\n\e[0m", 28));
 	s.fdin = open(av[1], O_CREAT | O_RDONLY, 0644);
@@ -90,8 +106,8 @@ int main(int ac, char **av, char **envp)
 			exit(1);
 	}
 	close(fdpip1[1]);
-	id1 = fork();
-	if (id1 == 0)
+	id2 = fork();
+	if (id2 == 0)
 	{
 		dup2(fdpip1[0], 0);
 		dup2(s.fdout, 1);
@@ -99,7 +115,11 @@ int main(int ac, char **av, char **envp)
 		if (ft_exe_cmd(&s, 3) == -1)
 			exit(1);
 	}
+	waitpid(id2, &error, 0);
+	fprintf(stderr, "coucou = %d\n", error);
 	ft_close_fd(&s, fdpip1);
 	ft_free(&s);
+	if (error != 0)
+		return (1);
 	return (0);
 }
