@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:20:06 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/13 14:23:59 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 18:46:04 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int ft_exe_cmd(t_pip *s, int nbcmd)
 	}
 	i = -1;
 	write(2, cmd[0], ft_strlen(cmd[0]));
-	write(2, ": command not found", 19);
+	// write(2, ": command not found", 19);
 	while (cmd[++i])
 		free(cmd[i]);
 	free(cmd);
@@ -106,6 +106,11 @@ int main(int ac, char **av, char **envp)
 			exit(1);
 	}
 	close(fdpip1[1]);
+	waitpid(id1, &error, 0);
+	// close(s.fdout);
+	// s.fdout = open(av[ac - 1], O_CREAT | O_WRONLY | O_TRUNC, 0777);
+	// if (s.fdout == -1)
+	// 	return(write(1, "\e[31;1mError File Out\n\e[0m", 27));
 	id2 = fork();
 	if (id2 == 0)
 	{
@@ -116,9 +121,9 @@ int main(int ac, char **av, char **envp)
 			exit(1);
 	}
 	waitpid(id2, &error, 0);
-	fprintf(stderr, "coucou = %d\n", error);
 	ft_close_fd(&s, fdpip1);
 	ft_free(&s);
+	close(open(av[ac - 1], O_CREAT | O_WRONLY, 0777));
 	if (error != 0)
 		return (1);
 	return (0);
