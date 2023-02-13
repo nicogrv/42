@@ -1,4 +1,4 @@
-FILES =	pipex.c
+FILES =	pipex.c pipex_pt2.c
 
 OBJS = ${FILES:.c=.o}
 

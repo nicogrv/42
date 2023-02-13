@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:20:06 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/13 19:37:26 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 19:59:00 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,16 +30,12 @@ void	ft_close_fd(t_pip *s, int *fdpip1)
 	close(s->fdout);
 }
 
-int	ft_exe_cmd(t_pip *s, int nbcmd)
+int	ft_exe_cmd_pt2(t_pip *s, char **cmd)
 {
 	int		i;
-	char	**cmd;
 	char	*path;
 	char	*path2;
 
-	cmd = ft_split(s->av[nbcmd], ' ');
-	if (cmd == NULL)
-		return (write(2, "\e[32;1mError\n\e[0m", 18), -1);
 	i = -1;
 	while (s->path[++i])
 	{
@@ -55,6 +51,19 @@ int	ft_exe_cmd(t_pip *s, int nbcmd)
 			execve(path2, cmd, s->env);
 		free(path2);
 	}
+	return (0);
+}
+
+int	ft_exe_cmd(t_pip *s, int nbcmd)
+{
+	int		i;
+	char	**cmd;
+
+	cmd = ft_split(s->av[nbcmd], ' ');
+	if (cmd == NULL)
+		return (write(2, "\e[32;1mError\n\e[0m", 18), -1);
+	if (ft_exe_cmd_pt2(s, cmd) == -1)
+		return (-1);
 	i = -1;
 	write(2, cmd[0], ft_strlen(cmd[0]));
 	write(2, ": command not found", 19);
@@ -68,58 +77,25 @@ int	ft_exe_cmd(t_pip *s, int nbcmd)
 int	main(int ac, char **av, char **envp)
 {
 	t_pip	s;
-	int		id1;
-	int		id2;
 	int		error;
-	int		fdpip1[2];
 
-	s.i = -1;
-	s.ac = ac;
-	s.av = av;
-	s.env = envp;
-	s.path = NULL;
 	error = 0;
-	if (ac != 5)
-		return (write(1, "\e[31;1mError Arguments\n\e[0m", 28));
-	s.fdin = open(av[1], O_CREAT | O_RDONLY, 0644);
-	if (s.fdin == -1)
-		return (write(1, "\e[31;1mError File In\n\e[0m", 26));
-	s.fdout = open(av[ac - 1], O_CREAT | O_WRONLY | O_TRUNC, 0777);
-	if (s.fdout == -1)
-		return (write(1, "\e[31;1mError File Out\n\e[0m", 27));
-	while (s.env[++s.i])
-	{
-		if (ft_strncmp(s.env[s.i], "PATH", 4) == 0)
-			s.path = ft_split(&s.env[s.i][5], ':');
-	}
-	pipe(fdpip1);
-	id1 = fork();
-	if (id1 == 0)
-	{
-		dup2(s.fdin, 0);
-		dup2(fdpip1[1], 1);
-		ft_close_fd(&s, fdpip1);
-		if (ft_exe_cmd(&s, 2) == -1)
-			exit(1);
-	}
-	close(fdpip1[1]);
+	s.env = envp;
+	if (ft_error_int(&s, ac, av) == -1)
+		return (1);
+	pipe(s.fdpip1);
+	if (ft_1st_cmd(&s) != 0)
+		return (1);
+	close(s.fdpip1[1]);
 	if (strncmp(av[2], "rm", 2) == 0)
-		waitpid(id1, &error, 0);
-	close(s.fdout);
+		waitpid(s.id1, &error, 0);
 	s.fdout = open(av[ac - 1], O_CREAT | O_WRONLY | O_TRUNC, 0777);
 	if (s.fdout == -1)
 		return (write(1, "\e[31;1mError File Out\n\e[0m", 27));
-	id2 = fork();
-	if (id2 == 0)
-	{
-		dup2(fdpip1[0], 0);
-		dup2(s.fdout, 1);
-		ft_close_fd(&s, fdpip1);
-		if (ft_exe_cmd(&s, 3) == -1)
-			exit(1);
-	}
-	waitpid(id2, &error, 0);
-	ft_close_fd(&s, fdpip1);
+	if (ft_2nd_cmd(&s) != 0)
+		return (1);
+	waitpid(s.id2, &error, 0);
+	ft_close_fd(&s, s.fdpip1);
 	ft_free(&s);
 	close(open(av[ac - 1], O_CREAT | O_WRONLY, 0777));
 	if (error != 0)

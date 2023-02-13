@@ -1,0 +1,12 @@
+a.out
+libft
+Makefile
+out.txt
+pipex
+pipex.c
+pipex.h
+pipex.o
+pipex_pt2.c
+pipex_pt2.o
+pipex-tester
+test.txt
