@@ -6,13 +6,13 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 09:49:25 by ngriveau          #+#    #+#             */
-/*   Updated: 2022/11/11 11:18:31 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 19:26:47 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+int	ft_atoi(char *str)
 {
 	int	i;
 	int	signe;

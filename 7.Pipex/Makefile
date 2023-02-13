@@ -9,7 +9,7 @@ CC = cc
 INCLUDE = -I ./ -I ./libft 
 LIB = -L ./libft -lft
 
-# CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror
 
 
 ${NAME}: 	${OBJS}

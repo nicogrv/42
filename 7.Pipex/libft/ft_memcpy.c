@@ -6,13 +6,13 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 15:44:15 by ngriveau          #+#    #+#             */
-/*   Updated: 2022/11/10 19:10:48 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 19:26:57 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+void	*ft_memcpy(void *dest, void *src, size_t n)
 {
 	size_t	i;
 

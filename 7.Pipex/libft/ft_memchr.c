@@ -6,13 +6,13 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 16:41:46 by ngriveau          #+#    #+#             */
-/*   Updated: 2022/11/10 18:23:30 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 19:26:51 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memchr(const void *s, int c, size_t n)
+void	*ft_memchr(void *s, int c, size_t n)
 {
 	size_t			i;
 	unsigned char	*str;

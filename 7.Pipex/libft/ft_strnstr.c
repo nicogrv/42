@@ -6,13 +6,13 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 19:09:07 by ngriveau          #+#    #+#             */
-/*   Updated: 2022/11/15 12:08:50 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 19:27:23 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strnstr(const char *src, const char *cmp, size_t n)
+char	*ft_strnstr(char *src, char *cmp, size_t n)
 {
 	size_t	i;
 	size_t	j;

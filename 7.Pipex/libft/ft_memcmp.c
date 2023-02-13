@@ -6,13 +6,13 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 17:53:31 by ngriveau          #+#    #+#             */
-/*   Updated: 2022/11/16 10:38:44 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 19:26:54 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_memcmp(const void *s1, const void *s2, size_t n)
+int	ft_memcmp(void *s1, void *s2, size_t n)
 {
 	size_t				i;
 	unsigned char		*ptr1;

@@ -6,13 +6,13 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 14:40:05 by ngriveau          #+#    #+#             */
-/*   Updated: 2022/11/17 18:03:18 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 19:27:40 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static char	*find_begin(char const *s1, char const *set)
+static char	*find_begin(char *s1, char *set)
 {
 	size_t	i;
 	size_t	j;
@@ -38,7 +38,7 @@ static char	*find_begin(char const *s1, char const *set)
 	return ((char *) s1 + i);
 }
 
-static char	*find_end(char const *s1, char const *set, char const *begin)
+static char	*find_end(char *s1, char *set, char *begin)
 {
 	size_t	i;
 	size_t	j;
@@ -66,7 +66,7 @@ static char	*find_end(char const *s1, char const *set, char const *begin)
 	return ((char *) s1 + i);
 }
 
-static char	*fill_str(char const *begin, char const *end)
+static char	*fill_str(char *begin, char *end)
 {
 	char	*new;
 	size_t	i;
@@ -84,7 +84,7 @@ static char	*fill_str(char const *begin, char const *end)
 	return (new);
 }
 
-char	*ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char *s1, char *set)
 {
 	char	*begin;
 	char	*end;

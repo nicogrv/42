@@ -6,13 +6,13 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 09:35:29 by ngriveau          #+#    #+#             */
-/*   Updated: 2022/11/10 19:20:27 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/13 19:27:00 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+void	*ft_memmove(void *dest, void *src, size_t n)
 {
 	size_t			i;
 	unsigned long	adresse1;
