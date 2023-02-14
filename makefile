@@ -2,7 +2,6 @@
 all: 1 2 3 4 5 6 7 
 
 allforce: rmrmrm all
-	rm -rf *.*
 
 rmrmrm:
 	rm -rf *.*
