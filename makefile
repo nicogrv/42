@@ -1,36 +1,48 @@
 
+all: 1 2 3 4 5 6 7 
+
+allforce: rmrmrm all
+	rm -rf *.*
+
+rmrmrm:
+	rm -rf *.*
+
 1 :
-	git clone git@github.com:xXNicoloXx/1.Libft.git
+	git clone --depth 1 git@github.com:xXNicoloXx/1.Libft.git
 libft :
-	git clone git@github.com:xXNicoloXx/1.Libft.git
+	git clone --depth 1 git@github.com:xXNicoloXx/1.Libft.git
 
 
 ft_printf :
-	git clone git@github.com:xXNicoloXx/2.Printf.git
+	git clone --depth 1 git@github.com:xXNicoloXx/2.Printf.git
 2 :
-	git clone git@github.com:xXNicoloXx/2.Printf.git
+	git clone --depth 1 git@github.com:xXNicoloXx/2.Printf.git
 
 
 GetNextLine :
-	git clone git@github.com:xXNicoloXx/3.GetNextLine.git
+	git clone --depth 1 git@github.com:xXNicoloXx/3.GetNextLine.git
 3 :
-	git clone git@github.com:xXNicoloXx/3.GetNextLine.git
+	git clone --depth 1 git@github.com:xXNicoloXx/3.GetNextLine.git
 
 Born2BeRoot :
-	git clone git@github.com:xXNicoloXx/4.Born2BeRoot.git
+	git clone --depth 1 git@github.com:xXNicoloXx/4.Born2BeRoot.git
 4 :
-	git clone git@github.com:xXNicoloXx/4.Born2BeRoot.git
+	git clone --depth 1 git@github.com:xXNicoloXx/4.Born2BeRoot.git
 
 fdf :
-	git clone git@github.com:xXNicoloXx/5.Fdf.git
+	git clone --depth 1 git@github.com:xXNicoloXx/5.Fdf.git
 
 5 :
-	git clone git@github.com:xXNicoloXx/5.Fdf.git
+	git clone --depth 1 git@github.com:xXNicoloXx/5.Fdf.git
 
 PushSwap :
-	git clone git@github.com:xXNicoloXx/6.PushSwap.git
+	git clone --depth 1 git@github.com:xXNicoloXx/6.PushSwap.git
 6 :
-	git clone git@github.com:xXNicoloXx/6.PushSwap.git
+	git clone --depth 1 git@github.com:xXNicoloXx/6.PushSwap.git
 
-all: 1 2 3 4 5 6
+Pipex :
+	git clone --depth 1 git@github.com:xXNicoloXx/7.Pipex.git
+7 :
+	git clone --depth 1 git@github.com:xXNicoloXx/7.Pipex.git
+
 
