@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:07:34 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 16:07:19 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/01/31 19:09:30 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,19 +40,22 @@ int	ft_max_in_a(t_swap *s)
 
 void	print_ft_monitoring(t_swap *s)
 {
-	int	j;
-
-	j = -1;
-	while (++j < s->len - 1)
-	{
-		printf("%d\t", s->tab1[j]);
-		printf("%d\t", s->filltab1[j]);
-		printf("|\t" );
-		printf("%d\t", s->tab2[j]);
-		printf("%d\n", s->filltab2[j]);
-	}
-	printf("coups: %d\n", s->move);
+	(void) s;
 }
+	// int	j;
+
+	// j = -1;
+	// while (++j < s->len - 1)
+	// {
+	// 	j++;
+	// 	j--;
+	// 	printf("%d\t", s->tab1[j]);
+	// 	printf("%d\t", s->filltab1[j]);
+	// 	printf("|\t" );
+	// 	printf("%d\t", s->tab2[j]);
+	// 	printf("%d\n", s->filltab2[j]);
+	// }
+	// printf("coups: %d\n", s->move);
 
 int	ft_verif_eff(t_swap *s, int imin, int imax)
 {

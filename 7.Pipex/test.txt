@@ -1,9 +1,0 @@
-libft
-Makefile
-out.txt
-pipex
-pipex.c
-pipex.h
-pipex.o
-pipex-tester
-test.txt

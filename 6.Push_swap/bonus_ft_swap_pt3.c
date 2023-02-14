@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 14:11:42 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 16:57:08 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/14 14:42:27 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ void	ft_rra(t_swap *s, int print)
 	int	itab;
 
 	lentab = 0;
+	if (s->filltab1[0] == 0)
+		return ;
 	while (lentab < s->len - 1 && s->filltab1[lentab] != 0)
 		lentab++;
 	lentab--;
@@ -44,6 +46,8 @@ void	ft_rrb(t_swap *s, int print)
 	int	itab;
 
 	lentab = 0;
+	if (s->filltab2[0] == 0)
+		return ;
 	while (lentab < s->len - 1 && s->filltab2[lentab] != 0)
 		lentab++;
 	lentab--;

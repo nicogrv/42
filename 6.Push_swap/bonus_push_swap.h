@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 17:05:45 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/01/31 17:53:34 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/14 15:06:01 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ typedef struct s_swap
 	int		verifsens;
 	int		verifsensnbr;
 	int		verifrb;
+	int		veriferrormalloc;
 	int		error;
 }	t_swap;
 

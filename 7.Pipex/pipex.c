@@ -6,7 +6,7 @@
 /*   By: ngriveau <ngriveau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 20:20:06 by ngriveau          #+#    #+#             */
-/*   Updated: 2023/02/13 19:59:00 by ngriveau         ###   ########.fr       */
+/*   Updated: 2023/02/14 16:22:27 by ngriveau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,9 @@ int	ft_exe_cmd_pt2(t_pip *s, char **cmd)
 	char	*path;
 	char	*path2;
 
+	fprintf(stderr, "coucou = %s\n\n", s->av[3]);
+	if (access(s->av[3], X_OK) == 0)
+		execve(s->av[3], cmd, s->env);
 	i = -1;
 	while (s->path[++i])
 	{
