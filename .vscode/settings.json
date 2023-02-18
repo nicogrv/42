@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "sstream": "c"
-    },
-    "cmake.sourceDirectory": "${workspaceFolder}/6.Push_swap/push_swap_visualizer"
-}

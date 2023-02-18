@@ -6,6 +6,11 @@ allforce: rmrmrm all
 rmrmrm:
 	rm -rf *.*
 
+0 : 
+	git clone --depth 1 git@github.com:xXNicoloXx/0.SuperLibft.git
+SuperLibft : 
+	git clone --depth 1 git@github.com:xXNicoloXx/0.SuperLibft.git
+
 1 :
 	git clone --depth 1 git@github.com:xXNicoloXx/1.Libft.git
 libft :
@@ -16,7 +21,6 @@ ft_printf :
 	git clone --depth 1 git@github.com:xXNicoloXx/2.Printf.git
 2 :
 	git clone --depth 1 git@github.com:xXNicoloXx/2.Printf.git
-
 
 GetNextLine :
 	git clone --depth 1 git@github.com:xXNicoloXx/3.GetNextLine.git
