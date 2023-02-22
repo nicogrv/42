@@ -1,5 +1,5 @@
 
-all: 0 1 2 3 4 5 6 7 
+all: 0 1 2 3 4 5 6 7 8
 
 allforce: rmrmrm all
 
@@ -49,4 +49,7 @@ Pipex :
 7 :
 	git clone --depth 1 git@github.com:xXNicoloXx/7.Pipex.git
 
-
+Minishell:
+	git clone --depth 1 git@github.com:pierrebizien/minishell.git
+8:
+	git clone --depth 1 git@github.com:pierrebizien/minishell.git
