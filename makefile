@@ -1,55 +1,102 @@
 
-all: 0 1 2 3 4 5 6 7 8
+all: 0 1 2 3 4 5 6 7 8 9
 
 allforce: rmrmrm all
 
 rmrmrm:
-	rm -rf *.*
+	@	echo $(ORANGE) "Clear\n";
+	@rm -rf *.*
 
 0 : 
-	git clone --depth 1 git@github.com:xXNicoloXx/0.SuperLibft.git
+	@	echo $(ORANGE) "SuperLibft";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/0.SuperLibft.git --quiet
 SuperLibft : 
-	git clone --depth 1 git@github.com:xXNicoloXx/0.SuperLibft.git
+	@	echo $(ORANGE) "SuperLibft";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/0.SuperLibft.git --quiet
 
 1 :
-	git clone --depth 1 git@github.com:xXNicoloXx/1.Libft.git
+	@	echo $(ORANGE) "Libft";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/1.Libft.git --quiet
 libft :
-	git clone --depth 1 git@github.com:xXNicoloXx/1.Libft.git
-
+	@	echo $(ORANGE) "Libft";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/1.Libft.git --quiet
 
 ft_printf :
-	git clone --depth 1 git@github.com:xXNicoloXx/2.Printf.git
+	@	echo $(ORANGE) "ft_Printf";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/2.Printf.git --quiet
 2 :
-	git clone --depth 1 git@github.com:xXNicoloXx/2.Printf.git
+	@	echo $(ORANGE) "ft_Printf";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/2.Printf.git --quiet
 
 GetNextLine :
-	git clone --depth 1 git@github.com:xXNicoloXx/3.GetNextLine.git
+	@	echo $(ORANGE) "GetNextLine";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/3.GetNextLine.git --quiet
 3 :
-	git clone --depth 1 git@github.com:xXNicoloXx/3.GetNextLine.git
+	@	echo $(ORANGE) "GetNextLine";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/3.GetNextLine.git --quiet
 
 Born2BeRoot :
-	git clone --depth 1 git@github.com:xXNicoloXx/4.Born2BeRoot.git
+	@	echo $(ORANGE) "Born2BeRoot";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/4.Born2BeRoot.git --quiet
 4 :
-	git clone --depth 1 git@github.com:xXNicoloXx/4.Born2BeRoot.git
+	@	echo $(ORANGE) "Born2BeRoot";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/4.Born2BeRoot.git --quiet
 
 fdf :
-	git clone --depth 1 git@github.com:xXNicoloXx/5.Fdf.git
-
+	@	echo $(ORANGE) "FdF";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/5.Fdf.git --quiet
 5 :
-	git clone --depth 1 git@github.com:xXNicoloXx/5.Fdf.git
+	@	echo $(ORANGE) "FdF";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/5.Fdf.git --quiet
 5.5 :
-	git clone --depth 1 git@github.com:xXNicoloXx/5.5Fdf_Libs-Maps.git
+	@	echo $(ORANGE) "SuperLibft";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/5.5Fdf_Libs-Maps.git --quiet
+
 PushSwap :
-	git clone --depth 1 git@github.com:xXNicoloXx/6.PushSwap.git
+	@	echo $(ORANGE) "PushSwap";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/6.PushSwap.git --quiet
 6 :
-	git clone --depth 1 git@github.com:xXNicoloXx/6.PushSwap.git
+	@	echo $(ORANGE) "PushSwap";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/6.PushSwap.git --quiet
 
 Pipex :
-	git clone --depth 1 git@github.com:xXNicoloXx/7.Pipex.git
+	@	echo $(ORANGE) "Pipex";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/7.Pipex.git --quiet
 7 :
-	git clone --depth 1 git@github.com:xXNicoloXx/7.Pipex.git
+	@	echo $(ORANGE) "Pipex";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/7.Pipex.git --quiet
 
 Minishell:
-	git clone --depth 1 git@github.com:pierrebizien/minishell.git
+	@	echo $(ORANGE) "Minishell";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/8.Minishell.git --quiet
 8:
-	git clone --depth 1 git@github.com:pierrebizien/minishell.git
+	@	echo $(ORANGE) "Minishell";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/8.Minishell.git --quiet
+
+Philosophes:
+	@	echo $(ORANGE) "Philosophes";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/9.philosophes.git --quiet
+9:
+	@	echo $(ORANGE) "Philosophes";
+	@	git clone --depth 1 git@github.com:xXNicoloXx/9.philosophes.git --quiet
+
+
+
+
+NOCOLOR='\033[0m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+ORANGE='\033[0;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+LIGHTGRAY='\033[0;37m'
+
+DARKGRAY='\033[1;30m'
+LIGHTRED='\033[1;31m'
+LIGHTGREEN='\033[1;32m'
+LIGHTBLUE='\033[1;34m'
+LIGHTPURPLE='\033[1;35m'
+LIGHTCYAN='\033[1;36m'
+YELLOW='\033[1;33m'
+WHITE='\033[1;37m'
