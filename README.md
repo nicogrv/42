@@ -1,4 +1,6 @@
 ## 42 Projects - Common Core
+To clone all projects ```git clone https://github.com/nicogrv/42.git --depth 1 && cd 42 && make all```
+
 ### First cycle
 * 📚[Libft](https://github.com/nicogrv/1.Libft)
 ### Second cycle
