@@ -1,90 +1,87 @@
+SHELL = /bin/bash
 
-all: 0 1 2 3 4 5 6 7 8 9
+all: help promp
 
-allforce: rmrmrm all
+help:
+	clear
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "42 →  ALL\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "0  →  SuperLibft\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "1  →  Libft\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "2  →  ft_Printf\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "3  →  GetNextLine\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "4  →  Born2BeRoot\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "5  →  FdF\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "6  →  PushSwap\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "7  →  Pipex\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "8  →  Minishell\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "9  →  Philosophes\n\n"${NC}
+
+promp:
+	@	make $(shell bash -c 'read  -p "Project number: " pwd; echo $$pwd')
+
+
+42 : 0 1 2 3 4 5 6 7 8 9
+
+allforce: rmall all
 
 rmall:
-	@	echo $(ORANGE) "Clear\n";
+	@	echo "Clear";
 	@	find . -maxdepth 1 -type d -name '[0-9]*' -exec rm -rf {} +
 
-
 0 : 
-	@	echo $(ORANGE) "SuperLibft";
+	@	echo -ne "\r\033[2K"$(YELLOW) "SuperLibft";
 	@	git clone --depth 1 git@github.com:nicogrv/0.SuperLibft.git --quiet
-SuperLibft : 
-	@	echo $(ORANGE) "SuperLibft";
-	@	git clone --depth 1 git@github.com:nicogrv/0.SuperLibft.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "SuperLibft OK\n";
 
 1 :
-	@	echo $(ORANGE) "Libft";
+	@	echo -ne "\r\033[2K"$(YELLOW) "Libft";
 	@	git clone --depth 1 git@github.com:nicogrv/1.Libft.git --quiet
-libft :
-	@	echo $(ORANGE) "Libft";
-	@	git clone --depth 1 git@github.com:nicogrv/1.Libft.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Libft OK\n";
 
-ft_printf :
-	@	echo $(ORANGE) "ft_Printf";
-	@	git clone --depth 1 git@github.com:nicogrv/2.Printf.git --quiet
 2 :
-	@	echo $(ORANGE) "ft_Printf";
+	@	echo -ne "\r\033[2K"$(YELLOW) "ft_Printf";
 	@	git clone --depth 1 git@github.com:nicogrv/2.Printf.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "ft_Printf OK\n";
 
-GetNextLine :
-	@	echo $(ORANGE) "GetNextLine";
-	@	git clone --depth 1 git@github.com:nicogrv/3.GetNextLine.git --quiet
 3 :
-	@	echo $(ORANGE) "GetNextLine";
+	@	echo -ne "\r\033[2K"$(YELLOW) "GetNextLine";
 	@	git clone --depth 1 git@github.com:nicogrv/3.GetNextLine.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "GetNextLine OK\n";
 
-Born2BeRoot :
-	@	echo $(ORANGE) "Born2BeRoot";
-	@	git clone --depth 1 git@github.com:nicogrv/4.Born2BeRoot.git --quiet
 4 :
-	@	echo $(ORANGE) "Born2BeRoot";
+	@	echo -ne "\r\033[2K"$(YELLOW) "Born2BeRoot";
 	@	git clone --depth 1 git@github.com:nicogrv/4.Born2BeRoot.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Born2BeRoot OK\n";
 
-fdf :
-	@	echo $(ORANGE) "FdF";
-	@	git clone --depth 1 git@github.com:nicogrv/5.Fdf.git --quiet
 5 :
-	@	echo $(ORANGE) "FdF";
+	@	echo -ne "\r\033[2K"$(YELLOW) "FdF";
 	@	git clone --depth 1 git@github.com:nicogrv/5.Fdf.git --quiet
-5.5 :
-	@	echo $(ORANGE) "SuperLibft";
-	@	git clone --depth 1 git@github.com:nicogrv/5.5Fdf_Libs-Maps.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "FdF OK\n";
 
-PushSwap :
-	@	echo $(ORANGE) "PushSwap";
-	@	git clone --depth 1 git@github.com:nicogrv/6.PushSwap.git --quiet
 6 :
-	@	echo $(ORANGE) "PushSwap";
+	@	echo -ne "\r\033[2K"$(YELLOW) "PushSwap";
 	@	git clone --depth 1 git@github.com:nicogrv/6.PushSwap.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "PushSwap OK\n";
 
-Pipex :
-	@	echo $(ORANGE) "Pipex";
-	@	git clone --depth 1 git@github.com:nicogrv/7.Pipex.git --quiet
 7 :
-	@	echo $(ORANGE) "Pipex";
+	@	echo -ne "\r\033[2K"$(YELLOW) "Pipex";
 	@	git clone --depth 1 git@github.com:nicogrv/7.Pipex.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Pipex OK\n";
 
-Minishell:
-	@	echo $(ORANGE) "Minishell";
-	@	git clone --depth 1 git@github.com:nicogrv/8.Minishell.git --quiet
 8:
-	@	echo $(ORANGE) "Minishell";
+	@	echo -ne "\r\033[2K"$(YELLOW) "Minishell";
 	@	git clone --depth 1 git@github.com:nicogrv/8.Minishell.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Minishell OK\n";
 
-Philosophes:
-	@	echo $(ORANGE) "Philosophes";
-	@	git clone --depth 1 git@github.com:nicogrv/9.philosophes.git --quiet
 9:
-	@	echo $(ORANGE) "Philosophes";
+	@	echo -ne "\r\033[2K"$(YELLOW) "Philosophes";
 	@	git clone --depth 1 git@github.com:nicogrv/9.philosophes.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Philosophes OK\n";
 
 
 
 
-NOCOLOR='\033[0m'
+NC='\033[0m'
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 ORANGE='\033[0;33m'
