@@ -1,6 +1,18 @@
 SHELL = /bin/bash
+cloneURL = https://github.com/nicogrv/
 
 all: help promp
+
+allforce: rmall all
+
+rmall:
+	@	echo "Clear";
+	@	find . -maxdepth 1 -type d -name '[0-9]*' -exec rm -rf {} +
+
+ssh: 
+	$(MAKE) cloneURL=git@github.com:nicogrv/ all
+
+
 
 help:
 	clear
@@ -20,62 +32,60 @@ promp:
 	@	make $(shell bash -c 'read  -p "Project number: " pwd; echo $$pwd')
 
 
+
+
 42 : 0 1 2 3 4 5 6 7 8 9
 
-allforce: rmall all
 
-rmall:
-	@	echo "Clear";
-	@	find . -maxdepth 1 -type d -name '[0-9]*' -exec rm -rf {} +
 
 0 : 
 	@	echo -ne "\r\033[2K"$(YELLOW) "SuperLibft";
-	@	git clone --depth 1 git@github.com:nicogrv/0.SuperLibft.git --quiet
+	@	git clone --depth 1 $(cloneURL)0.SuperLibft.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "SuperLibft OK\n";
 
 1 :
 	@	echo -ne "\r\033[2K"$(YELLOW) "Libft";
-	@	git clone --depth 1 git@github.com:nicogrv/1.Libft.git --quiet
+	@	git clone --depth 1 $(cloneURL)1.Libft.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Libft OK\n";
 
 2 :
 	@	echo -ne "\r\033[2K"$(YELLOW) "ft_Printf";
-	@	git clone --depth 1 git@github.com:nicogrv/2.Printf.git --quiet
+	@	git clone --depth 1 $(cloneURL)2.Printf.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "ft_Printf OK\n";
 
 3 :
 	@	echo -ne "\r\033[2K"$(YELLOW) "GetNextLine";
-	@	git clone --depth 1 git@github.com:nicogrv/3.GetNextLine.git --quiet
+	@	git clone --depth 1 $(cloneURL)3.GetNextLine.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "GetNextLine OK\n";
 
 4 :
 	@	echo -ne "\r\033[2K"$(YELLOW) "Born2BeRoot";
-	@	git clone --depth 1 git@github.com:nicogrv/4.Born2BeRoot.git --quiet
+	@	git clone --depth 1 $(cloneURL)4.Born2BeRoot.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Born2BeRoot OK\n";
 
 5 :
 	@	echo -ne "\r\033[2K"$(YELLOW) "FdF";
-	@	git clone --depth 1 git@github.com:nicogrv/5.Fdf.git --quiet
+	@	git clone --depth 1 $(cloneURL)5.Fdf.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "FdF OK\n";
 
 6 :
 	@	echo -ne "\r\033[2K"$(YELLOW) "PushSwap";
-	@	git clone --depth 1 git@github.com:nicogrv/6.PushSwap.git --quiet
+	@	git clone --depth 1 $(cloneURL)6.PushSwap.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "PushSwap OK\n";
 
 7 :
 	@	echo -ne "\r\033[2K"$(YELLOW) "Pipex";
-	@	git clone --depth 1 git@github.com:nicogrv/7.Pipex.git --quiet
+	@	git clone --depth 1 $(cloneURL)7.Pipex.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Pipex OK\n";
 
 8:
 	@	echo -ne "\r\033[2K"$(YELLOW) "Minishell";
-	@	git clone --depth 1 git@github.com:nicogrv/8.Minishell.git --quiet
+	@	git clone --depth 1 $(cloneURL)8.Minishell.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Minishell OK\n";
 
 9:
 	@	echo -ne "\r\033[2K"$(YELLOW) "Philosophes";
-	@	git clone --depth 1 git@github.com:nicogrv/9.philosophes.git --quiet
+	@	git clone --depth 1 $(cloneURL)9.philosophes.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Philosophes OK\n";
 
 
