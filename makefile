@@ -34,7 +34,7 @@ promp:
 
 
 
-42 : 0 1 2 3 4 5 6 7 8 9
+42 : 0 1 2 3 4 5 6 7 8 9 10
 
 
 
@@ -86,6 +86,11 @@ promp:
 9:
 	@	echo -ne "\r\033[2K"$(YELLOW) "Philosophes";
 	@	git clone --depth 1 $(cloneURL)9.philosophes.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Philosophes OK\n";
+	
+10:
+	@	echo -ne "\r\033[2K"$(YELLOW) "Philosophes";
+	@	git clone --depth 1 $(cloneURL)10.Cpp.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Philosophes OK\n";
 
 
