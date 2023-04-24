@@ -27,6 +27,7 @@ help:
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "7  →  Pipex\n\n"${NC}
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "8  →  Minishell\n\n"${NC}
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "9  →  Philosophes\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "10 →  Cpp\n\n"${NC}
 
 promp:
 	@	make $(shell bash -c 'read  -p "Project number: " pwd; echo $$pwd')
