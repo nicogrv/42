@@ -90,9 +90,9 @@ promp:
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Philosophes OK\n";
 	
 10:
-	@	echo -ne "\r\033[2K"$(YELLOW) "Philosophes";
+	@	echo -ne "\r\033[2K"$(YELLOW) "Cpp";
 	@	git clone --depth 1 $(cloneURL)10.Cpp.git --quiet
-	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Philosophes OK\n";
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Cpp OK\n";
 
 
 
