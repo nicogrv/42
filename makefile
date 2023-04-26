@@ -10,7 +10,7 @@ rmall:
 	@	find . -maxdepth 1 -type d -name '[0-9]*' -exec rm -rf {} +
 
 ssh: 
-	$(MAKE) cloneURL=git@github.com:nicogrv/ all
+	$(MAKE) --no-print-directory -s cloneURL=git@github.com:nicogrv/ all
 
 
 
@@ -28,6 +28,7 @@ help:
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "8  →  Minishell\n\n"${NC}
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "9  →  Philosophes\n\n"${NC}
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "10 →  Cpp\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "11 →  NetPractice\n\n"${NC}
 
 promp:
 	@	make $(shell bash -c 'read  -p "Project number: " pwd; echo $$pwd')
@@ -94,6 +95,10 @@ promp:
 	@	git clone --depth 1 $(cloneURL)10.Cpp.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Cpp OK\n";
 
+11:
+	@	echo -ne "\r\033[2K"$(YELLOW) "NetPractice";
+	@	git clone --depth 1 $(cloneURL)11.NetPractice.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "NetPractice OK\n";
 
 
 
