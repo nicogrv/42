@@ -1,4 +1,4 @@
-## 42 Projects - Common Core
+## 42 Projects - Common Core 👨🏻‍💻
 To clone all projects ```git clone https://github.com/nicogrv/42.git --depth 1 && cd 42 && make all```
 
 ### First cycle
@@ -14,7 +14,11 @@ To clone all projects ```git clone https://github.com/nicogrv/42.git --depth 1 &
 ### Fourth cycle
 * 🧰[MiniShell](https://github.com/nicogrv/8.Minishell)
 * 💭[Philosophes](https://github.com/nicogrv/9.philosophes)
+### Five cycle
+* 🔝[Cpp](https://github.com/nicogrv/10.Cpp)
+* 🔌[NetPractice](https://github.com/nicogrv/11.NetPractice.git)
 ### Bonus
 * ☄️[SuperLibft](https://github.com/nicogrv/0.SuperLibft)
 * 🏟️[42Place](https://github.com/nicogrv/Place42)
+
 
