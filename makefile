@@ -29,6 +29,7 @@ help:
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "9  →  Philosophes\n\n"${NC}
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "10 →  Cpp\n\n"${NC}
 	@	echo -ne "\r\033[2K" $(LIGHTRED) "11 →  NetPractice\n\n"${NC}
+	@	echo -ne "\r\033[2K" $(LIGHTRED) "12 →  Cub3d\n\n"${NC}
 
 promp:
 	@	make $(shell bash -c 'read  -p "Project number: " pwd; echo $$pwd')
@@ -36,7 +37,7 @@ promp:
 
 
 
-42 : 0 1 2 3 4 5 6 7 8 9 10
+42 : 0 1 2 3 4 5 6 7 8 9 10 11 12
 
 
 
@@ -99,6 +100,11 @@ promp:
 	@	echo -ne "\r\033[2K"$(YELLOW) "NetPractice";
 	@	git clone --depth 1 $(cloneURL)11.NetPractice.git --quiet
 	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "NetPractice OK\n";
+
+12:
+	@	echo -ne "\r\033[2K"$(YELLOW) "Cub3d";
+	@	git clone --depth 1 $(cloneURL)12.Cub3d.git --quiet
+	@	echo -ne "\r\033[2K"$(LIGHTGREEN) "Cub3d OK\n";
 
 
 
